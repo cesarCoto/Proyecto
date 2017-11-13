@@ -30,4 +30,10 @@
     <string name="ley_inercia_title">Law of inertia</string>
     <string name="segunda_ley_title">Fundamental law of dynamics</string>
     <string name="tercera_ley_title">Principle of action and reaction</string>
+    <string name="conversion_exam_title">Conversion exam</string>
+    <string name="theoric_exam_title">Theoric exam</string>
+    <string name="practical_test_title">practical test</string>
+    <string name="vector_exam_title">Vector exam</string>
+    <string name="magnitudes_exam_title">Magnitudes exam</string>
+    <string name="newton_s_law_exam_title">Newton\'s Law Exam</string>
 </resources>
