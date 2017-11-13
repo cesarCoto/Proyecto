@@ -8,4 +8,11 @@
     tools:context="com.robot.maker.proyecto.ConversionsActivity"
     tools:showIn="@layout/app_bar_conversions">
 
+    <FrameLayout
+        android:id="@+id/contenido_conversiones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
 </android.support.constraint.ConstraintLayout>

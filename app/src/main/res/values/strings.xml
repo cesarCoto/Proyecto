@@ -36,4 +36,9 @@
     <string name="vector_exam_title">Vector exam</string>
     <string name="magnitudes_exam_title">Magnitudes exam</string>
     <string name="newton_s_law_exam_title">Newton\'s Law Exam</string>
+    <string name="examples_title">Examples</string>
+    <string name="exercises_title">Exercises</string>
+    <string name="more_title">More</string>
+    <string name="books_title">Books</string>
+    <string name="tutorials_title">Tutorials</string>
 </resources>

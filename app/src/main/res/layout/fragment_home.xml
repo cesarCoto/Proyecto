@@ -76,6 +76,7 @@
                     android:text="@string/conversions_title"
                     android:textAlignment="center"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/text_color"
                     tools:ignore="NestedWeights" />
 
                 <TextView
@@ -88,7 +89,8 @@
                     android:padding="@dimen/dimen_4dp"
                     android:text="@string/vectors_title"
                     android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/text_color" />
             </LinearLayout>
         <!--Segunda linea-->
             <LinearLayout
@@ -151,6 +153,7 @@
                 android:text="@string/magnitudes_title"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/text_color"
                 tools:ignore="NestedWeights" />
 
             <TextView
@@ -163,7 +166,8 @@
                 android:padding="@dimen/dimen_4dp"
                 android:text="@string/ley_inercia_title"
                 android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/text_color" />
         </LinearLayout>
         <!--Tercera linea-->
         <LinearLayout
@@ -225,6 +229,7 @@
                 android:text="@string/segunda_ley_title"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/text_color"
                 tools:ignore="NestedWeights" />
 
             <TextView
@@ -237,7 +242,8 @@
                 android:padding="@dimen/dimen_4dp"
                 android:text="@string/tercera_ley_title"
                 android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/text_color" />
         </LinearLayout>
         </LinearLayout>
 </ScrollView>
