@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.robot.maker.proyecto.AboutActivity">
+
+
+        <LinearLayout
+            android:padding="@dimen/dimen_padding_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textview_AbAc_TitleApp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                <TextView
+                    android:id="@+id/textView_AbAc_VersionApp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_padding_16dp"
+                    android:text="@string/version_app"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+                <TextView
+                    android:id="@+id/textView_AbAc_Icons_and_Images"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_padding_16dp"
+                    android:text="@string/creditos_img_and_icons"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+        <TextView
+            android:id="@+id/textView_Vector_Marker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:text="@string/vector_maker"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView_Smashicons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:text="@string/smashicons"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView_Freepik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:text="@string/freepik"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView_Roundicons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:text="@string/roundicons"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView_Pixel_Buddha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:text="@string/pixel_buddha"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView_developers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:text="@string/developers"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+        <TextView
+            android:id="@+id/textView_Dev_JMCV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:text="@string/jose_manuel_couti_o_vazques"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView_Yo"
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cesar_uriel_coto_coazozon"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView_CETIS"
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cetis_82"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/textView_Sc_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/miguel_hidalgo_y_costilla"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        </LinearLayout>
+</ScrollView>

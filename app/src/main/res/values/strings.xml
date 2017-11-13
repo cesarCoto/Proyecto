@@ -1,0 +1,33 @@
+<resources>
+    <!--Titulos-->
+    <string name="app_name">Proyecto</string>
+    <string name="title_home">Home</string>
+    <string name="title_exam">Exams</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_conversions">ConversionsActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="version_app">Version 1.0</string>
+    <string name="creditos_img_and_icons">icons and images:</string>
+    <string name="vector_maker">Vector Maker</string>
+    <string name="smashicons">Smashicons</string>
+    <string name="freepik">Freepik</string>
+    <string name="roundicons">Roundicons</string>
+    <string name="pixel_buddha">Pixel Buddha</string>
+    <string name="developers">Developers:</string>
+    <string name="jose_manuel_couti_o_vazques">Jose Manuel Coutiño Vazques</string>
+    <string name="cesar_uriel_coto_coazozon">Cesar Uriel Coto Coazozon</string>
+    <string name="cetis_82">CETis 82</string>
+    <string name="miguel_hidalgo_y_costilla">Miguel Hidalgo y Costilla</string>
+    <string name="conversions_title">Conversions</string>
+    <string name="vectors_title">Vectors</string>
+    <string name="magnitudes_title">Magnitudes</string>
+    <string name="ley_inercia_title">Law of inertia</string>
+    <string name="segunda_ley_title">Fundamental law of dynamics</string>
+    <string name="tercera_ley_title">Principle of action and reaction</string>
+</resources>
