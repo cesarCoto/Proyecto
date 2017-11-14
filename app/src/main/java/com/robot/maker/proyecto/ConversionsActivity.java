@@ -75,7 +75,8 @@ public class ConversionsActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_feedback) {
+
             return true;
         }else if (id == R.id.action_about) {
             Intent intentAboutActivity = new Intent(this,AboutActivity.class);
@@ -89,7 +90,7 @@ public class ConversionsActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
+        // Aqui se cambia la posision del activities y se manda que fragment ocupara el espacio estalbecido como contenido conversiones
         int id = item.getItemId();
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction transaction = fragmentManager.beginTransaction();

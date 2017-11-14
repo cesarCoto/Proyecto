@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.robot.maker.proyecto">
 
-    <!--This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques-->
+    <!-- This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -32,10 +32,28 @@
         </activity>
         <activity
             android:name=".ConversionsActivity"
-            android:label="@string/title_activity_conversions"
+            android:label="@string/conversions_title"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ExamTeoricVectorsActivity" />
-        <activity android:name=".ExamPracVectorsActivity"></activity>
+        <activity
+            android:name=".ExamTeoricVectorsActivity"
+            android:label="@string/theoric_exam_title"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ExamPracticoVectorsActivity"
+            android:label="@string/practical_test_title"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".ExamPracticoMagnitudesActivity" />
+        <activity android:name=".ExamPracticoNewtonActivity" />
+        <activity android:name=".ExamTeoricoMagnitudesActivity" />
+        <activity android:name=".ExamTeoricoNewtonActivity"></activity>
     </application>
 
 </manifest>

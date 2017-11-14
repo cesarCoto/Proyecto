@@ -42,4 +42,7 @@
     <string name="books_title">Books</string>
     <string name="tutorials_title">Tutorials</string>
     <string name="no_hay_conexcion">There is no internet connection at this time</string>
+    <string name="visit_our_blog">Visit our blog</string>
+    <string name="feedback_title">Feedback</string>
+    <string name="help_text">Help?</string>
 </resources>

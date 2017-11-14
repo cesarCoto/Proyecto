@@ -1,12 +1,14 @@
 package com.robot.maker.proyecto;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -65,6 +67,42 @@ public class ExamFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
        View view = inflater.inflate(R.layout.fragment_exam, container, false);
+       //intent para mostrar la actividad examen practico vectores
+        Button buttonExamPracVectors =view.findViewById(R.id.button_vectors_exam_practico);
+        buttonExamPracVectors.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentExamPracticoVectores = new Intent(getActivity(), ExamPracticoVectorsActivity.class);
+                startActivity(intentExamPracticoVectores);
+            }
+        });
+        //intent para mostrar la actividad examen teorico vectores
+        Button  buttonExamenTeoricoVectores = view.findViewById(R.id.button_vectors_exam_teorico);
+        buttonExamenTeoricoVectores.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentExamnTeoricoVectores = new Intent(getActivity(),ExamTeoricVectorsActivity.class);
+                startActivity(intentExamnTeoricoVectores);
+            }
+        });
+        //intent para mostrar la actividad examen practico magnitudes
+        Button buttonExamPracticoMagnitudes = view.findViewById(R.id.button_magnitudes_exam_practico);
+        buttonExamPracticoMagnitudes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+             Intent intentExamenPracticoMagnitudes = new Intent(getActivity(),ExamPracticoMagnitudesActivity.class);
+             startActivity(intentExamenPracticoMagnitudes);
+            }
+        });
+        //intent para mostrar la actividad examen practico newton
+        Button buttonExamenPraticoNewton = view.findViewById(R.id.button_newton_exam_practio);
+        buttonExamenPraticoNewton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentExamenPracticoNewton = new Intent(getActivity(), ExamPracticoNewtonActivity.class);
+                startActivity(intentExamenPracticoNewton);
+            }
+        });
 
        return view;
     }
