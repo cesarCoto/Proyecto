@@ -45,4 +45,58 @@
     <string name="visit_our_blog">Visit our blog</string>
     <string name="feedback_title">Feedback</string>
     <string name="help_text">Help?</string>
+    <string name="pregunta_uno_vectores_teorico">Is every vector one?</string>
+    <string name="respuesta1_pregunta1_examteorico_vectores">Physical magnitude</string>
+    <string name="respuesta2_pregunta1_examteorico_vectores">Vector magnitude</string>
+    <string name="respuesta3_pregunta1_examteorico_vectores">Scalar magnitude</string>
+
+    <string name="pregunta_dos_vectores_teorico">The measure of the vector, is it called?</string>
+    <string name="respuesta1_pregunta2_examteorico_vectores">Sense</string>
+    <string name="respuesta2_pregunta2_examteorico_vectores">Origin</string>
+    <string name="respuesta3_pregunta2_examteorico_vectores">Magnitude</string>
+
+    <string name="pregunta_tres_vectores_teorico">In vectors, is it called address a?</string>
+    <string name="respuesta1_pregunta3_examteorico_vectores">To the arrow of it</string>
+    <string name="respuesta2_pregunta3_examteorico_vectores">To the inclination of application of the same</string>
+    <string name="respuesta3_pregunta3_examteorico_vectores">To the meaning of it</string>
+
+    <string name="pregunta_cuatro_vectores_teorico">Is the sense of the vector indicated by?</string>
+    <string name="respuesta1_pregunta4_examteorico_vectores">The sense</string>
+    <string name="respuesta2_pregunta4_examteorico_vectores">The arrow</string>
+    <string name="respuesta3_pregunta4_examteorico_vectores">Its magnitude</string>
+
+    <string name="pregunta_cinco_vectores_teorico">Are the vector magnitudes defined by?</string>
+    <string name="respuesta1_pregunta5_examteorico_vectores">A number and a quantity</string>
+    <string name="respuesta2_pregunta5_examteorico_vectores">A number, a quantity and a sense</string>
+    <string name="respuesta3_pregunta5_examteorico_vectores">A number, a quantity, a sense and an address.</string>
+
+    <string name="pregunta_seis_vectores_teorico">Is a vector a physical quantity that it has?</string>
+    <string name="respuesta1_pregunta6_examteorico_vectores">Displacement</string>
+    <string name="respuesta2_pregunta6_examteorico_vectores">Acceleration</string>
+    <string name="respuesta3_pregunta6_examteorico_vectores">Speed</string>
+    <string name="respuesta4_pregunta6_examteorico_vectores">Sense and Magnitude</string>
+
+    <string name="pregunta_siete_vectores_teorico">A parallel vector?</string>
+    <string name="respuesta1_pregunta7_examteorico_vectores">It has its parallel lines of action</string>
+    <string name="respuesta2_pregunta7_examteorico_vectores">It has its lines of action in the same sense</string>
+    <string name="respuesta3_pregunta7_examteorico_vectores">It has no lines of action</string>
+    <string name="respuesta4_pregunta7_examteorico_vectores">Its lines of action do not change direction</string>
+
+    <string name="pregunta_ocho_vectores_teorico">Are the vectors A and B the same?</string>
+    <string name="respuesta1_pregunta8_examteorico_vectores">They have the same address</string>
+    <string name="respuesta2_pregunta8_examteorico_vectores">They have the same origin and same address</string>
+    <string name="respuesta3_pregunta8_examteorico_vectores">They start from the same origin, but change their address</string>
+    <string name="respuesta4_pregunta8_examteorico_vectores">They start from the same origin and have different lengths</string>
+
+    <string name="pregunta_nueve_vectores_teorico">Is there a change in magnitude and direction?</string>
+    <string name="respuesta1_pregunta9_examteorico_vectores">product of two vectors</string>
+    <string name="respuesta2_pregunta9_examteorico_vectores">product of a vector and a scalar</string>
+    <string name="respuesta3_pregunta9_examteorico_vectores">product of two scalars</string>
+    <string name="respuesta4_pregunta9_examteorico_vectores">product of two vectors and a scalar</string>
+
+    <string name="pregunta_diez_vectores_teorico">Is the graphic representation of a vector given by?</string>
+    <string name="respuesta1_pregunta10_examteorico_vectores">Line segment that has address.</string>
+    <string name="respuesta2_pregunta10_examteorico_vectores">It is identified with uppercase letters at the ends.</string>
+    <string name="respuesta3_pregunta10_examteorico_vectores">It participates as an axis in a Cartesian plane.</string>
+    <string name="respuesta4_pregunta10_examteorico_vectores">Part of an origin finding an image that unites them.</string>
 </resources>

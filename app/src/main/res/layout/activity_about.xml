@@ -104,14 +104,14 @@
             android:text="@string/cesar_uriel_coto_coazozon"
             android:textAlignment="center" />
 
-                <TextView
-                    android:id="@+id/textView_blog"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/dimen_padding_16dp"
-                    android:text="@string/visit_our_blog"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorPrimary" />
+        <TextView
+            android:id="@+id/textView_blog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:text="@string/visit_our_blog"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary" />
 
         <TextView
             android:id="@+id/textView_CETIS"

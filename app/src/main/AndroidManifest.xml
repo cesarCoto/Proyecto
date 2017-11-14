@@ -50,10 +50,37 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".ExamPracticoMagnitudesActivity" />
-        <activity android:name=".ExamPracticoNewtonActivity" />
-        <activity android:name=".ExamTeoricoMagnitudesActivity" />
-        <activity android:name=".ExamTeoricoNewtonActivity"></activity>
+        <activity android:name=".ExamPracticoMagnitudesActivity"
+            android:label="@string/practical_test_title"
+            android:parentActivityName=".MainActiviy">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity android:name=".ExamPracticoNewtonActivity"
+            android:label="@string/practical_test_title"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity android:name=".ExamTeoricoMagnitudesActivity"
+            android:label="@string/theoric_exam_title"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity android:name=".ExamTeoricoNewtonActivity"
+            android:label="@string/theoric_exam_title"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
     </application>
 
 </manifest>
