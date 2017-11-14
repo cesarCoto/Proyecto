@@ -41,4 +41,5 @@
     <string name="more_title">More</string>
     <string name="books_title">Books</string>
     <string name="tutorials_title">Tutorials</string>
+    <string name="no_hay_conexcion">There is no internet connection at this time</string>
 </resources>

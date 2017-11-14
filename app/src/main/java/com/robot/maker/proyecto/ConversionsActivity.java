@@ -95,16 +95,14 @@ public class ConversionsActivity extends AppCompatActivity
         FragmentTransaction transaction = fragmentManager.beginTransaction();
         if (id == R.id.nav_inicio_conversiones) {
             transaction.replace(R.id.contenido_conversiones,new InicioConversionesFragment()).commit();
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_ejemplos_conversiones) {
+            transaction.replace(R.id.contenido_conversiones, new ExamplesConversioesFragment()).commit();
+        } else if (id == R.id.nav_exercises_conversiones) {
             transaction.replace(R.id.contenido_conversiones,new EjerciciosConversionesFragment()).commit();
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+        } else if (id == R.id.nav_books) {
+            transaction.replace(R.id.contenido_conversiones,new BookFragment()).commit();
+        } else if (id == R.id.nav_videos) {
+            transaction.replace(R.id.contenido_conversiones, new VideosFragment()).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

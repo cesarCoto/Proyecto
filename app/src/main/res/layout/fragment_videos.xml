@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.robot.maker.proyecto.VideosFragment">
+
+    <ImageView
+        android:id="@+id/imageView_videos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:src="@drawable/sin_internet_img"
+        android:contentDescription="@string/no_hay_conexcion" />
+
+    <WebView
+        android:id="@+id/webview_videos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
+</RelativeLayout>
