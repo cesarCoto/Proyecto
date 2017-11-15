@@ -1,9 +1,405 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.robot.maker.proyecto.ExamTeoricoMagnitudesActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_8dp">
+
+
+        <TextView
+            android:id="@+id/textView_acmagnitudesregunta1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pregunta_uno_magnitudes_teorico"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta1_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta1_pregunta1_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta1_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta2_pregunta1_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta3_pregunta1_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta3_pregunta1_examteorico_magnitudes" />
+        </RadioGroup>
+
+        <!--PREGUNTA 2-->
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:id="@+id/textView_acmagnitudespregunta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pregunta_dos_magnitudes_teorico"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta2_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/true_text" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta2_exam_teorico_vectores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/false_text" />
+        </RadioGroup>
+        <!--PREGUNTA 3-->
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:id="@+id/textView_acmagnitudespregunta3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pregunta_tres_magnitudes_teorico"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta3_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta1_pregunta3_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta3_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta2_pregunta3_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta3_pregunta3_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta3_pregunta3_examteorico_magnitudes" />
+        </RadioGroup>
+        <!--PREGUNTA 4-->
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:id="@+id/textView_acmagnitudespregunta4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pregunta_cuatro_magnitudes_teorico"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta4_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/true_text" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta4_exam_teorico_vectores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/false_text" />
+        </RadioGroup>
+        <!--PREGUNTA 5-->
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:id="@+id/textView_acmagnitudespregunta5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pregunta_cinco_magnitudes_teorico"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta5_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/true_text" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta5_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/false_text" />
+        </RadioGroup>
+        <!--PREGUNTA 6-->
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:id="@+id/textView_acmagnitudespregunta6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pregunta_seis_magnitudes_teorico"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta6_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta1_pregunta6_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta6_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta2_pregunta6_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta3_pregunta6_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta3_pregunta6_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta4_pregunta6_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta4_pregunta6_examteorico_magnitudes"/>
+        </RadioGroup>
+        <!--PREGUNTA 7-->
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:id="@+id/textView_acmagnitudespregunta7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pregunta_siete_magnitudes_teorico"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta7_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta1_pregunta7_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta7_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta2_pregunta7_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta3_pregunta7_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta3_pregunta7_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta4_pregunta7_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta4_pregunta7_examteorico_magnitudes"/>
+        </RadioGroup>
+        <!--PREGUNTA 8-->
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:id="@+id/textView_acmagnitudespregunta8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pregunta_ocho_magnitudes_teorico"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta8_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta1_pregunta8_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta8_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta2_pregunta8_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta3_pregunta8_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta3_pregunta8_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta4_pregunta8_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta4_pregunta8_examteorico_magnitudes"/>
+        </RadioGroup>
+        <!--PREGUNTA 9 -->
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:id="@+id/textView_acmagnitudespregunta9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pregunta_nueve_magnitudes_teorico"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta9_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta1_pregunta9_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta9_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta2_pregunta9_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta3_pregunta9_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta3_pregunta9_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta4_pregunta9_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta4_pregunta9_examteorico_magnitudes"/>
+        </RadioGroup>
+        <!--PREGUNTA 10-->
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:id="@+id/textView_acmagnitudespregunta10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pregunta_diez_magnitudes_teorico"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta10_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta1_pregunta10_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta10_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta2_pregunta10_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta3_pregunta10_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta3_pregunta10_examteorico_magnitudes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta4_pregunta10_exam_teorico_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta4_pregunta10_examteorico_magnitudes"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button_calificar_examen_teorico_magnitudes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/calificar_title"
+            android:textColor="@color/text_color"
+            tools:targetApi="lollipop" />
+
+    </LinearLayout>
+
+
+</ScrollView>

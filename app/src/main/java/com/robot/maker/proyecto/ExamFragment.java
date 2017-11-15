@@ -94,6 +94,15 @@ public class ExamFragment extends Fragment {
              startActivity(intentExamenPracticoMagnitudes);
             }
         });
+        // intent para mostar la actividad examen teorico megnitudes
+        Button buttonExamTeoricoMagnitudes = view.findViewById(R.id.button_magnitudes_exam_teorico);
+        buttonExamTeoricoMagnitudes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentExamenTeoricoMagnitudes = new Intent(getActivity(), ExamTeoricoMagnitudesActivity.class);
+                startActivity(intentExamenTeoricoMagnitudes);
+            }
+        });
         //intent para mostrar la actividad examen practico newton
         Button buttonExamenPraticoNewton = view.findViewById(R.id.button_newton_exam_practio);
         buttonExamenPraticoNewton.setOnClickListener(new View.OnClickListener() {

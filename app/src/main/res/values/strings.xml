@@ -45,6 +45,9 @@
     <string name="visit_our_blog">Visit our blog</string>
     <string name="feedback_title">Feedback</string>
     <string name="help_text">Help?</string>
+    <string name="true_text">True</string>
+    <string name="false_text">False</string>
+
     <string name="pregunta_uno_vectores_teorico">Is every vector one?</string>
     <string name="respuesta1_pregunta1_examteorico_vectores">Physical magnitude</string>
     <string name="respuesta2_pregunta1_examteorico_vectores">Vector magnitude</string>
@@ -99,4 +102,53 @@
     <string name="respuesta2_pregunta10_examteorico_vectores">It is identified with uppercase letters at the ends.</string>
     <string name="respuesta3_pregunta10_examteorico_vectores">It participates as an axis in a Cartesian plane.</string>
     <string name="respuesta4_pregunta10_examteorico_vectores">Part of an origin finding an image that unites them.</string>
+
+    <!--EXAMEN TEORICO NUMERO2-->
+    <string name="pregunta_uno_magnitudes_teorico">The unit of mass in the International System is</string>
+    <string name="respuesta1_pregunta1_examteorico_magnitudes">Gram</string>
+    <string name="respuesta2_pregunta1_examteorico_magnitudes">Ton</string>
+    <string name="respuesta3_pregunta1_examteorico_magnitudes">Kilogramo</string>
+
+    <string name="pregunta_dos_magnitudes_teorico">If we measure the height of a person, the magnitude we are measuring is called length:</string>
+
+    <string name="pregunta_tres_magnitudes_teorico">Indicate which of these belongs to the international system unit:</string>
+    <string name="respuesta1_pregunta3_examteorico_magnitudes">Celsius degrees</string>
+    <string name="respuesta2_pregunta3_examteorico_magnitudes">Mol</string>
+    <string name="respuesta3_pregunta3_examteorico_magnitudes">Hour</string>
+
+    <string name="pregunta_cuatro_magnitudes_teorico">The surface is a fundamental quantity</string>
+
+    <string name="pregunta_cinco_magnitudes_teorico">Magnitude is everything that can be measured:</string>
+
+    <string name="pregunta_seis_magnitudes_teorico">Select the derived magnitude:</string>
+    <string name="respuesta1_pregunta6_examteorico_magnitudes">Volume</string>
+    <string name="respuesta2_pregunta6_examteorico_magnitudes">Mass</string>
+    <string name="respuesta3_pregunta6_examteorico_magnitudes">Time</string>
+    <string name="respuesta4_pregunta6_examteorico_magnitudes">Length</string>
+
+    <string name="pregunta_siete_magnitudes_teorico">Which of the following statements is NOT true?</string>
+    <string name="respuesta1_pregunta7_examteorico_magnitudes">Mass and time are fundamental magnitudes.</string>
+    <string name="respuesta2_pregunta7_examteorico_magnitudes">The volume is a fundamental quantity</string>
+    <string name="respuesta3_pregunta7_examteorico_magnitudes">Speed is a derived quantity.</string>
+    <string name="respuesta4_pregunta7_examteorico_magnitudes">The derived quantities are obtained from the fundamental quantities.</string>
+
+    <string name="pregunta_ocho_magnitudes_teorico">The unit of length in the International system is:</string>
+    <string name="respuesta1_pregunta8_examteorico_magnitudes">Meter</string>
+    <string name="respuesta2_pregunta8_examteorico_magnitudes">The kilometer</string>
+    <string name="respuesta3_pregunta8_examteorico_magnitudes">The mile</string>
+    <string name="respuesta4_pregunta8_examteorico_magnitudes">The centimeter</string>
+
+    <string name="pregunta_nueve_magnitudes_teorico">The units of the International System are:</string>
+    <string name="respuesta1_pregunta9_examteorico_magnitudes">Meter, Kilogram, minute</string>
+    <string name="respuesta2_pregunta9_examteorico_magnitudes">Centimeter, gram, second</string>
+    <string name="respuesta3_pregunta9_examteorico_magnitudes">Meter, gram, second</string>
+    <string name="respuesta4_pregunta9_examteorico_magnitudes">Meter, Kilogram, second</string>
+
+    <string name="pregunta_diez_magnitudes_teorico">The scalar quantity is:</string>
+    <string name="respuesta1_pregunta10_examteorico_magnitudes">Speed</string>
+    <string name="respuesta2_pregunta10_examteorico_magnitudes">Time</string>
+    <string name="respuesta3_pregunta10_examteorico_magnitudes">The force</string>
+    <string name="respuesta4_pregunta10_examteorico_magnitudes">The weight</string>
+
+    <string name="calificar_title">qualify</string>
 </resources>
