@@ -36,6 +36,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/dimen_padding_16dp"
                     android:text="@string/creditos_img_and_icons"
+                    android:textAlignment="center"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
 
@@ -85,6 +86,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dimen_padding_16dp"
             android:text="@string/developers"
+            android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
 
@@ -102,6 +104,32 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/cesar_uriel_coto_coazozon"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView_Dev_MJCV"
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/manuel_de_jesus_couti_o_vazques"
+            android:textAlignment="center" />
+
+
+        <TextView
+            android:id="@+id/textView_acesor_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:text="@string/acessor_title"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/textView_Maestro"
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/acesor_name"
             android:textAlignment="center" />
 
         <TextView

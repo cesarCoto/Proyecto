@@ -10,4 +10,5 @@
     <dimen name="dimen_4dp">4dp</dimen>
     <dimen name="dimen_8dp">8dp</dimen>
     <dimen name="dimen_peekheight_50dp">50dp</dimen>
+    <dimen name="dimen_text_help">18sp</dimen>
 </resources>

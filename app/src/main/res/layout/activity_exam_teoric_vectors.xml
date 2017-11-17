@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/pregunta_uno_vectores_teorico"
+            android:text="@string/pregunta_uno_newton_teorico"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <RadioGroup
@@ -414,6 +414,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/dimen_8dp"
             android:backgroundTint="@color/colorPrimary"
+            tools:targetApi="lollipop"
             android:text="@string/calificar_title"
             android:textColor="@color/text_color" />
 

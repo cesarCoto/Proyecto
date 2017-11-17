@@ -2,21 +2,26 @@ package com.robot.maker.proyecto;
 
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomSheetBehavior;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-public class ExamPracticoVectorsActivity extends AppCompatActivity {
+public class ExamPracticoConversionesActivity extends AppCompatActivity {
 
-    TextView textViewHelpVector;
+    TextView textViewHelpConversiones;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_exam_practico_vectors);
+        setContentView(R.layout.activity_exam_practico_conversiones);
 
-        final View bottomSheet = findViewById(R.id.design_bottom_sheet_vectors);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+
+        final View bottomSheet = findViewById(R.id.design_bottom_sheet_conversiones);
         final BottomSheetBehavior behavior = BottomSheetBehavior.from(bottomSheet);
         behavior.setBottomSheetCallback(new BottomSheetBehavior.BottomSheetCallback() {
             @Override
@@ -45,18 +50,16 @@ public class ExamPracticoVectorsActivity extends AppCompatActivity {
 
             }
         });
-        //mostar el formulario
-        textViewHelpVector = findViewById(R.id.textView_help_exam_vectores);
-        textViewHelpVector.setOnClickListener(new View.OnClickListener() {
+        textViewHelpConversiones = findViewById(R.id.textView_help_exam_conversiones);
+        textViewHelpConversiones.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (behavior.getState() == BottomSheetBehavior.STATE_COLLAPSED){
-                   behavior.setState(BottomSheetBehavior.STATE_EXPANDED);
-                }else {
+                    behavior.setState(BottomSheetBehavior.STATE_EXPANDED);
+                }else{
                     behavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
                 }
             }
         });
-
     }
 }

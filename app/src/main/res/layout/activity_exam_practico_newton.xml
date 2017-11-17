@@ -42,7 +42,7 @@
             android:paddingTop="@dimen/dimen_8dp"
             android:text="@string/help_text"
             android:textAlignment="center"
-            android:textSize="18sp" />
+            android:textSize="@dimen/dimen_text_help" />
 
     </RelativeLayout>
 

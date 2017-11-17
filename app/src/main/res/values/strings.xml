@@ -47,7 +47,11 @@
     <string name="help_text">Help?</string>
     <string name="true_text">True</string>
     <string name="false_text">False</string>
+    <string name="acessor_title">Acessor</string>
+    <string name="acesor_name">Hector Enrique Perez Alonzo</string>
+    <string name="manuel_de_jesus_couti_o_vazques">Manuel de Jesus Coutiño Vazques</string>
 
+    <!--EXAMEN TEORICO NUMERO 1-->
     <string name="pregunta_uno_vectores_teorico">Is every vector one?</string>
     <string name="respuesta1_pregunta1_examteorico_vectores">Physical magnitude</string>
     <string name="respuesta2_pregunta1_examteorico_vectores">Vector magnitude</string>
@@ -92,10 +96,10 @@
     <string name="respuesta4_pregunta8_examteorico_vectores">They start from the same origin and have different lengths</string>
 
     <string name="pregunta_nueve_vectores_teorico">Is there a change in magnitude and direction?</string>
-    <string name="respuesta1_pregunta9_examteorico_vectores">product of two vectors</string>
-    <string name="respuesta2_pregunta9_examteorico_vectores">product of a vector and a scalar</string>
-    <string name="respuesta3_pregunta9_examteorico_vectores">product of two scalars</string>
-    <string name="respuesta4_pregunta9_examteorico_vectores">product of two vectors and a scalar</string>
+    <string name="respuesta1_pregunta9_examteorico_vectores">Product of two vectors</string>
+    <string name="respuesta2_pregunta9_examteorico_vectores">Product of a vector and a scalar</string>
+    <string name="respuesta3_pregunta9_examteorico_vectores">Product of two scalars</string>
+    <string name="respuesta4_pregunta9_examteorico_vectores">Product of two vectors and a scalar</string>
 
     <string name="pregunta_diez_vectores_teorico">Is the graphic representation of a vector given by?</string>
     <string name="respuesta1_pregunta10_examteorico_vectores">Line segment that has address.</string>
@@ -150,5 +154,120 @@
     <string name="respuesta3_pregunta10_examteorico_magnitudes">The force</string>
     <string name="respuesta4_pregunta10_examteorico_magnitudes">The weight</string>
 
+    <!--EXAMEN TEORICO NUMERO 3-->
+    <string name="pregunta_uno_conversiones_teorico">Convert 1m to meters</string>
+    <string name="respuesta1_pregunta1_examteorico_conversiones">16 meters</string>
+    <string name="respuesta2_pregunta1_examteorico_conversiones">500 meters</string>
+    <string name="respuesta3_pregunta1_examteorico_conversiones">1609 meters</string>
+    <string name="respuesta4_pregunta1_examteorico_conversiones">1000 meters</string>
+
+    <string name="pregunta_dos_conversiones_teorico">Convert 12.3 miles to meters</string>
+    <string name="respuesta1_pregunta2_examteorico_conversiones">1609 meters</string>
+    <string name="respuesta2_pregunta2_examteorico_conversiones">19794 meters</string>
+    <string name="respuesta3_pregunta2_examteorico_conversiones">12000 meters</string>
+    <string name="respuesta4_pregunta2_examteorico_conversiones">12500 meters</string>
+
+    <string name="pregunta_tres_conversiones_teorico">Convert 45 miles to kilometers</string>
+    <string name="respuesta1_pregunta3_examteorico_conversiones">75,900 kilometers</string>
+    <string name="respuesta2_pregunta3_examteorico_conversiones">72,420 kilometers</string>
+    <string name="respuesta3_pregunta3_examteorico_conversiones">70,858 kilometers</string>
+    <string name="respuesta4_pregunta3_examteorico_conversiones">78.9 kilometers</string>
+
+    <string name="pregunta_cuatro_conversiones_teorico">Convert 1 meter to yards</string>
+    <string name="respuesta1_pregunta4_examteorico_conversiones">.9 yards</string>
+    <string name="respuesta2_pregunta4_examteorico_conversiones">1 Yard</string>
+    <string name="respuesta3_pregunta4_examteorico_conversiones">1,093 yards</string>
+    <string name="respuesta4_pregunta4_examteorico_conversiones">2.54 yards</string>
+
+    <string name="pregunta_cinco_conversiones_teorico">Convert 100 meters to yards</string>
+    <string name="respuesta1_pregunta5_examteorico_conversiones">109.3 yards</string>
+    <string name="respuesta2_pregunta5_examteorico_conversiones">100.3 yards</string>
+    <string name="respuesta3_pregunta5_examteorico_conversiones">1.3 yards</string>
+    <string name="respuesta4_pregunta5_examteorico_conversiones">900.3 yards</string>
+
+    <string name="pregunta_seis_conversiones_teorico">Convert 3 meters to feet</string>
+    <string name="respuesta1_pregunta6_examteorico_conversiones">7,598 feet</string>
+    <string name="respuesta2_pregunta6_examteorico_conversiones">9,842 feet</string>
+    <string name="respuesta3_pregunta6_examteorico_conversiones">6,895 feet</string>
+    <string name="respuesta4_pregunta6_examteorico_conversiones">800 feet</string>
+
+    <string name="pregunta_siete_conversiones_teorico">Convert 6 feet to meters</string>
+    <string name="respuesta1_pregunta7_examteorico_conversiones">1,828 meters</string>
+    <string name="respuesta2_pregunta7_examteorico_conversiones">2,567 meters</string>
+    <string name="respuesta3_pregunta7_examteorico_conversiones">2 meters</string>
+    <string name="respuesta4_pregunta7_examteorico_conversiones">1.5 meters</string>
+
+    <string name="pregunta_ocho_conversiones_teorico">Convert 2.5 feet to inches</string>
+    <string name="respuesta1_pregunta8_examteorico_conversiones">30 inches</string>
+    <string name="respuesta2_pregunta8_examteorico_conversiones">28 inches</string>
+    <string name="respuesta3_pregunta8_examteorico_conversiones">25 inches</string>
+    <string name="respuesta4_pregunta8_examteorico_conversiones">27.5 inches</string>
+
+    <string name="pregunta_nueve_conversiones_teorico">Convert 1 gallon to liters</string>
+    <string name="respuesta1_pregunta9_examteorico_conversiones">3.5 liters</string>
+    <string name="respuesta2_pregunta9_examteorico_conversiones">4,356 liters</string>
+    <string name="respuesta3_pregunta9_examteorico_conversiones">4 liters</string>
+    <string name="respuesta4_pregunta9_examteorico_conversiones">3.785 liters</string>
+
+    <string name="pregunta_diez_conversiones_teorico">Convert 4 gallons to liters</string>
+    <string name="respuesta1_pregunta10_examteorico_conversiones">16,956 liters</string>
+    <string name="respuesta2_pregunta10_examteorico_conversiones">14 liters</string>
+    <string name="respuesta3_pregunta10_examteorico_conversiones">15,139 liters</string>
+    <string name="respuesta4_pregunta10_examteorico_conversiones">16 liters</string>
+
+    <!--EXAMEN TEORICO NUMERO 4-->
+    <string name="pregunta_uno_newton_teorico">What is Newton\'s first law?</string>
+    <string name="respuesta1_pregunta1_examteorico_newton">Every body continues in its state of rest unless a force forces it to change that state.</string>
+    <string name="respuesta2_pregunta1_examteorico_newton">Every body has to maintain at rest so a minina force is applied.</string>
+    <string name="respuesta3_pregunta1_examteorico_newton">The acceleration a body experiences is directly proportional to the force acting on it and inversely proportional to its mass.</string>
+    <string name="respuesta4_pregunta1_examteorico_newton">Depending on if the mass of the body is smaller you will have to go at less speed.</string>
+
+    <string name="pregunta_dos_newton_teorico">The weight of a body is the force that gravity exerts on said body at an acceleration</string>
+
+    <string name="pregunta_tres_newton_teorico">Inertia is the tendency of bodies to maintain the state of movement or rest in which they find themselves</string>
+
+    <string name="pregunta_cuatro_newton_teorico">What is Newton\'s second law?</string>
+    <string name="respuesta1_pregunta4_examteorico_newton">The acceleration increases when it is submerged in some liquid.</string>
+    <string name="respuesta2_pregunta4_examteorico_newton">It is a force that appears when there are two bodies in contact.</string>
+    <string name="respuesta3_pregunta4_examteorico_newton">As all matter is in motion and movement is absolute.</string>
+    <string name="respuesta4_pregunta4_examteorico_newton">The acceleration that a body experiences is directly proportional to the force acting on it and inversely proportional to its mass</string>
+
+    <string name="pregunta_cinco_newton_teorico">What is the friction force?</string>
+    <string name="respuesta1_pregunta5_examteorico_newton">It is neutral</string>
+    <string name="respuesta2_pregunta5_examteorico_newton">It is when ropes (tension) are used</string>
+    <string name="respuesta3_pregunta5_examteorico_newton">It is the opposition to the movement of bodies and occurs in all known means.</string>
+    <string name="respuesta4_pregunta5_examteorico_newton">It is a fictitious force that appears when the movement of a body in a rotating reference system is described.</string>
+
+    <string name="pregunta_seis_newton_teorico">Is the equality F = M.A the mathematical expression of?</string>
+    <string name="respuesta1_pregunta6_examteorico_newton">Newton\'s second law.</string>
+    <string name="respuesta2_pregunta6_examteorico_newton">Newton\'s first law.</string>
+    <string name="respuesta3_pregunta6_examteorico_newton">Newton\'s third law.</string>
+    <string name="respuesta4_pregunta6_examteorico_newton">Newton\'s fourth law.</string>
+
+    <string name="pregunta_siete_newton_teorico">If a force does not act on a body or the results of the acting forces is zero?</string>
+    <string name="respuesta1_pregunta7_examteorico_newton">The body does not move.</string>
+    <string name="respuesta2_pregunta7_examteorico_newton">The body moves with a uniform rectilinear movement.</string>
+    <string name="respuesta3_pregunta7_examteorico_newton">The body moves with a uniformly accelerated rectilinear movement.</string>
+    <string name="respuesta4_pregunta7_examteorico_newton">The body moves with a rectilinear movement uniformly retarded.</string>
+
+    <string name="pregunta_ocho_newton_teorico">Newton\'s first law is also known as how?</string>
+    <string name="respuesta1_pregunta8_examteorico_newton">Energy principle</string>
+    <string name="respuesta2_pregunta8_examteorico_newton">Universal gravitational principle.</string>
+    <string name="respuesta3_pregunta8_examteorico_newton">Principle of conservation of the mass.</string>
+    <string name="respuesta4_pregunta8_examteorico_newton">Principle of inertia.</string>
+
+    <string name="pregunta_nueve_newton_teorico">If a body is at rest?</string>
+    <string name="respuesta1_pregunta9_examteorico_newton">No force acts on it.</string>
+    <string name="respuesta2_pregunta9_examteorico_newton">The resultant of the forces acting on him is null.</string>
+    <string name="respuesta3_pregunta9_examteorico_newton">Only one force acts on him.</string>
+    <string name="respuesta4_pregunta9_examteorico_newton">Only two forces act on it that are counteracted.</string>
+
+    <string name="pregunta_diez_newton_teorico">Is a Newton?</string>
+    <string name="respuesta1_pregunta10_examteorico_newton">The force applied to a body of mass 1 g produces an acceleration of 1 m/s<up>2</up></string>
+    <string name="respuesta2_pregunta10_examteorico_newton">The force applied to a body of mass 1 kg produces an acceleration of 1 m/s2</string>
+    <string name="respuesta3_pregunta10_examteorico_newton">The force applied on a body of mass 1 kg produces an acceleration of 1 cm/s2</string>
+    <string name="respuesta4_pregunta10_examteorico_newton">The force applied on a body of mass 1 g produces an acceleration of 1 mm/s2</string>
+
     <string name="calificar_title">qualify</string>
+
 </resources>

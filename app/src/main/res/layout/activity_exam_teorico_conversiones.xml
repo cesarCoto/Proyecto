@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,362 +12,438 @@
         android:orientation="vertical"
         android:padding="@dimen/dimen_8dp">
 
+
         <TextView
-            android:id="@+id/textView_acnewtonpregunta1"
+            android:id="@+id/textView_acconversionespregunta1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/pregunta_uno_newton_teorico"
+            android:text="@string/pregunta_uno_conversiones_teorico"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1">
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta1_pregunta1_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta1_pregunta1_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta1_pregunta1_examteorico_newton" />
+                android:text="@string/respuesta1_pregunta1_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta2_pregunta1_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta2_pregunta1_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta2_pregunta1_examteorico_newton" />
+                android:text="@string/respuesta2_pregunta1_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta3_pregunta1_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta3_pregunta1_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta3_pregunta1_examteorico_newton" />
+                android:text="@string/respuesta3_pregunta1_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta4_pregunta1_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta4_pregunta1_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta4_pregunta1_examteorico_newton" />
+                android:text="@string/respuesta4_pregunta1_examteorico_conversiones" />
         </RadioGroup>
+
         <!--PREGUNTA 2-->
         <TextView
             android:layout_marginTop="@dimen/dimen_padding_16dp"
-            android:id="@+id/textView_acnewtonpregunta2"
+            android:id="@+id/textView_acconversionespregunta2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/pregunta_dos_newton_teorico"
+            android:text="@string/pregunta_dos_conversiones_teorico"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1">
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta1_pregunta2_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta1_pregunta2_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/true_text" />
+                android:text="@string/respuesta1_pregunta2_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta2_pregunta2_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta2_pregunta2_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/false_text" />
+                android:text="@string/respuesta2_pregunta2_examteorico_conversiones" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta3_pregunta2_exam_teorico_conversiones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta3_pregunta2_examteorico_conversiones" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta4_pregunta2_exam_teorico_conversiones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta4_pregunta2_examteorico_conversiones" />
         </RadioGroup>
         <!--PREGUNTA 3-->
         <TextView
             android:layout_marginTop="@dimen/dimen_padding_16dp"
-            android:id="@+id/textView_acnewtonpregunta3"
+            android:id="@+id/textView_acconversionespregunta3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/pregunta_tres_newton_teorico"
+            android:text="@string/pregunta_tres_conversiones_teorico"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1">
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta1_pregunta3_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta1_pregunta3_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/true_text" />
+                android:text="@string/respuesta1_pregunta3_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta2_pregunta3_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta2_pregunta3_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/false_text" />
+                android:text="@string/respuesta2_pregunta3_examteorico_conversiones" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta3_pregunta3_exam_teorico_conversiones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta3_pregunta3_examteorico_conversiones" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta4_pregunta3_exam_teorico_conversiones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/respuesta4_pregunta3_examteorico_conversiones" />
         </RadioGroup>
         <!--PREGUNTA 4-->
         <TextView
             android:layout_marginTop="@dimen/dimen_padding_16dp"
-            android:id="@+id/textView_acnewtonpregunta4"
+            android:id="@+id/textView_acconversionespregunta4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/pregunta_cuatro_newton_teorico"
+            android:text="@string/pregunta_cuatro_conversiones_teorico"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1">
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta1_pregunta4_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta1_pregunta4_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta1_pregunta4_examteorico_newton" />
+                android:text="@string/respuesta1_pregunta4_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta2_pregunta4_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta2_pregunta4_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta2_pregunta4_examteorico_newton" />
+                android:text="@string/respuesta2_pregunta4_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta3_pregunta4_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta3_pregunta4_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta3_pregunta4_examteorico_newton" />
+                android:text="@string/respuesta3_pregunta4_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta4_pregunta4_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta4_pregunta4_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta4_pregunta4_examteorico_newton" />
+                android:text="@string/respuesta4_pregunta4_examteorico_conversiones" />
         </RadioGroup>
         <!--PREGUNTA 5-->
         <TextView
             android:layout_marginTop="@dimen/dimen_padding_16dp"
-            android:id="@+id/textView_acnewtonpregunta5"
+            android:id="@+id/textView_acconversionespregunta5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/pregunta_cinco_newton_teorico"
+            android:text="@string/pregunta_cinco_conversiones_teorico"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1">
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta1_pregunta5_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta1_pregunta5_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta1_pregunta5_examteorico_newton" />
+                android:text="@string/respuesta1_pregunta5_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta2_pregunta5_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta2_pregunta5_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta2_pregunta5_examteorico_newton" />
+                android:text="@string/respuesta2_pregunta5_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta3_pregunta5_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta3_pregunta5_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta3_pregunta5_examteorico_newton" />
+                android:text="@string/respuesta3_pregunta5_examteorico_conversiones" />
             <RadioButton
-                android:id="@+id/radioButton_respuesta4_pregunta5_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta4_pregunta5_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta4_pregunta5_examteorico_newton" />
+                android:text="@string/respuesta4_pregunta5_examteorico_conversiones" />
         </RadioGroup>
         <!--PREGUNTA 6-->
         <TextView
             android:layout_marginTop="@dimen/dimen_padding_16dp"
-            android:id="@+id/textView_acnewtonpregunta6"
+            android:id="@+id/textView_acconversionespregunta6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/pregunta_seis_newton_teorico"
+            android:text="@string/pregunta_seis_conversiones_teorico"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1">
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta1_pregunta6_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta1_pregunta6_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta1_pregunta6_examteorico_newton" />
+                android:text="@string/respuesta1_pregunta6_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta2_pregunta6_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta2_pregunta6_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta2_pregunta6_examteorico_newton" />
+                android:text="@string/respuesta2_pregunta6_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta3_pregunta6_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta3_pregunta6_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta3_pregunta6_examteorico_newton" />
+                android:text="@string/respuesta3_pregunta6_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta4_pregunta6_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta4_pregunta6_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta4_pregunta6_examteorico_newton"/>
+                android:text="@string/respuesta4_pregunta6_examteorico_conversiones"/>
         </RadioGroup>
         <!--PREGUNTA 7-->
         <TextView
             android:layout_marginTop="@dimen/dimen_padding_16dp"
-            android:id="@+id/textView_acnewtonpregunta7"
+            android:id="@+id/textView_acconversionespregunta7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/pregunta_siete_newton_teorico"
+            android:text="@string/pregunta_siete_conversiones_teorico"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1">
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta1_pregunta7_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta1_pregunta7_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta1_pregunta7_examteorico_newton" />
+                android:text="@string/respuesta1_pregunta7_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta2_pregunta7_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta2_pregunta7_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta2_pregunta7_examteorico_newton" />
+                android:text="@string/respuesta2_pregunta7_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta3_pregunta7_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta3_pregunta7_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta3_pregunta7_examteorico_newton" />
+                android:text="@string/respuesta3_pregunta7_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta4_pregunta7_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta4_pregunta7_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta4_pregunta7_examteorico_newton"/>
+                android:text="@string/respuesta4_pregunta7_examteorico_conversiones"/>
         </RadioGroup>
         <!--PREGUNTA 8-->
         <TextView
             android:layout_marginTop="@dimen/dimen_padding_16dp"
-            android:id="@+id/textView_acnewtonpregunta8"
+            android:id="@+id/textView_acconversionespregunta8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/pregunta_ocho_newton_teorico"
+            android:text="@string/pregunta_ocho_conversiones_teorico"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1">
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta1_pregunta8_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta1_pregunta8_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta1_pregunta8_examteorico_newton" />
+                android:text="@string/respuesta1_pregunta8_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta2_pregunta8_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta2_pregunta8_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta2_pregunta8_examteorico_newton" />
+                android:text="@string/respuesta2_pregunta8_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta3_pregunta8_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta3_pregunta8_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta3_pregunta8_examteorico_newton" />
+                android:text="@string/respuesta3_pregunta8_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta4_pregunta8_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta4_pregunta8_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta4_pregunta8_examteorico_newton"/>
+                android:text="@string/respuesta4_pregunta8_examteorico_conversiones"/>
         </RadioGroup>
         <!--PREGUNTA 9 -->
         <TextView
             android:layout_marginTop="@dimen/dimen_padding_16dp"
-            android:id="@+id/textView_acnewtonpregunta9"
+            android:id="@+id/textView_acconversionespregunta9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/pregunta_nueve_newton_teorico"
+            android:text="@string/pregunta_nueve_conversiones_teorico"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1">
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta1_pregunta9_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta1_pregunta9_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta1_pregunta9_examteorico_newton" />
+                android:text="@string/respuesta1_pregunta9_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta2_pregunta9_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta2_pregunta9_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta2_pregunta9_examteorico_newton" />
+                android:text="@string/respuesta2_pregunta9_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta3_pregunta9_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta3_pregunta9_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta3_pregunta9_examteorico_newton" />
+                android:text="@string/respuesta3_pregunta9_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta4_pregunta9_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta4_pregunta9_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta4_pregunta9_examteorico_newton"/>
+                android:text="@string/respuesta4_pregunta9_examteorico_conversiones"/>
         </RadioGroup>
         <!--PREGUNTA 10-->
         <TextView
             android:layout_marginTop="@dimen/dimen_padding_16dp"
-            android:id="@+id/textView_acnewtonpregunta10"
+            android:id="@+id/textView_acconversionespregunta10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/pregunta_diez_newton_teorico"
+            android:text="@string/pregunta_diez_conversiones_teorico"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1">
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta1_pregunta10_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta1_pregunta10_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta1_pregunta10_examteorico_newton" />
+                android:text="@string/respuesta1_pregunta10_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta2_pregunta10_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta2_pregunta10_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta2_pregunta10_examteorico_newton" />
+                android:text="@string/respuesta2_pregunta10_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta3_pregunta10_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta3_pregunta10_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta3_pregunta10_examteorico_newton" />
+                android:text="@string/respuesta3_pregunta10_examteorico_conversiones" />
+
             <RadioButton
-                android:id="@+id/radioButton_respuesta4_pregunta10_exam_teorico_newton"
+                android:id="@+id/radioButton_respuesta4_pregunta10_exam_teorico_conversiones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/respuesta4_pregunta10_examteorico_newton"/>
+                android:text="@string/respuesta4_pregunta10_examteorico_conversiones"/>
         </RadioGroup>
+
         <Button
-            android:id="@+id/button_calificar_examen_teorico_newton"
+            android:id="@+id/button_calificar_examen_teorico_conversiones"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

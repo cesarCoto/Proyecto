@@ -67,6 +67,28 @@ public class ExamFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
        View view = inflater.inflate(R.layout.fragment_exam, container, false);
+
+       //intent para mostrar la actividad examen teorico conversioes
+        Button buttonExamTeoricoConversiones = view.findViewById(R.id.button_conversiones_exam_teorico);
+        buttonExamTeoricoConversiones.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentExamenTeoricoConversiones = new Intent(getActivity(),ExamTeoricoConversionesActivity.class);
+                startActivity(intentExamenTeoricoConversiones);
+            }
+        });
+
+        //intent para mostar la actividad examen practico conversiones
+        Button buttonExamenPracticoConversiones =view.findViewById(R.id.button_conversiones_exam_practico);
+        buttonExamenPracticoConversiones.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentExamenPracticoConversiones = new Intent(getActivity(),ExamPracticoConversionesActivity.class);
+                startActivity(intentExamenPracticoConversiones);
+            }
+        });
+
+
        //intent para mostrar la actividad examen practico vectores
         Button buttonExamPracVectors =view.findViewById(R.id.button_vectors_exam_practico);
         buttonExamPracVectors.setOnClickListener(new View.OnClickListener() {
@@ -76,6 +98,7 @@ public class ExamFragment extends Fragment {
                 startActivity(intentExamPracticoVectores);
             }
         });
+
         //intent para mostrar la actividad examen teorico vectores
         Button  buttonExamenTeoricoVectores = view.findViewById(R.id.button_vectors_exam_teorico);
         buttonExamenTeoricoVectores.setOnClickListener(new View.OnClickListener() {
@@ -85,6 +108,7 @@ public class ExamFragment extends Fragment {
                 startActivity(intentExamnTeoricoVectores);
             }
         });
+
         //intent para mostrar la actividad examen practico magnitudes
         Button buttonExamPracticoMagnitudes = view.findViewById(R.id.button_magnitudes_exam_practico);
         buttonExamPracticoMagnitudes.setOnClickListener(new View.OnClickListener() {
@@ -94,6 +118,7 @@ public class ExamFragment extends Fragment {
              startActivity(intentExamenPracticoMagnitudes);
             }
         });
+
         // intent para mostar la actividad examen teorico megnitudes
         Button buttonExamTeoricoMagnitudes = view.findViewById(R.id.button_magnitudes_exam_teorico);
         buttonExamTeoricoMagnitudes.setOnClickListener(new View.OnClickListener() {
@@ -103,6 +128,7 @@ public class ExamFragment extends Fragment {
                 startActivity(intentExamenTeoricoMagnitudes);
             }
         });
+
         //intent para mostrar la actividad examen practico newton
         Button buttonExamenPraticoNewton = view.findViewById(R.id.button_newton_exam_practio);
         buttonExamenPraticoNewton.setOnClickListener(new View.OnClickListener() {
@@ -112,7 +138,15 @@ public class ExamFragment extends Fragment {
                 startActivity(intentExamenPracticoNewton);
             }
         });
-
+        //intent para mostrar la actividad examen teorico newon
+        Button buttonExamenTeoricoNewton = view.findViewById(R.id.button_newton_exam_torico);
+        buttonExamenTeoricoNewton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentExamenTeoricoNewton = new Intent(getActivity(), ExamTeoricoNewtonActivity.class);
+                startActivity(intentExamenTeoricoNewton);
+            }
+        });
        return view;
     }
 

@@ -51,7 +51,7 @@
                     android:text="@string/theoric_exam_title" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/button_conversiones_exam_practico"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/practical_test_title" />
