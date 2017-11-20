@@ -1,18 +1,25 @@
 package com.robot.maker.proyecto;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import static android.content.Context.WIFI_SERVICE;
@@ -26,17 +33,20 @@ import static android.content.Context.WIFI_SERVICE;
  * Use the {@link VideosFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class VideosFragment extends Fragment {
+public class VideosFragment extends Fragment  {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+
+
 
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
+
 
     public VideosFragment() {
         // Required empty public constructor
@@ -59,7 +69,6 @@ public class VideosFragment extends Fragment {
         fragment.setArguments(args);
         return fragment;
     }
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,24 +83,99 @@ public class VideosFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        //se crean los titulos de cadad elemento en la lista
+        String [] titulos = {getString(R.string.conversions_title),getString(R.string.vectors_title),
+                getString(R.string.magnitudes_title),getString(R.string.ley_inercia_title),getString(R.string.segunda_ley_title),
+                getString(R.string.tercera_ley_title)};
+        //despricciones
+        String [] descripciones = {"1","2","3","4","5","6"};
+        //imagenes
+        int [] imagenes = {R.drawable.conversiones_img, R.drawable.vectores_img,R.drawable.magnitudes_img,
+                R.drawable.primera_ley_new_img,R.drawable.segunda_ley_new_img,R.drawable.tercera_lew_new_img};
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_videos, container, false);
+        ListView listView = view.findViewById(R.id.lista_videos);
 
-        ImageView imageView_no_hay_internet = view.findViewById(R.id.imageView_videos);
-        WebView webView_videos = view.findViewById(R.id.webview_videos);
+        MyAdapter adapter = new MyAdapter(getActivity(),titulos,descripciones,imagenes);
 
-        //metodo para vereficar si tienes internet
-        ConnectivityManager connectivityManager = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo networkInfo = connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
-        if(networkInfo.isConnected()) {
-            webView_videos.loadUrl("https://es.educaplay.com");
-        }else {
-            webView_videos.setVisibility(View.GONE);
-            imageView_no_hay_internet.setVisibility(View.VISIBLE);
-            Toast.makeText(getActivity(), R.string.no_hay_conexcion, Toast.LENGTH_SHORT).show();
-        }
+        listView.setAdapter(adapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if(position==0){
+                    String conversiones = "https://androidprototipo.blogspot.mx/2017/11/converciones.html";
+                    Intent intent = new Intent (getActivity(),VideosContainerActivity.class);
+                    intent.putExtra("page",conversiones);
+                    startActivity(intent);
+                }else if(position ==1){
+                    String vectores = "https://androidprototipo.blogspot.mx/2017/11/vectores.html";
+                    Intent intent = new Intent (getActivity(),VideosContainerActivity.class);
+                    intent.putExtra("page",vectores);
+                    startActivity(intent);
+                }else if (position ==2){
+                    String magnitudes = "https://androidprototipo.blogspot.mx/2017/11/magnirudes.html";
+                    Intent intent = new Intent (getActivity(),VideosContainerActivity.class);
+                    intent.putExtra("page",magnitudes);
+                    startActivity(intent);
+                }else if(position ==3){
+                    String primeraLey = "https://androidprototipo.blogspot.mx/2017/11/primera-ley-de-newton.html";
+                    Intent intent = new Intent (getActivity(),VideosContainerActivity.class);
+                    intent.putExtra("page",primeraLey);
+                    startActivity(intent);
+                }else if(position ==4 ){
+                    String segundaLey = "https://androidprototipo.blogspot.mx/2017/11/segunda-ley-de-newton.html";
+                    Intent intent = new Intent (getActivity(),VideosContainerActivity.class);
+                    intent.putExtra("page",segundaLey);
+                    startActivity(intent);
+                }else if(position ==5){
+                    String terceraLey = "https://androidprototipo.blogspot.mx/2017/11/tercera-ley-de-newton.html";
+                    Intent intent = new Intent (getActivity(),VideosContainerActivity.class);
+                    intent.putExtra("page",terceraLey);
+                    startActivity(intent);
+                }
+            }
+        });
+
+
+
         return view;
     }
+    // se crea el arraycustom
+
+    class MyAdapter extends ArrayAdapter {
+        int[] imagenArray;
+        String[] titleArray;
+        String[] descipccionArray;
+
+        public MyAdapter(Context context, String[] title1, String[]description1, int[]imagenes){
+            super(context, R.layout.custom_list_view,R.id.texttitle,title1);
+            this.imagenArray=imagenes;
+            this.titleArray = title1;
+            this.descipccionArray=description1;
+        }
+
+        @NonNull
+        @Override
+        public View getView(int position,  View convertView, ViewGroup parent) {
+            // inflamos el layout
+            LayoutInflater inflater = (LayoutInflater)getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            View row = inflater.inflate(R.layout.custom_list_view,parent,false);
+            //referencicamos
+            ImageView myImage = (ImageView) row.findViewById(R.id.imagend);
+            TextView myTitle = (TextView) row.findViewById(R.id.texttitle);
+            TextView myDescription = (TextView) row.findViewById(R.id.textdescripcion);
+
+            //se seleccionan las posisiones y el contenido que tendra
+
+            myImage.setImageResource(imagenArray[position]);
+            myTitle.setText(titleArray[position]);
+            myDescription.setText(descipccionArray[position]);
+            return row;
+        }
+    }
+
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {

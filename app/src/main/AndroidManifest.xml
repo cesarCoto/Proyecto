@@ -90,13 +90,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".ExamPracticoConversionesActivity"
+        <activity
+            android:name=".ExamPracticoConversionesActivity"
             android:label="@string/practical_test_title"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
         </activity>
+        <activity android:name=".VideosContainerActivity"></activity>
     </application>
 
 </manifest>

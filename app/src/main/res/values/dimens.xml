@@ -11,4 +11,5 @@
     <dimen name="dimen_8dp">8dp</dimen>
     <dimen name="dimen_peekheight_50dp">50dp</dimen>
     <dimen name="dimen_text_help">18sp</dimen>
+    <dimen name="marginitem">20dp</dimen>
 </resources>
