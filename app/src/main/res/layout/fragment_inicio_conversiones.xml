@@ -36,18 +36,13 @@
                     android:textAlignment="center"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="right"
-                    android:text="@string/title_home_conversiones_que_es_parrafo1" />
-
                 <WebView
                     android:id="@+id/textocentrado"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                 </WebView>
+                
             </LinearLayout>
 
         </android.support.v7.widget.CardView>

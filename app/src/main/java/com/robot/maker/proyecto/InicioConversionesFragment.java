@@ -70,7 +70,7 @@ public class InicioConversionesFragment extends Fragment {
         WebView webView = view.findViewById(R.id.textocentrado);
         webView.setVerticalScrollBarEnabled(false);
 
-        webView.loadData(getString(R.string.hello), "text/html; charset=utf-8", "utf-8");
+        webView.loadData(getString(R.string.conversiones_que_son_parrafo1), "text/html; charset=utf-8", "utf-8");
 
         return view;
     }
