@@ -98,7 +98,17 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".VideosContainerActivity"></activity>
+        <activity
+            android:name=".VideosContainerActivity"
+            android:parentActivityName=".ConversionsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ConversionsActivity" />
+        </activity>
+        <activity
+            android:name=".VectorActivity"
+            android:label="@string/title_activity_vector"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

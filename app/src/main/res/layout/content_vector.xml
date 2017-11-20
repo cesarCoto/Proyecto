@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.robot.maker.proyecto.ConversionsActivity"
-    tools:showIn="@layout/app_bar_conversions">
+    tools:context="com.robot.maker.proyecto.VectorActivity"
+    tools:showIn="@layout/app_bar_vector">
 
     <FrameLayout
-        android:id="@+id/contenido_conversiones"
+        android:id="@+id/contenido_vectores"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
     </FrameLayout>
 

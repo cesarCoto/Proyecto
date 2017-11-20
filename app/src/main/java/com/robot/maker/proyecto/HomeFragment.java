@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 
 /**
@@ -61,21 +63,37 @@ public class HomeFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-
+    /*Creado por CESAR COTO, JOSE COUTIÑO*/
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
 
         View view = inflater.inflate(R.layout.fragment_home, container, false);
-        ImageButton imageButton_conversiones = view.findViewById(R.id.imageButton_Conversiones);
-        imageButton_conversiones.setOnClickListener(new View.OnClickListener() {
+        //conversiones
+        ImageButton imageButtonConversiones = view.findViewById(R.id.imageButton_Conversiones);
+        TextView textViewConversiones = view.findViewById(R.id.textView_Conversiones);
+        View.OnClickListener onClickListenerConversiones = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent_conversiones = new Intent(getActivity(),ConversionsActivity.class);
                 startActivity(intent_conversiones);
             }
-        });
+        };
+        imageButtonConversiones.setOnClickListener(onClickListenerConversiones);
+        textViewConversiones.setOnClickListener(onClickListenerConversiones);
+        //vectors
+        ImageButton imageButtonVectores = view.findViewById(R.id.imageButton_Vectores);
+        TextView textViewVectores = view.findViewById(R.id.textView_Vectores);
+        View.OnClickListener onClickListenerVectores = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intenVectores = new Intent(getActivity(),VectorActivity.class);
+                startActivity(intenVectores);
+            }
+        };
+        imageButtonVectores.setOnClickListener(onClickListenerVectores);
+        textViewVectores.setOnClickListener(onClickListenerVectores);
+
 
         return view;
     }

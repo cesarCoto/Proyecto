@@ -269,5 +269,23 @@
     <string name="respuesta4_pregunta10_examteorico_newton">The force applied on a body of mass 1 g produces an acceleration of 1 mm/s2</string>
 
     <string name="calificar_title">qualify</string>
+    <string name="title_activity_vector">VectorActivity</string>
+
+
+
+    <string name="title_home_conversiones_que_es">What is the conversion of units?</string>
+    <string name="title_home_conversiones_que_es_parrafo1">
+
+    </string>
+    <string name="hello">
+<![CDATA[
+<html>
+ <head></head>
+ <body style="text-align:justify;color:#000;background-color:#fff;">
+  The conversion of units is the transformation of a quantity, expressed in a certain unit of measurement, into another equivalent. It can be from the same system of units or not.
+ </body>
+</html>
+]]>
+</string>
 
 </resources>

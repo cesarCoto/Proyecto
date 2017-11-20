@@ -1,22 +1,55 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#eee"
     tools:context="com.robot.maker.proyecto.InicioConversionesFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="@dimen/dimen_padding_16dp"
+        android:padding="@dimen/dimen_8dp"
         android:id="@+id/contenedor_inicio_conversiones_actividadconversiones">
 
 
-        <TextView
-            android:id="@+id/textView2"
+        <android.support.v7.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Inicio "
-            android:textAlignment="center" />
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/dimen_radius_cardview"
+            app:cardElevation="2dp"
+            app:contentPadding="@dimen/dimen_4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_home_conversiones_que_es"
+                    android:layout_marginTop="@dimen/dimen_4dp"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/title_home_conversiones_que_es_parrafo1" />
+
+                <WebView
+                    android:id="@+id/textocentrado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </WebView>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
     </LinearLayout>
 </ScrollView>

@@ -5,101 +5,101 @@
     tools:context="com.robot.maker.proyecto.HomeFragment">
 
 
-
     <LinearLayout
-            android:id="@+id/contenido_inicio"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:paddingLeft="@dimen/dimen_8dp"
-            android:paddingRight="@dimen/dimen_8dp"
-            android:paddingTop="@dimen/dimen_8dp"
-            android:paddingBottom="80dp">
+        android:id="@+id/contenido_inicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        android:orientation="vertical"
+        android:paddingBottom="80dp"
+        android:paddingLeft="@dimen/dimen_8dp"
+        android:paddingRight="@dimen/dimen_8dp"
+        android:paddingTop="@dimen/dimen_8dp">
 
 
-            <LinearLayout
-                android:id="@+id/contenido_inicio_linea1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:baselineAligned="false">
-
-                <FrameLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1">
-
-                    <ImageButton
-                        android:id="@+id/imageButton_Conversiones"
-                        android:layout_width="match_parent"
-                        android:layout_height="160dp"
-                        android:layout_marginEnd="@dimen/dimen_2dp"
-                        android:background="@drawable/fondo_conversiones"
-                        android:contentDescription="@string/conversions_title"
-                        android:scaleType="centerInside"
-                        android:src="@drawable/conversiones_img" />
-
-                </FrameLayout>
-
-                <FrameLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1">
-
-                    <ImageButton
-                        android:id="@+id/imageButton_Vectores"
-                        android:layout_width="match_parent"
-                        android:layout_height="160dp"
-                        android:layout_marginStart="@dimen/dimen_2dp"
-                        android:background="@drawable/fondo_vectores"
-                        android:contentDescription="@string/vectors_title"
-                        android:scaleType="centerInside"
-                        android:src="@drawable/vectores_img" />
-                </FrameLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView_Conversiones"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/dimen_2dp"
-                    android:layout_weight="1"
-                    android:background="@color/text_dark"
-                    android:padding="@dimen/dimen_4dp"
-                    android:text="@string/conversions_title"
-                    android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:textColor="@color/text_color"
-                    tools:ignore="NestedWeights" />
-
-                <TextView
-                    android:id="@+id/textView_Vectores"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/dimen_2dp"
-                    android:layout_weight="1"
-                    android:background="@color/text_dark"
-                    android:padding="@dimen/dimen_4dp"
-                    android:text="@string/vectors_title"
-                    android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:textColor="@color/text_color" />
-            </LinearLayout>
-        <!--Segunda linea-->
-            <LinearLayout
-            android:id="@+id/contenido_inicio_linea2"
-            android:layout_marginTop="@dimen/dimen_4dp"
+        <LinearLayout
+            android:id="@+id/contenido_inicio_linea1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:baselineAligned="false">
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/imageButton_Conversiones"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginEnd="@dimen/dimen_2dp"
+                    android:background="@drawable/fondo_conversiones"
+                    android:contentDescription="@string/conversions_title"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/conversiones_img" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/imageButton_Vectores"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginStart="@dimen/dimen_2dp"
+                    android:background="@drawable/fondo_vectores"
+                    android:contentDescription="@string/vectors_title"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/vectores_img" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_Conversiones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dimen_2dp"
+                android:layout_weight="1"
+                android:background="@color/text_dark"
+                android:padding="@dimen/dimen_4dp"
+                android:text="@string/conversions_title"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/text_color"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:id="@+id/textView_Vectores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_2dp"
+                android:layout_weight="1"
+                android:background="@color/text_dark"
+                android:padding="@dimen/dimen_4dp"
+                android:text="@string/vectors_title"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/text_color" />
+        </LinearLayout>
+        <!--Segunda linea-->
+        <LinearLayout
+            android:id="@+id/contenido_inicio_linea2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dimen_4dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
 
             <FrameLayout
                 android:layout_width="match_parent"
@@ -172,11 +172,11 @@
         <!--Tercera linea-->
         <LinearLayout
             android:id="@+id/contenido_inicio_linea3"
-            android:layout_marginTop="@dimen/dimen_4dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:baselineAligned="false">
+            android:layout_marginTop="@dimen/dimen_4dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
 
             <FrameLayout
                 android:layout_width="match_parent"
@@ -245,5 +245,5 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/text_color" />
         </LinearLayout>
-        </LinearLayout>
+    </LinearLayout>
 </ScrollView>

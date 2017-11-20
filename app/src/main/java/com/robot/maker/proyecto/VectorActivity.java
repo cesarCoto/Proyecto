@@ -4,8 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -16,21 +14,18 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class ConversionsActivity extends AppCompatActivity
+public class VectorActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_conversions);
+        setContentView(R.layout.activity_vector);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         //se crea la clase fragmentManager para poder desplegar las pantallas en cada menu
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        FragmentTransaction transaction = fragmentManager.beginTransaction();
 
-        transaction.replace(R.id.contenido_conversiones,new InicioConversionesFragment()).commit();
 
         //se referencia el menu de hamburgesa
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -52,23 +47,49 @@ public class ConversionsActivity extends AppCompatActivity
             super.onBackPressed();
         }
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Menu que se lanzara en la actividad
+        getMenuInflater().inflate(R.menu.conversions, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        //Aqui se asigna la funcion que tendra cada elemento del menu al ser precionado
+        if (id == R.id.action_feedback) {
+
+            return true;
+        }else if (id == R.id.action_about) {
+            Intent intentAboutActivity = new Intent(this,AboutActivity.class);
+            startActivity(intentAboutActivity);
+            return true;
+        }
+
+
+        return super.onOptionsItemSelected(item);
+    }
+
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Aqui se cambia la posision del activities y se manda que fragment ocupara el espacio estalbecido como contenido conversiones
+        // Elementos del menu de hamburgesa y sus funciones que realizara
         int id = item.getItemId();
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        FragmentTransaction transaction = fragmentManager.beginTransaction();
-        if (id == R.id.nav_inicio_conversiones) {
-            transaction.replace(R.id.contenido_conversiones,new InicioConversionesFragment()).commit();
-        } else if (id == R.id.nav_ejemplos_conversiones) {
-            transaction.replace(R.id.contenido_conversiones, new ExamplesConversioesFragment()).commit();
-        } else if (id == R.id.nav_exercises_conversiones) {
-            transaction.replace(R.id.contenido_conversiones,new EjerciciosConversionesFragment()).commit();
-        } else if (id == R.id.nav_books) {
-            transaction.replace(R.id.contenido_conversiones,new BookFragment()).commit();
-        } else if (id == R.id.nav_videos) {
-            transaction.replace(R.id.contenido_conversiones, new VideosFragment()).commit();
+
+        if (id == R.id.nav_inicio_vectores) {
+            // Handle the camera action
+        } else if (id == R.id.nav_ejemplos_vectores) {
+
+        } else if (id == R.id.nav_exercises_vectores) {
+
+        } else if (id == R.id.nav_books_vec) {
+
+        } else if (id == R.id.nav_videos_vec) {
+
+        } else if (id == R.id.nav_feedback_vec) {
+
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

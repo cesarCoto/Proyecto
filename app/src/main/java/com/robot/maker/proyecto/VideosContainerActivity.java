@@ -3,6 +3,7 @@ package com.robot.maker.proyecto;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,7 +12,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageView;
 import android.widget.Toast;
-
+/*CREADO POR CESAR COTO, JOSE COUTIÑO*/
 public class VideosContainerActivity extends AppCompatActivity {
 
     WebView webViewVideos;
@@ -24,6 +25,10 @@ public class VideosContainerActivity extends AppCompatActivity {
 
         webViewVideos =findViewById(R.id.webview_videos_container);
         imageViewNoConexicon = findViewById(R.id.imageView_videos_no_conexion);
+
+        //boton ir atras
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         //se verifica la conexicion
         ConnectivityManager connectivityManager =(ConnectivityManager)this.getSystemService(Context.CONNECTIVITY_SERVICE);
