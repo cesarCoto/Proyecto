@@ -11,4 +11,9 @@
         android:icon="@drawable/ic_exam_black_24dp"
         android:title="@string/title_exam" />
 
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/ic_mas_black_24dp"
+        android:title="@string/more_title" />
+
 </menu>

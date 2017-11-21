@@ -1,10 +1,8 @@
 package com.robot.maker.proyecto;
 
+
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -13,6 +11,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 
 public class VectorActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -25,6 +25,10 @@ public class VectorActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         //se crea la clase fragmentManager para poder desplegar las pantallas en cada menu
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
+
+        transaction.replace(R.id.contenido_vectores, new InicioVectoresFragment()).commit();
 
 
         //se referencia el menu de hamburgesa
@@ -47,47 +51,19 @@ public class VectorActivity extends AppCompatActivity
             super.onBackPressed();
         }
     }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Menu que se lanzara en la actividad
-        getMenuInflater().inflate(R.menu.conversions, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        //Aqui se asigna la funcion que tendra cada elemento del menu al ser precionado
-        if (id == R.id.action_feedback) {
-
-            return true;
-        }else if (id == R.id.action_about) {
-            Intent intentAboutActivity = new Intent(this,AboutActivity.class);
-            startActivity(intentAboutActivity);
-            return true;
-        }
-
-
-        return super.onOptionsItemSelected(item);
-    }
-
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Elementos del menu de hamburgesa y sus funciones que realizara
         int id = item.getItemId();
-
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
         if (id == R.id.nav_inicio_vectores) {
-            // Handle the camera action
+            transaction.replace(R.id.contenido_vectores, new InicioVectoresFragment()).commit();
         } else if (id == R.id.nav_ejemplos_vectores) {
-
+            transaction.replace(R.id.contenido_conversiones, new ExamplesVectoresFragment()).commit();
         } else if (id == R.id.nav_exercises_vectores) {
-
-        } else if (id == R.id.nav_books_vec) {
-
-        } else if (id == R.id.nav_videos_vec) {
-
+            transaction.replace(R.id.contenido_vectores, new EjerciciosVectoresFragment()).commit();
         } else if (id == R.id.nav_feedback_vec) {
 
         }

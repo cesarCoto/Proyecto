@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#eee"
+    android:background="@color/bagcolor"
     tools:context="com.robot.maker.proyecto.InicioConversionesFragment">
 
     <LinearLayout
@@ -28,7 +28,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/title_home_conversiones_que_es"
@@ -37,12 +36,45 @@
                     android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
                 <WebView
-                    android:id="@+id/textocentrado"
+                    android:id="@+id/texto_home_conversiones_parrafo1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                 </WebView>
-                
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dimen_8dp"
+                    android:src="@drawable/conversiones_ejemplp" />
+
+                <WebView
+                    android:id="@+id/texto_home_conversiones_parrafo2"
+                    android:layout_marginTop="@dimen/dimen_8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </WebView>
+
+                <ImageView
+                    android:layout_marginTop="@dimen/dimen_8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/conversiondoble_ejemplo" />
+
+                <WebView
+                    android:layout_marginTop="@dimen/dimen_8dp"
+                    android:id="@+id/texto_home_conversiones_parrafo3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </WebView>
+                <ImageView
+                    android:layout_marginTop="@dimen/dimen_8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/solucion"/>
             </LinearLayout>
 
         </android.support.v7.widget.CardView>

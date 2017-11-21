@@ -21,15 +21,6 @@
     <item android:title="@string/more_title">
         <menu>
             <item
-                android:id="@+id/nav_books"
-                android:icon="@drawable/ic_book_black_24dp"
-                android:title="@string/books_title" />
-            <item
-                android:id="@+id/nav_videos"
-                android:icon="@drawable/ic_video_library_black_24dp"
-                android:title="@string/tutorials_title" />
-
-            <item
                 android:id="@+id/nav_feedback"
                 android:title="@string/feedback_title"
                 android:icon="@drawable/ic_feedback_black_24dp"/>

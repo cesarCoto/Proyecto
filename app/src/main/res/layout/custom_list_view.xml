@@ -30,6 +30,6 @@
             android:layout_height="wrap_content"
             android:id="@+id/textdescripcion"
             android:text="textdescription"
-            android:gravity="center"/>
+            android:gravity="left"/>
     </LinearLayout>
 </LinearLayout>

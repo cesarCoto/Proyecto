@@ -269,12 +269,73 @@
     <string name="respuesta4_pregunta10_examteorico_newton">The force applied on a body of mass 1 g produces an acceleration of 1 mm/s2</string>
 
     <string name="calificar_title">Qualify</string>
-    <string name="title_activity_vector">VectorActivity</string>
-
+    <string name="title_lista_conversiones">A video tutorial on how to convert units.</string>
+    <string name="title_lista_vectores">A video tutorial on how to add vectors</string>
+    <string name="title_lista_magnitudes">A short video of magnitudes</string>
+    <string name="title_lista_primera_ley">A video about Newton\'s first law</string>
+    <string name="title_lista_segunda_ley">A video about Newton\'s second law</string>
+    <string name="title_lista_tercera_ley">A video about Newton\'s third law</string>
+    <string name="title_lista_books">Download some book with which you can expand your knowledge</string>
 
 
     <string name="title_home_conversiones_que_es">What is the conversion of units?</string>
     <string name="conversiones_que_son_parrafo1"><![CDATA[ <html>  <head></head>  <body style="text-align:justify;color:#000;background-color:#fff;">   The conversion of units is the transformation of a quantity, expressed in a certain unit of measurement, into another equivalent. It can be from the same system of units or not. </br></br>This process is usually done with the use of conversion factors and conversion tables. It is often enough to multiply by a fraction and the result is another equivalent measure, in which the units have changed. </body> </html> ]]></string>
-    <string name="conversiones_que_son_parrafo2"><![CDATA[ <html>  <head></head>  <body style="text-align:justify;color:#000;background-color:#fff;">   When the change of units involves the transformation of several units, several conversion factors can be used one after the other, so that the final result will be the equivalent measure of the units sought. </body> </html> ]]></string>
+    <string name="conversiones_que_son_parrafo2"><![CDATA[ <html>  <head></head>  <body style="text-align:justify;color:#000;background-color:#fff;">   When the change of units involves the transformation of several units, several conversion factors can be used one after the other. </body> </html> ]]></string>
+    <string name="conversiones_que_son_parrafo3"><![CDATA[ <html>  <head></head>  <body style="text-align:justify;color:#000;background-color:#fff;">   In this way, the final result will be the equivalent measure of the units sought. </body> </html> ]]></string>
+
+    <string name="title_home_vectores_que_es">Introduction to vectors</string>
+    <string name="vectores_que_son_parrafo1">
+        <![CDATA[ <html>
+         <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+          A vector is every line segment directed in space. Each vector has characteristics that are:
+          <ol>
+          <li>Origin or also called Point of application. It is the exact point on which the vector acts.</li>
+          <li>Module is the length or size of the vector.</li>
+          <li>Direction is given by the orientation in the space of the line that contains it.</li>
+          <li>Sense is indicated by an arrowhead located at the end of the vector, indicating to which side of the line of action the vector is directed.</li>
+          </ol>
+          </body> </html> ]]>
+    </string>
+    <string name="title_home_vectores_titulo1">Vectors in a Cartesian plane</string>
+    <string name="vectores_parrafo2">
+       " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+            The study of vectors is facilitated if we place them in a Cartesian decorating system that helps us to
+            have greater precision, so as to be able to represent them in an algebraic way as well as in a geometric way.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="vectores_parrafo3">
+       " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+            One of the characteristics is that when we have a vector that is not at the origin of our Cartesian plane, we can move it,
+             so that the origin is always (0,0) andthus facilitate our calculations, because we will only need the end point to
+             determine it.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="title_home_vectores_titulo2">Vector Operative</string>
+    <string name="vectores_parrafo4">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+          Like numbers, vectors can be operated on each other, through addition, subtraction, multiplication
+          by a scalar, division by a scalar, product point and cross product. These last two are typical of vectors.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="title_home_vectores_titulo3">Vector Operative</string>
+    <string name="vectores_parrafo5">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+          Like numbers, vectors can be operated on each other, through addition, subtraction, multiplication
+          by a scalar, division by a scalar, product point and cross product. These last two are typical of vectors.
+          </body>
+          </html> ]]> "
+    </string>
 
 </resources>

@@ -13,12 +13,12 @@ import android.webkit.WebView;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link InicioConversionesFragment.OnFragmentInteractionListener} interface
+ * {@link InicioVectoresFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link InicioConversionesFragment#newInstance} factory method to
+ * Use the {@link InicioVectoresFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class InicioConversionesFragment extends Fragment {
+public class InicioVectoresFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -30,7 +30,7 @@ public class InicioConversionesFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public InicioConversionesFragment() {
+    public InicioVectoresFragment() {
         // Required empty public constructor
     }
 
@@ -40,11 +40,11 @@ public class InicioConversionesFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment InicioConversionesFragment.
+     * @return A new instance of fragment InicioVectoresFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static InicioConversionesFragment newInstance(String param1, String param2) {
-        InicioConversionesFragment fragment = new InicioConversionesFragment();
+    public static InicioVectoresFragment newInstance(String param1, String param2) {
+        InicioVectoresFragment fragment = new InicioVectoresFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -64,18 +64,29 @@ public class InicioConversionesFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-       View view = inflater.inflate(R.layout.fragment_inicio_conversiones, container, false);
-        // se agregan los texto dentro del WebView referenciado al archivo tipo string
-        WebView webViewparrafo1 = view.findViewById(R.id.texto_home_conversiones_parrafo1);
-        WebView webViewparrafo2 = view.findViewById(R.id.texto_home_conversiones_parrafo2);
-        WebView webViewparrafo3 = view.findViewById(R.id.texto_home_conversiones_parrafo3);
-        webViewparrafo1.setVerticalScrollBarEnabled(false);
-        webViewparrafo2.setVerticalScrollBarEnabled(false);
-        webViewparrafo3.setVerticalScrollBarEnabled(false);
-        webViewparrafo1.loadData(getString(R.string.conversiones_que_son_parrafo1), "text/html; charset=utf-8", "utf-8");
-        webViewparrafo2.loadData(getString(R.string.conversiones_que_son_parrafo2), "text/html; charset=utf-8", "utf-8");
-        webViewparrafo3.loadData(getString(R.string.conversiones_que_son_parrafo3), "text/html; charset=utf-8", "utf-8");
+        //aqui se programa el contenido del fragment
+
+       View view = inflater.inflate(R.layout.fragment_inicio_vectores, container, false);
+       //p1
+        WebView webViewParrafo1 = view.findViewById(R.id.texto_home_vectores_parrafo1);
+        webViewParrafo1.setVerticalScrollBarEnabled(false);
+        webViewParrafo1.loadData(getString(R.string.vectores_que_son_parrafo1), "text/html; charset=utf-8", "utf-8");
+
+        //p2
+        WebView webViewParrafo2 = view.findViewById(R.id.texto_home_vectores_parrafo2);
+        webViewParrafo2.setVerticalScrollBarEnabled(false);
+        webViewParrafo2.loadData(getString(R.string.vectores_parrafo2), "text/html; charset=utf-8", "utf-8");
+
+        //p3
+        WebView webViewParrafo3 = view.findViewById(R.id.texto_home_vectores_parrafo3);
+        webViewParrafo3.setVerticalScrollBarEnabled(false);
+        webViewParrafo3.loadData(getString(R.string.vectores_parrafo3), "text/html; charset=utf-8", "utf-8");
+
+        //p4
+        WebView webViewParrafo4 = view.findViewById(R.id.texto_home_vectores_parrafo4);
+        webViewParrafo4.setVerticalScrollBarEnabled(false);
+        webViewParrafo4.loadData(getString(R.string.vectores_parrafo4), "text/html; charset=utf-8", "utf-8");
+
         return view;
     }
 
@@ -85,12 +96,6 @@ public class InicioConversionesFragment extends Fragment {
             mListener.onFragmentInteraction(uri);
         }
     }
-    @Override
-    public void onDetach() {
-        super.onDetach();
-        mListener = null;
-    }
-
     /**
      * This interface must be implemented by activities that contain this
      * fragment to allow an interaction in this fragment to be communicated

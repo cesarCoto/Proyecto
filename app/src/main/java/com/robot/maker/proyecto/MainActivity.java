@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.navigation_dashboard:
                     transaction.replace(R.id.contenido, new ExamFragment()).commit();
                     return true;
+                case R.id.navigation_more:
+                    transaction.replace(R.id.contenido, new VideosFragment()).commit();
+                    return true;
             }
             return false;
         }

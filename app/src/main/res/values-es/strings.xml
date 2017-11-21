@@ -269,14 +269,99 @@
     <string name="respuesta4_pregunta10_examteorico_newton">The force applied on a body of mass 1 g produces an acceleration of 1 mm/s2</string>
 
     <string name="calificar_title">Calificar</string>
-    <string name="title_activity_vector">VectorActivity</string>
-
+    <string name="title_lista_conversiones">Un vídeo tutorial de como hacer conversión de unidades.</string>
+    <string name="title_lista_vectores">Un vídeo tutorial de como sumar vectores</string>
+    <string name="title_lista_magnitudes">Un vídeo corto de magnitudes</string>
+    <string name="title_lista_primera_ley">Un vídeo acerca de la primera ley de newton</string>
+    <string name="title_lista_segunda_ley">Un vídeo acerca de la segunda ley de newton</string>
+    <string name="title_lista_tercera_ley">Un vídeo acerca de la tercera ley de newton</string>
+    <string name="title_lista_books">Descargar algún libro con los cuales puedes ampliar tu conocimiento</string>
 
 
     <string name="title_home_conversiones_que_es">¿Que es la conversión de unidades?</string>
-    <string name="conversiones_que_son_parrafo1">" <![CDATA[ <html>  <head></head>  <body style="text-align:justify;color:#000;background-color:#fff;">   La conversión de unidades es la transformación de una cantidad, expresada en una cierta unidad de medida, en otra equivalente. Puede ser del mismo sistema de unidades o no. </br></br>Este proceso suele realizarse con el uso de factores de conversión y las tablas de conversión. Frecuentemente basta multiplicar por una fracción y el resultado es otra medida equivalente, en la que han cambiado las unidades.
-     </body> </html> ]]> "</string>
-    <string name="conversiones_que_son_parrafo2">" <![CDATA[ <html>  <head></head>  <body style="text-align:justify;color:#000;background-color:#fff;"> Cuando el cambio de unidades implica la transformación de varias unidades se pueden utilizar varios factores de conversión uno tras de otro, de forma que el resultado final será la medida equivale de las unidades buscadas.</body> </html> ]]> "</string>
+    <string name="conversiones_que_son_parrafo1">
+        " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+           La conversión de unidades es la transformación de una cantidad, expresada en una cierta unidad de medida,
+            en otra equivalente. Puede ser del mismo sistema de unidades o no. </br></br>Este proceso suele realizarse con
+             el uso de factores de conversión y las tablas de conversión. Frecuentemente basta multiplicar por una fracción y
+             el resultado es otra medida equivalente, en la que han cambiado las unidades.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="conversiones_que_son_parrafo2">
+        " <![CDATA[ <html>
+         <head></head>
+         <body style="text-align:justify;color:#000;background-color:#fff;">
+           Cuando el cambio de unidades implica la transformación de varias unidades se pueden utilizar varios
+           factores de conversión uno tras de otro.
+           </body>
+           </html> ]]> "
+    </string>
+    <string name="conversiones_que_son_parrafo3">
+        " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+            De esta forma el resultado final será la medida equivale de las unidades buscadas.
+          </body>
+          </html> ]]> "
+    </string>
 
+
+    <string name="title_home_vectores_que_es">Introduccion a vectores</string>
+    <string name="vectores_que_son_parrafo1">
+        <![CDATA[ <html>
+         <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+          Un vector es todo segmento de recta dirigido en el espacio. Cada vector posee unas características que son:
+          <ol>
+          <li>Origen o también denominado Punto de aplicación. Es el punto exacto sobre el que actúa el vector.</li>
+          <li>Módulo es la longitud o tamaño del vector. </li>
+          <li>Dirección viene dada por la orientación en el espacio de la recta que lo contiene.</li>
+          <li>Sentido se indica mediante una punta de flecha situada en el extremo del vector, indicando hacia qué lado de la línea de acción se dirige el vector.</li>
+          </ol>
+          </body> </html> ]]>
+    </string>
+    <string name="title_home_vectores_titulo1">Vectores en un plano cartesiano</string>
+    <string name="vectores_parrafo2">
+       " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+            El estudio de los vectores se facilita si los ubicamos en un sistema decoordenadas cartesianas que nos
+            ayude a tener mayor precisión, de manera de poder representarlos de una forma algebraica como de una manera geométrica.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="vectores_parrafo3">
+       " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+            Una de las características es que cuando tenemos un vector que no está en el origen de nuestro plano cartesiano,
+            lo podemos trasladar, de manera que siempre el origen sea el (0,0) y así facilitar
+            nuestros cálculos, pues sólo necesitaremos el punto final para determinarlo.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="title_home_vectores_titulo2">Operatoria Vectorial</string>
+    <string name="vectores_parrafo4">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+            Al igual que los números, los vectores pueden operarse entre si, a través  de la suma, la resta, la multiplicación por un
+            escalar, la división por un escalar, producto punto y producto cruz. Estos dos últimos son propios de los vectores.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="title_home_vectores_titulo3">Suma de vectores</string>
+    <string name="vectores_parrafo5">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+          Like numbers, vectors can be operated on each other, through addition, subtraction, multiplication
+          by a scalar, division by a scalar, product point and cross product. These last two are typical of vectors.
+          </body>
+          </html> ]]> "
+    </string>
 
 </resources>
