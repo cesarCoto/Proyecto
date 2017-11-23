@@ -25,14 +25,11 @@ public class MagnitudesActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.replace(R.id.contenido_magnitudes, new InicioMagnitudesFragment()).commit();
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -62,17 +59,13 @@ public class MagnitudesActivity extends AppCompatActivity
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction transaction = fragmentManager.beginTransaction();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+        if (id == R.id.nav_home_magnitudes) {
+            transaction.replace(R.id.contenido_magnitudes, new InicioMagnitudesFragment()).commit();
+        } else if (id == R.id.nav_exampes_magnitudes) {
+            transaction.replace(R.id.contenido_magnitudes, new ExamplesMagnitudesFragment()).commit();
+        } else if (id == R.id.nav_ejercicios_magnitudes) {
+            transaction.replace(R.id.contenido_magnitudes, new EjerciciosMagnitudesFragment()).commit();
+        } else if (id == R.id.nav_feedback_mag) {
 
         }
 

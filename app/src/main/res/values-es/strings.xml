@@ -423,4 +423,67 @@
           </body>
           </html> ]]> "
     </string>
+
+    <string name="title_magnitudes">Magnitudes Escalares</string>
+    <string name="magnitudes_parrafo1">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+            Son magnitudes físicas fáciles de reconocer, ya que para identificarlas sólo necesitamos saber su magnitud,
+            en algunos casos es necesario acompañarlos de la unidad de medida como los que se mencionan a continuación.
+            </br>
+            <b>Ejemplos</b>: rapidez, masa, tiempo, distancia, área, perímetro, densidad, volumen, temperatura, etc.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="titledos_magnitudes">Magnitudes Vectoriales</string>
+    <string name="titletres_magnitudes">Tipos de magnitudes</string>
+    <string name="magnitudes_parrafo2">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+           Es aquella que, además de un valor numérico y sus unidades (módulo) debemos especificar su dirección y sentido.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="magnitudes_parrafo3">
+    " <![CDATA[ <html>
+          <head></head>
+         <body style="text-align:justify;color:#000;background-color:#fff;">
+         <h2>Magnitudes fundamentales</h2></br>
+          Las unidades fundamentales se definen independientemente y, a menudo, las cantidades son directamente medibles en un sistema físico.
+          No dependen de ninguna otra magnitud física.
+
+         </br></br>
+         Hay un total de siete magnitudes fundamentales:
+
+         </br></br><b>Masa:</b></br> kilogramo (kg) Está definida por la masa de un prototipo de cilindro de platino-iridio mantenido en la Oficina Internacional de Pesas y Medidas en París, Francia.</br></br>
+         <b>Longitud:</b></br> metro (m) Se define como la longitud del camino recorrido por la luz en un intervalo de exactamente 1/299792458 segundos.</br></br>
+         <b>Tiempo:</b> </br>segundo (s) Según el Sistema Internacional de Unidades, es el tiempo de 192.631.770 períodos de oscilaciones de la luz emitida por un cesio -133 átomos corresponde a la transición entre dos niveles hiperfinos del estado fundamental.</br></br>
+         <b>Corriente eléctrica:</b></br> amperio (A) Mide la intensidad de corriente eléctrica. Se define por la corriente constante que si se fluye en dos conductores rectos paralelos de longitud infinita y despreciable sección circula, cuando está a 1 metro de distancia en el vacío, produce una fuerza igual a 2 × 10-7 Newton por metro de longitud entre estos conductores.</br></br>
+         <b>Temperatura:</b></br> kelvin (K) Según el Sistema Internacional de Unidades, el kelvin es exactamente 1/273,16 de la temperatura termodinámica del punto triple del agua.</br></br>
+         <b>Intensidad luminosa:</b> </br>candela (cd) Mide la intensidad de luz de una fuente que emite una radiación de una frecuencia constante de 540 × 1012 Hz con una intensidad radiante de 1/683 vatios por esteremano en cualquier dirección dada.</br></br>
+         <b>mol</b></br> (mol) El mol es la cantidad de sustancia que contiene tantas entidades como átomos en 0,012 kg de carbono-12.</br></br>
+
+         </body>
+          </html> ]]> "
+    </string>
+    <string name="magnitudes_parrafo4">
+    " <![CDATA[ <html>
+          <head></head>
+         <body style="text-align:justify;color:#000;background-color:#fff;">
+         <h2>Magnitudes derivadas</h2></br>
+            Las magnitudes derivadas están formadas por el producto de las potencias de las unidades fundamentales, estas unidades no se definen de forma independiente, ya que dependen de la definición de otras unidades. Excepto las 7 magnitudes fundamentales nombradas anteriormente, todas las demás magnitudes son derivadas. Algunos ejemplos de magnitudes derivadas son:
+         </br></br>
+         <b>Unidad de trabajo: joule o julio (J)</b> Es el trabajo realizado cuando el punto de aplicación de la fuerza de un newton (1 N) se desplaza a una distancia de un metro (1 m) en la dirección de la fuerza.</br></br>
+
+         <b> Fuerza: newton (N)</b>Es esa fuerza que, cuando se aplica a un cuerpo con una masa de un kilogramo (1 kg), le da una aceleración de un metro por segundo al cuadrado (1 m x s2).</br></br>
+
+         <b>Presión: pascal (Pa)</b>Es la presión que resulta cuando una fuerza de un newton (1 N), se aplica uniformemente y perpendicularmente a una superficie de un metro cuadrado (1 m2).</br></br>
+
+         <b>Potencial eléctrico: voltio (V)</b> Es la diferencia de potencial entre dos puntos de un cable de conducción que lleva una corriente constante de un amperio (1 A), cuando la potencia disipada entre estos puntos es de un vatio (1 W).</br></br>
+
+         </body>
+          </html> ]]> "
+    </string>
 </resources>

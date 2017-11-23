@@ -127,8 +127,15 @@
         <activity
             android:name=".MagnitudesActivity"
             android:label="@string/magnitudes_title"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".PrimeraLeyActivity"
+            android:label="@string/ley_inercia_title"
+            android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
     </application>

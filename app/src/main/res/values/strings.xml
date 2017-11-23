@@ -397,4 +397,68 @@
           </body>
           </html> ]]> "
     </string>
+
+    <string name="title_magnitudes">Scalar magnitudes</string>
+    <string name="magnitudes_parrafo1">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+            They are easy to recognize physical magnitudes, since to identify them we only need to know their magnitude,
+            in some cases it is necessary to accompany them in the unit of measurement like the ones mentioned below.
+            </br>
+            <b>Examples</b>: speed, mass, time, distance, area, perimeter, density, volume, temperature, etc.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="titledos_magnitudes">Vector magnitudes</string>
+    <string name="titletres_magnitudes">Types of magnitudes</string>
+    <string name="magnitudes_parrafo2">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+          Is one that, in addition to a numerical value and its units (module) we must specify its direction and meaning.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="magnitudes_parrafo3">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+           <h2>Fundamental magnitudes</h2></br>
+           The fundamental units are defined independently and, often, the quantities are directly measurable in a physical system.
+           They do not depend on any other physical magnitude.
+           </br></br>
+           There are a total of seven fundamental magnitudes:
+
+           </br></br><b>Mass:</b></br> kilogram (kg) It is defined by the mass of a platinum-iridium cylinder prototype maintained at the International Bureau of Weights and Measures in Paris, France.</br></br>
+           <b>Length:</b></br> meter (m) It is defined as the length of the path traveled by light in a range of exactly 1/299792458 seconds.</br></br>
+           <b>Time:</b></br> second (s) According to the International System of Units, it is the time of 192,631,770 periods of oscillations of the light emitted by a cesium -133 atoms corresponds to the transition between two hyperfine levels of the ground state.</br></br>
+           <b>Electric current:</b> </br>ampere (A) Measure the intensity of electric current. It is defined by the constant current that if it flows in two parallel straight conductors of infinite length and negligible section circulates, when it is 1 meter away in the vacuum, it produces a force equal to 2 × 10-7 Newton per meter of length between these drivers.</br></br>
+           <b>Temperature:</b> </br>kelvin (K) According to the International System of Units, the kelvin is exactly 1 / 273.16 of the thermodynamic temperature of the triple point of water.</br></br>
+           <b>Luminous intensity:</b> </br>candela (cd) It measures the light intensity of a source that emits a radiation of a constant frequency of 540 × 1012 Hz with a radiant intensity of 1/683 watts per stereo in any given direction.</br></br>
+           <b>mol</b></br> (mol) The mole is the amount of substance that contains as many entities as atoms in 0.012 kg of carbon-12.</br></br>
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="magnitudes_parrafo4">
+    " <![CDATA[ <html>
+          <head></head>
+         <body style="text-align:justify;color:#000;background-color:#fff;">
+         <h2> Derived quantities </h2> </br>
+             The derived quantities are formed by the product of the powers of the fundamental units, these units are not defined independently, since they depend on the definition of other units. Except for the 7 fundamental magnitudes named above, all other magnitudes are derived. Some examples of derived quantities are:
+
+         </br></br>
+
+            <b> Unit of work: joule or July (J) </b> It is the work done when the point of application of the force of a newton (1 N) moves at a distance of one meter (1 m) in the direction of force. </br> </br>
+
+            <b> Strength: newton (N) </b> It is that force that, when applied to a body with a mass of one kilogram (1 kg), gives an acceleration of one meter per second squared (1 mx s2 ). </br> </br>
+
+            <b> Pressure: pascal (Pa) </b> It is the pressure that results when a force of a newton (1 N) is applied uniformly and perpendicularly to a surface of one square meter (1 m2). </br> </br>
+
+            <b> Electrical potential: volt (V) </b> It is the potential difference between two points of a conduction cable that carries a constant current of one ampere (1 A), when the power dissipated between these points is one Watt (1 W). </br> </br>
+
+         </body>
+          </html> ]]> "
+    </string>
+    <string name="title_activity_primera_ley">PrimeraLeyActivity</string>
 </resources>

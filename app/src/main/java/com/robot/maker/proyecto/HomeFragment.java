@@ -105,6 +105,18 @@ public class HomeFragment extends Fragment {
         imageButtonMagnitudes.setOnClickListener(onClickListenerMagnitudes);
         textViewMagnitudes.setOnClickListener(onClickListenerMagnitudes);
 
+        ImageButton imageButtonLeyUno = view.findViewById(R.id.imageButton_Primera_Ley_New);
+        TextView textViewLeyUno = view.findViewById(R.id.textView_Primera_Ley_New);
+        View.OnClickListener onClickListenerLeyUno = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLeyUno = new Intent(getActivity(), PrimeraLeyActivity.class);
+                startActivity(intentLeyUno);
+            }
+        };
+        imageButtonLeyUno.setOnClickListener(onClickListenerLeyUno);
+        textViewLeyUno.setOnClickListener(onClickListenerLeyUno);
+
 
         return view;
     }

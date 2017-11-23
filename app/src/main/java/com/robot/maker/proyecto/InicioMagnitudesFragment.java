@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
 
 
 /**
@@ -63,8 +64,29 @@ public class InicioMagnitudesFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_inicio_magnitudes, container, false);
+
+        View view = inflater.inflate(R.layout.fragment_inicio_magnitudes, container, false);
+        //parrafo1
+        WebView webViewparrafo1 = view.findViewById(R.id.texto_home_magnitudes_parrafo1);
+        webViewparrafo1.setVerticalScrollBarEnabled(false);
+        webViewparrafo1.loadData(getString(R.string.magnitudes_parrafo1),"text/html; charset=utf-8 ","utf-8");
+
+        //parrafo2
+        WebView webViewparrafo2 = view.findViewById(R.id.texto_home_magnitudes_parrafo2);
+        webViewparrafo2.setVerticalScrollBarEnabled(false);
+        webViewparrafo2.loadData(getString(R.string.magnitudes_parrafo2),"text/html; charset=utf-8 ","utf-8");
+
+        //parrafo3
+        WebView webViewparrafo3 = view.findViewById(R.id.texto_home_magnitudes_parrafo3);
+        webViewparrafo3.setVerticalScrollBarEnabled(false);
+        webViewparrafo3.loadData(getString(R.string.magnitudes_parrafo3),"text/html; charset=utf-8 ","utf-8");
+
+        //parrafo4
+        WebView webViewparrafo4 = view.findViewById(R.id.texto_home_magnitudes_parrafo4);
+        webViewparrafo4.setVerticalScrollBarEnabled(false);
+        webViewparrafo4.loadData(getString(R.string.magnitudes_parrafo4),"text/html; charset=utf-8 ","utf-8");
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -73,7 +95,6 @@ public class InicioMagnitudesFragment extends Fragment {
             mListener.onFragmentInteraction(uri);
         }
     }
-
     @Override
     public void onDetach() {
         super.onDetach();
