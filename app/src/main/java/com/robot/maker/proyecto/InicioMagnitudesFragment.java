@@ -1,27 +1,23 @@
 package com.robot.maker.proyecto;
 
 import android.content.Context;
-import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link HomeFragment.OnFragmentInteractionListener} interface
+ * {@link InicioMagnitudesFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link HomeFragment#newInstance} factory method to
+ * Use the {@link InicioMagnitudesFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class HomeFragment extends Fragment {
+public class InicioMagnitudesFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -33,7 +29,7 @@ public class HomeFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public HomeFragment() {
+    public InicioMagnitudesFragment() {
         // Required empty public constructor
     }
 
@@ -43,11 +39,11 @@ public class HomeFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment HomeFragment.
+     * @return A new instance of fragment InicioMagnitudesFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static HomeFragment newInstance(String param1, String param2) {
-        HomeFragment fragment = new HomeFragment();
+    public static InicioMagnitudesFragment newInstance(String param1, String param2) {
+        InicioMagnitudesFragment fragment = new InicioMagnitudesFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -63,50 +59,12 @@ public class HomeFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-    /*Creado por CESAR COTO, JOSE COUTIÑO*/
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
-        View view = inflater.inflate(R.layout.fragment_home, container, false);
-        //conversiones
-        ImageButton imageButtonConversiones = view.findViewById(R.id.imageButton_Conversiones);
-        TextView textViewConversiones = view.findViewById(R.id.textView_Conversiones);
-        View.OnClickListener onClickListenerConversiones = new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent_conversiones = new Intent(getActivity(),ConversionsActivity.class);
-                startActivity(intent_conversiones);
-            }
-        };
-        imageButtonConversiones.setOnClickListener(onClickListenerConversiones);
-        textViewConversiones.setOnClickListener(onClickListenerConversiones);
-        //vectors
-        ImageButton imageButtonVectores = view.findViewById(R.id.imageButton_Vectores);
-        TextView textViewVectores = view.findViewById(R.id.textView_Vectores);
-        View.OnClickListener onClickListenerVectores = new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intenVectores = new Intent(getActivity(),VectorActivity.class);
-                startActivity(intenVectores);
-            }
-        };
-        imageButtonVectores.setOnClickListener(onClickListenerVectores);
-        textViewVectores.setOnClickListener(onClickListenerVectores);
-        ImageButton imageButtonMagnitudes = view.findViewById(R.id.imageButton_Magnitudes);
-        TextView textViewMagnitudes = view.findViewById(R.id.textView_Magnitudes);
-        View.OnClickListener onClickListenerMagnitudes = new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intentMagnitudes = new Intent(getActivity(), MagnitudesActivity.class);
-                startActivity(intentMagnitudes);
-            }
-        };
-        imageButtonMagnitudes.setOnClickListener(onClickListenerMagnitudes);
-        textViewMagnitudes.setOnClickListener(onClickListenerMagnitudes);
-
-
-        return view;
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_inicio_magnitudes, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event

@@ -276,6 +276,7 @@
     <string name="title_lista_segunda_ley">A video about Newton\'s second law</string>
     <string name="title_lista_tercera_ley">A video about Newton\'s third law</string>
     <string name="title_lista_books">Download some book with which you can expand your knowledge</string>
+    <string name="suma_vectores">Sum of vectores</string>
 
 
     <string name="title_home_conversiones_que_es">What is the conversion of units?</string>
@@ -327,15 +328,73 @@
           </body>
           </html> ]]> "
     </string>
-    <string name="title_home_vectores_titulo3">Vector Operative</string>
+    <string name="title_home_vectores_titulo3">Sum geometric way</string>
     <string name="vectores_parrafo5">
     " <![CDATA[ <html>
           <head></head>
           <body style="text-align:justify;color:#000;background-color:#fff;">
-          Like numbers, vectors can be operated on each other, through addition, subtraction, multiplication
-          by a scalar, division by a scalar, product point and cross product. These last two are typical of vectors.
+          When adding two vectors, another vector is obtained (sum or resultant vector). To
+          obtain the sum vector it is necessary to resort to what is known as the "parallelogram
+          rule". That is, a parallelogram is constructed that has the
+          vectors as sides and the diagonal is drawn to obtain the vector sum.
           </body>
           </html> ]]> "
     </string>
-
+    <string name="vectores_parrafo6">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+          If we want to add <b>A + B</b>, one is drawn after the other, moving it. The resulting vector is the one that goes from the initial point of the first vector to the end of the last one. It should be noted that the sum is commutative, that is:</br>
+          <b>A + B = B + A</b>
+          </br></br>
+          When you want to add more than one vector, you proceed in the same way as before, but now they are placed one after the other until the last one. Then the
+          line that joins the beginning of the first vector with the term of the last one is the resulting vector.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="title_suma_vectores">Rectangular components</string>
+    <string name="vectores_parrafo7">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+          It is based on writing a vector as the sum of two others which are orthogonal (perpendicular to each other),
+          for this it is based on the Cartesian plane, the vectors that are added are in one of the axes.
+           The rectangular components are so called because it is based on the construction of a rectangle.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="vectores_parrafo8">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+           In the image you can see that the vector <b>A</b> is not more than the sum of one vector on the <b>"X"</b> axis and another one on the <b>"Y"</b> axis.
+           Each of these vectors is known as the component, so the vector <b>Ax</b> is the component <b>"X"</b> of the vector <b>A</b>.
+           </br></br>
+           In order to write these vectors correctly, we must introduce the unit vectors, which are detailed below.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="title_suma_vecotres_dos">Addition and subtraction algebraically</string>
+    <string name="vectores_parrafo9">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+            Let two vectors <b>A</b> and <b> B </b> be added, then we proceed in the graphical way that we know,
+            which gives us as a result the vector <b>R</b>.
+            </br></br>
+            Now what we will do is write both the vector A and the B according to its components, then we realize that
+            the sum of the components <b> "X" </b> of vector A and B, is the component <b> " X "</b> of the vector <b> R </b>
+            and thus also with the axis <b>" Y "</b>.
+           </body>
+          </html> ]]> "
+    </string>
+    <string name="vectores_parrafo10">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+          Therefore, to add vectors in an algebraic way, write each vector according to its components and then add the components <b> "X" </ b> and <b> "Y" </b> of the vectors,
+          the result will be the resulting vector according to its components, with which the module of the vector <b> R </b> can be extracted.
+          </body>
+          </html> ]]> "
+    </string>
 </resources>

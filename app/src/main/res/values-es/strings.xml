@@ -276,7 +276,7 @@
     <string name="title_lista_segunda_ley">Un vídeo acerca de la segunda ley de newton</string>
     <string name="title_lista_tercera_ley">Un vídeo acerca de la tercera ley de newton</string>
     <string name="title_lista_books">Descargar algún libro con los cuales puedes ampliar tu conocimiento</string>
-
+    <string name="suma_vectores">Suma de vectores</string>
 
     <string name="title_home_conversiones_que_es">¿Que es la conversión de unidades?</string>
     <string name="conversiones_que_son_parrafo1">
@@ -353,15 +353,74 @@
           </body>
           </html> ]]> "
     </string>
-    <string name="title_home_vectores_titulo3">Suma de vectores</string>
+    <string name="title_home_vectores_titulo3">Suma manera geométrica</string>
     <string name="vectores_parrafo5">
     " <![CDATA[ <html>
           <head></head>
           <body style="text-align:justify;color:#000;background-color:#fff;">
-          Like numbers, vectors can be operated on each other, through addition, subtraction, multiplication
-          by a scalar, division by a scalar, product point and cross product. These last two are typical of vectors.
+          Al sumar dos vectores se obtiene otro vector (vector suma o resultante). Para obtener
+          el vector suma es necesario recurrir a lo que se conoce como “regla del paralelogramo”. Esto es, se construye un paralelogramo
+          que tenga los vectores como lados y se traza la diagonal del mismo para obtener el vector suma.
           </body>
           </html> ]]> "
     </string>
-
+    <string name="vectores_parrafo6">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+           Si queremos sumar <b>A + B</b> , se dibuja uno a continuación del otro, trasladándolo.
+           El vector resultante es el que va desde el punto inicial del primero vector hasta el final del último.
+           Cabe destacar que la suma es conmutativa es decir:</br>
+           <b>A + B = B + A</b>
+           </br></br>
+           Cuando se quiere sumar más de un vector, se procede de la misma forma anterior, pero ahora se colocan uno a continuación del otro hasta el último.
+           Luego la recta que une el inicio del primer vector con el término del último es el vector resultante.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="title_suma_vectores">Componentes rectangulares</string>
+    <string name="vectores_parrafo7">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+          Se basa en escribir un vector como suma de otros dos los cuales son ortogonales (perpendiculares entre si),
+          para ello se apoya en el plano cartesiano, los vectores que se suman estén en alguno de los ejes.
+          Las componentes rectangulares se llaman así porque se fundamenta en la construcción de un rectángulo.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="vectores_parrafo8">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+           En la imagen se puede ver que el vector <b>A</b>, no es más que la suma de un vector en el eje <b>"X"</b> y otro en el eje <b>"Y"</b>.
+           Cada uno de estos vectores se le conoce con el nombre de componente, así el vector <b>Ax</b> es la componente <b>"X"</b> del vector <b>A</b>.
+           </br>
+           Para poder escribir correctamente estos vectores debemos introducir los vectores unitarios, los cuales se detallan a continuación.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="title_suma_vecotres_dos">Suma y resta de manera algebraica</string>
+    <string name="vectores_parrafo9">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+           Sean dos vectores <b>A</b> y <b>B</b> que se quieren sumar, entonces procedemos de la manera gráfica que sabemos,
+           lo que nos da como resultado el vector <b>R</b>.
+           </br>
+           Ahora lo que haremos es escribir tanto el vector A como el B según sus componentes, entonces nos damos cuenta que la suma de la componentes <b>"X"</b> del vector A y B, es
+           la componente <b>"X"</b> del vector <b>R</b> y así también con el eje <b>"Y"</b>.
+          </body>
+          </html> ]]> "
+    </string>
+    <string name="vectores_parrafo10">
+    " <![CDATA[ <html>
+          <head></head>
+          <body style="text-align:justify;color:#000;background-color:#fff;">
+          Por lo tanto para sumar vectores de manera algebraica se debe escribir cada vector según sus componentes
+          y luego sumar las componentes <b>"X"</b> e <b>"Y"</b> de los vectores, el resultado será el
+          vector resultante según sus componentes, con las cuales se puede sacar el módulo del vector <b>R</b>.
+          </body>
+          </html> ]]> "
+    </string>
 </resources>

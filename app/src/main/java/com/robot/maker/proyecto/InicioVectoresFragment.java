@@ -87,6 +87,8 @@ public class InicioVectoresFragment extends Fragment {
         webViewParrafo4.setVerticalScrollBarEnabled(false);
         webViewParrafo4.loadData(getString(R.string.vectores_parrafo4), "text/html; charset=utf-8", "utf-8");
 
+
+
         return view;
     }
 

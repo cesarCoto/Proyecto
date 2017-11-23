@@ -1,27 +1,24 @@
 package com.robot.maker.proyecto;
 
 import android.content.Context;
-import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.TextView;
+import android.webkit.WebView;
 
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link HomeFragment.OnFragmentInteractionListener} interface
+ * {@link SumaVectoresFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link HomeFragment#newInstance} factory method to
+ * Use the {@link SumaVectoresFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class HomeFragment extends Fragment {
+public class SumaVectoresFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -33,7 +30,7 @@ public class HomeFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public HomeFragment() {
+    public SumaVectoresFragment() {
         // Required empty public constructor
     }
 
@@ -43,11 +40,11 @@ public class HomeFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment HomeFragment.
+     * @return A new instance of fragment SumaVectoresFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static HomeFragment newInstance(String param1, String param2) {
-        HomeFragment fragment = new HomeFragment();
+    public static SumaVectoresFragment newInstance(String param1, String param2) {
+        SumaVectoresFragment fragment = new SumaVectoresFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -63,48 +60,43 @@ public class HomeFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-    /*Creado por CESAR COTO, JOSE COUTIÑO*/
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_home, container, false);
-        //conversiones
-        ImageButton imageButtonConversiones = view.findViewById(R.id.imageButton_Conversiones);
-        TextView textViewConversiones = view.findViewById(R.id.textView_Conversiones);
-        View.OnClickListener onClickListenerConversiones = new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent_conversiones = new Intent(getActivity(),ConversionsActivity.class);
-                startActivity(intent_conversiones);
-            }
-        };
-        imageButtonConversiones.setOnClickListener(onClickListenerConversiones);
-        textViewConversiones.setOnClickListener(onClickListenerConversiones);
-        //vectors
-        ImageButton imageButtonVectores = view.findViewById(R.id.imageButton_Vectores);
-        TextView textViewVectores = view.findViewById(R.id.textView_Vectores);
-        View.OnClickListener onClickListenerVectores = new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intenVectores = new Intent(getActivity(),VectorActivity.class);
-                startActivity(intenVectores);
-            }
-        };
-        imageButtonVectores.setOnClickListener(onClickListenerVectores);
-        textViewVectores.setOnClickListener(onClickListenerVectores);
-        ImageButton imageButtonMagnitudes = view.findViewById(R.id.imageButton_Magnitudes);
-        TextView textViewMagnitudes = view.findViewById(R.id.textView_Magnitudes);
-        View.OnClickListener onClickListenerMagnitudes = new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intentMagnitudes = new Intent(getActivity(), MagnitudesActivity.class);
-                startActivity(intentMagnitudes);
-            }
-        };
-        imageButtonMagnitudes.setOnClickListener(onClickListenerMagnitudes);
-        textViewMagnitudes.setOnClickListener(onClickListenerMagnitudes);
+        //aqui se programa el contenido del fragment
+        View view = inflater.inflate(R.layout.fragment_suma_vectores, container, false);
 
+        //p1
+        WebView webViewParrafo1 = view.findViewById(R.id.texto_suma_vectores_parrafo1);
+        webViewParrafo1.setVerticalScrollBarEnabled(false);
+        webViewParrafo1.loadData(getString(R.string.vectores_parrafo5), "text/html; charset=utf-8", "utf-8");
+
+        //p2
+        WebView webViewParrafo2 = view.findViewById(R.id.texto_suma_vectores_parrafo2);
+        webViewParrafo2.setVerticalScrollBarEnabled(false);
+        webViewParrafo2.loadData(getString(R.string.vectores_parrafo6), "text/html; charset=utf-8", "utf-8");
+
+        //p3
+        WebView webViewParrafo3 = view.findViewById(R.id.texto_suma_vectores_parrafo3);
+        webViewParrafo3.setVerticalScrollBarEnabled(false);
+        webViewParrafo3.loadData(getString(R.string.vectores_parrafo7), "text/html; charset=utf-8", "utf-8");
+
+        //p4
+        WebView webViewParrafo4 = view.findViewById(R.id.texto_suma_vectores_parrafo4);
+        webViewParrafo4.setVerticalScrollBarEnabled(false);
+        webViewParrafo4.loadData(getString(R.string.vectores_parrafo8), "text/html; charset=utf-8", "utf-8");
+
+        //p5
+        WebView webViewParrafo5 = view.findViewById(R.id.texto_suma_vectores_parrafo5);
+        webViewParrafo5.setVerticalScrollBarEnabled(false);
+        webViewParrafo5.loadData(getString(R.string.vectores_parrafo9), "text/html; charset=utf-8", "utf-8");
+
+        //p5
+        WebView webViewParrafo6 = view.findViewById(R.id.texto_suma_vectores_parrafo6);
+        webViewParrafo6.setVerticalScrollBarEnabled(false);
+        webViewParrafo6.loadData(getString(R.string.vectores_parrafo10), "text/html; charset=utf-8", "utf-8");
 
         return view;
     }
@@ -115,7 +107,6 @@ public class HomeFragment extends Fragment {
             mListener.onFragmentInteraction(uri);
         }
     }
-
     @Override
     public void onDetach() {
         super.onDetach();

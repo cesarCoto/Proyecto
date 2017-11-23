@@ -96,38 +96,6 @@
                     android:layout_height="wrap_content">
 
                 </WebView>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/title_home_vectores_titulo2"
-                    android:layout_marginTop="@dimen/dimen_8dp"
-                    android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
-
-                <WebView
-                    android:layout_marginTop="@dimen/dimen_8dp"
-                    android:id="@+id/texto_home_vectores_parrafo5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </WebView>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/title_home_vectores_titulo2"
-                    android:layout_marginTop="@dimen/dimen_8dp"
-                    android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
-
-                <WebView
-                    android:layout_marginTop="@dimen/dimen_8dp"
-                    android:id="@+id/texto_home_vectores_parrafo6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </WebView>
             </LinearLayout>
 
         </android.support.v7.widget.CardView>

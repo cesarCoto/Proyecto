@@ -26,102 +26,109 @@
         <activity
             android:name=".AboutActivity"
             android:label="@string/action_about"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:screenOrientation="portrait"
             android:name=".ConversionsActivity"
             android:label="@string/conversions_title"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:screenOrientation="portrait"
             android:name=".ExamTeoricVectorsActivity"
             android:label="@string/theoric_exam_title"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:screenOrientation="portrait"
             android:name=".ExamPracticoVectorsActivity"
             android:label="@string/practical_test_title"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:screenOrientation="portrait"
             android:name=".ExamPracticoMagnitudesActivity"
             android:label="@string/practical_test_title"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:screenOrientation="portrait"
             android:name=".ExamPracticoNewtonActivity"
             android:label="@string/practical_test_title"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:screenOrientation="portrait"
             android:name=".ExamTeoricoMagnitudesActivity"
             android:label="@string/theoric_exam_title"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:screenOrientation="portrait"
             android:name=".ExamTeoricoNewtonActivity"
             android:label="@string/theoric_exam_title"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:screenOrientation="portrait"
             android:name=".ExamTeoricoConversionesActivity"
             android:label="@string/theoric_exam_title"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:screenOrientation="portrait"
             android:name=".ExamPracticoConversionesActivity"
             android:label="@string/practical_test_title"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:screenOrientation="portrait"
             android:name=".VideosContainerActivity"
-            android:parentActivityName=".ConversionsActivity">
+            android:parentActivityName=".ConversionsActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ConversionsActivity" />
         </activity>
         <activity
-            android:screenOrientation="portrait"
             android:name=".VectorActivity"
             android:label="@string/vectors_title"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".MagnitudesActivity"
+            android:label="@string/magnitudes_title"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
 
         </activity>
     </application>
