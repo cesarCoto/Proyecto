@@ -93,15 +93,6 @@
         </activity>
         <activity
             android:name=".ExamTeoricoConversionesActivity"
-            android:label="@string/theoric_exam_title"
-            android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-        <activity
-            android:name=".ExamPracticoConversionesActivity"
             android:label="@string/practical_test_title"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait">

@@ -48,13 +48,13 @@
                     android:id="@+id/button_conversiones_exam_teorico"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/theoric_exam_title" />
+                    android:text="@string/practical_test_title" />
 
-                <Button
+                <!--<Button
                     android:id="@+id/button_conversiones_exam_practico"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/practical_test_title" />
+                    android:text="@string/practical_test_title" />-->
             </LinearLayout>
         </LinearLayout>
 

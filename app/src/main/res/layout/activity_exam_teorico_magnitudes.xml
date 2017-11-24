@@ -137,7 +137,7 @@
                 android:text="@string/true_text" />
 
             <RadioButton
-                android:id="@+id/radioButton_respuesta2_pregunta4_exam_teorico_vectores"
+                android:id="@+id/radioButton_respuesta2_pregunta4_exam_teorico_magnitudes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

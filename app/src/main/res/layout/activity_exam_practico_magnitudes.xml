@@ -1,47 +1,330 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.robot.maker.proyecto.ExamPracticoMagnitudesActivity">
 
-    <android.support.v4.widget.NestedScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_8dp">
 
-            <TextView
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_magnitudes_instruccion"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+
+        <TextView
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/mass"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta1_exam_magnitudes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Contendio"/>
+                android:layout_weight="1"
+                android:text="@string/kilogram" />
 
-        </RelativeLayout>
-    </android.support.v4.widget.NestedScrollView>
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta1_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/libra" />
+        </RadioGroup>
 
-    <RelativeLayout
-        android:id="@+id/design_bottom_sheet_magnitudes"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/fondo_magnitudes"
-        app:behavior_hideable="true"
-        app:behavior_peekHeight="@dimen/dimen_peekheight_50dp"
-        app:elevation="@dimen/dimen_4dp"
-        app:layout_behavior="@string/bottom_sheet_behavior">
-
-        
+        <!--PREGUNTA 2-->
         <TextView
-            android:id="@+id/textView_help_exam_magnitudes"
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/dimen_peekheight_50dp"
-            android:paddingTop="@dimen/dimen_8dp"
-            android:text="@string/help_text"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/length"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta2_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/metro" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta2_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/centimetro" />
+
+        </RadioGroup>
+        <!--PREGUNTA 3-->
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tiempo"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta3_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/hour" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta3_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/second" />
+
+        </RadioGroup>
+        <!--PREGUNTA 4-->
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Temperatura"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta4_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/grados" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta4_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/kelvin" />
+        </RadioGroup>
+        <!--PREGUNTA 5-->
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/corriente_electrica"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta5_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/voltios" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta5_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ampere"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_dos_examen_magnitudes"
             android:textAlignment="center"
-            android:textSize="@dimen/dimen_text_help" />
-    </RelativeLayout>
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
+        <!--PREGUNTA 6-->
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/volumen"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
-</android.support.design.widget.CoordinatorLayout>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta6_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/metro_cubico"/>
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta6_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pulgadas_cuadradas" />
+        </RadioGroup>
+        <!--PREGUNTA 7-->
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/area"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta7_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/metro_cubico" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta7_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/metro_cuadrado" />
+
+        </RadioGroup>
+        <!--PREGUNTA 8-->
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/resistencia_electrica"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta8_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/voltios" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta8_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ohm" />
+
+        </RadioGroup>
+        <!--PREGUNTA 9 -->
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fuerza"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta9_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/newton" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta9_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/voltios" />
+        </RadioGroup>
+        <!--PREGUNTA 10-->
+        <TextView
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/work"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta1_pregunta10_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/joule" />
+
+            <RadioButton
+                android:id="@+id/radioButton_respuesta2_pregunta10_exam_magnitudes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/newton" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button_calificar_examen_magnitudes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:backgroundTint="@color/colorPrimary"
+            tools:targetApi="lollipop"
+            android:text="@string/calificar_title"
+            android:textColor="@color/text_color" />
+
+    </LinearLayout>
+</ScrollView>

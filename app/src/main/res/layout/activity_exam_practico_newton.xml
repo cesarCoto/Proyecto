@@ -13,13 +13,109 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <RelativeLayout
+            android:padding="@dimen/dimen_padding_16dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <TextView
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Contenido"/>
+                android:layout_height="match_parent"
+                tools:ignore="UselessParent">
+                <LinearLayout
+                    android:id="@+id/examen_newton"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_button_exam">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pregunta1_examen_newton"/>
+
+                    <EditText
+                        android:id="@+id/respuesta1_examen_newton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/newtons"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:layout_marginTop="@dimen/dimen_padding_16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pregunta2_examen_newton"/>
+
+                    <EditText
+                        android:id="@+id/respuesta2_1_examen_newton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:hint="@string/aceleracion"/>
+
+                    <EditText
+                        android:id="@+id/respuesta2_2_examen_newton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/tension"/>
+
+                    <TextView
+                        android:layout_marginTop="@dimen/dimen_padding_16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pregunta3_examen_newton"/>
+
+                    <EditText
+                        android:id="@+id/respuesta3_examen_newton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/tension"
+                        android:inputType="number" />
+
+
+                    <TextView
+                        android:layout_marginTop="@dimen/dimen_padding_16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pregunta4_examen_newton"/>
+
+                    <EditText
+                        android:id="@+id/respuesta4_examen_newton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/aceleracion"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_marginTop="@dimen/dimen_padding_16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pregunta5_examen_newton"/>
+
+                    <EditText
+                        android:id="@+id/respuesta5_examen_newton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:hint="@string/kilo_new"/>
+
+                    <Button
+                        android:id="@+id/button_calificar_newton"
+                        android:layout_marginTop="@dimen/dimen_padding_16dp"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/calificar_title"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:textColor="@color/text_color"
+                        android:layout_height="wrap_content"
+                        tools:targetApi="lollipop" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
         </RelativeLayout>
 
     </android.support.v4.widget.NestedScrollView>
@@ -43,6 +139,76 @@
             android:text="@string/help_text"
             android:textAlignment="center"
             android:textSize="@dimen/dimen_text_help" />
+
+        <TextView
+            android:layout_below="@id/textView_help_exam_newton"
+            android:id="@+id/formula1"
+            android:layout_width="match_parent"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:text="@string/formula1"
+            android:textAlignment="center"
+            android:textSize="@dimen/dimen_text_help"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@id/formula1"
+            android:id="@+id/formula2"
+            android:layout_width="match_parent"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:text="@string/formula2"
+            android:textAlignment="center"
+            android:textSize="@dimen/dimen_text_help"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@id/formula2"
+            android:id="@+id/formula3"
+            android:layout_width="match_parent"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:text="@string/formula3"
+            android:textAlignment="center"
+            android:textSize="@dimen/dimen_text_help"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@id/formula3"
+            android:id="@+id/formula4"
+            android:layout_width="match_parent"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:text="@string/formula4"
+            android:textAlignment="center"
+            android:textSize="@dimen/dimen_text_help"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@id/formula4"
+            android:id="@+id/formula5"
+            android:layout_width="match_parent"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:text="@string/formula5"
+            android:textAlignment="center"
+            android:textSize="@dimen/dimen_text_help"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@id/formula5"
+            android:id="@+id/formula6"
+            android:layout_width="match_parent"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:text="@string/formula6"
+            android:textAlignment="center"
+            android:textSize="@dimen/dimen_text_help"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@id/formula6"
+            android:id="@+id/formula7"
+            android:layout_width="match_parent"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:text="@string/formula7"
+            android:textAlignment="center"
+            android:textSize="@dimen/dimen_text_help"
+            android:layout_height="wrap_content" />
 
     </RelativeLayout>
 

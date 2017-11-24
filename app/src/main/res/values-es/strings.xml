@@ -567,4 +567,49 @@
     <string name="newton_s_law_exam_title">Examen de leyes de Newton</string>
     <string name="pregunta_tres_vectores_teorico">¿En los vectores, se llama dirección a?</string>
     <string name="respuesta2_pregunta5_examteorico_newton">Es cuando se utilizan cuerdas(Tensión)</string>
+    <string name="calificacion_text">Felicitaciones tu calificación:</string>
+    <string name="mala_suerte">Sigue intentando.</string>
+    <string name="title_magnitudes_instruccion">seleccione con qué unidad de medida se representan estas cantidades fundamentales:</string>
+    <string name="mass">Masa</string>
+    <string name="kilogram">Kilogramo</string>
+    <string name="libra">Libra</string>
+    <string name="length">Longitud</string>
+    <string name="metro">Metro</string>
+    <string name="tiempo">Tiempo:</string>
+    <string name="hour">Hora</string>
+    <string name="second">Segundo</string>
+    <string name="Temperatura">Temperatura</string>
+    <string name="grados">Celsius</string>
+    <string name="corriente_electrica">Intensidad de corriente</string>
+    <string name="ampere">Amperio</string>
+    <string name="voltios">Voltios</string>
+    <string name="volumen">Volume</string>
+    <string name="area">Area</string>
+    <string name="metro_cuadrado">Metro cuadrado</string>
+    <string name="resistencia_electrica">Resistencia eléctrica</string>
+    <string name="ohm">"Ohmio "</string>
+    <string name="fuerza">Fuerza</string>
+    <string name="newton">Newton</string>
+    <string name="work">Trabajo</string>
+    <string name="joule">Joule</string>
+    <string name="metro_cubico">metro cubico</string>
+    <string name="centimetro">Centimetro</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="title_dos_examen_magnitudes">seleccione con qué unidad de medida se representan estas cantidades derivadas:</string>
+    <string name="pulgadas_cuadradas">Pulgadas cuadradas</string>
+    <string name="pregunta1_examen_newton">Un auto de 900 kg viaja a 20m/s en un camino plano. ¿Cuál es la magnitud de una fuerza retardadora constante necesaria para detener el auto en una distancia de 30m? (sugerencia: primero calcule la desaceleración.)</string>
+    <string name="pregunta2_examen_newton">"una cuerda pasa sobre una polea sin fricción y con masa despreciable. Un objeto de 4.0 kg se cuelga en un extremo y en el otro un objeto de 12 kg. Calcular la aceleración y la tensión de la cuerda. "</string>
+    <string name="pregunta3_examen_newton">"un elevador parte del reposo y sube con una aceleración constante. Se mueve 2.0cm en los primeros 0.60s. un pasajero en el elevador sostiene un paquete de 3 kg con una cuerda. ¿Cuál es la tensión en la cuerda durante la aceleración? "</string>
+    <string name="pregunta4_examen_newton">una vez encendido, un pequeño motor cohete de una nave espacial ejerce una fuerza constante de 10 N durante 7.80 s. Durante el tiempo en que se quema, el cohete hace que la nave de 100 kg se acelere de manera uniforme. Determine esa aceleración.</string>
+    <string name="pregunta5_examen_newton">una bala de 12.0 g es acelerada desde el reposo hasta una rapidez de 700m/s al recorrer 20.0cm dentro del cañón de fusil. Suponiendo que la aceleración es constante, ¿Qué tan grande debe ser la fuerza aceleradora?</string>
+    <string name="sin_desimal">Ingrese su respuesta sin puntos decimales</string>
+    <string name="kilo_new">Ingrese su respuesta en kilonewtons</string>
+    <string name="aceleracion">Aceleración</string>
+    <string name="tension">Tensión</string>
+    <string name="newtons">Newtons</string>
+    <string name="formula1">a = Fr/m</string>
+    <string name="formula2">F= m*a</string>
+    <string name="formula4">p = m*g</string>
+    <string name="formula6">Fr = F- f</string>
+    <string name="formula7">N = p - senO</string>
 </resources>

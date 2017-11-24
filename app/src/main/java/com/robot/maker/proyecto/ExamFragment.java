@@ -79,14 +79,14 @@ public class ExamFragment extends Fragment {
         });
 
         //intent para mostar la actividad examen practico conversiones
-        Button buttonExamenPracticoConversiones =view.findViewById(R.id.button_conversiones_exam_practico);
+       /* Button buttonExamenPracticoConversiones =view.findViewById(R.id.button_conversiones_exam_practico);
         buttonExamenPracticoConversiones.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intentExamenPracticoConversiones = new Intent(getActivity(),ExamPracticoConversionesActivity.class);
                 startActivity(intentExamenPracticoConversiones);
             }
-        });
+        });*/
 
 
        //intent para mostrar la actividad examen practico vectores

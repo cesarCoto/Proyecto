@@ -539,4 +539,51 @@
           </html> ]]> "
     </string>
     <string name="respuesta2_pregunta7_examteorico_newton">Was moving</string>
+    <string name="calificacion_text">Congratulations your rating:</string>
+    <string name="mala_suerte">Keep trying.</string>
+    <string name="title_magnitudes_instruccion">select with which unit of measure these fundamental quantities are represented:</string>
+    <string name="mass">Mass</string>
+    <string name="kilogram">Kilogram</string>
+    <string name="libra">Pound</string>
+    <string name="length">Length</string>
+    <string name="metro">Meter</string>
+    <string name="centimetro">Centimeter</string>
+    <string name="tiempo">Time:</string>
+    <string name="hour">Hour</string>
+    <string name="second">Second</string>
+    <string name="Temperatura">Temperature</string>
+    <string name="grados">Celsius</string>
+    <string name="corriente_electrica">Current strength</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="ampere">Ampere</string>
+    <string name="voltios">Volts</string>
+    <string name="volumen">Volume</string>
+    <string name="metro_cubico">cubic meter</string>
+    <string name="pulgadas_cuadradas">Square inches</string>
+    <string name="area">Area</string>
+    <string name="metro_cuadrado">Square meter</string>
+    <string name="resistencia_electrica">Electric resistance</string>
+    <string name="ohm">Ohm</string>
+    <string name="fuerza">Force</string>
+    <string name="newton">Newton</string>
+    <string name="work">Work</string>
+    <string name="joule">Joule</string>
+    <string name="pregunta2_examen_newton">a rope passes over a pulley without friction and with negligible mass. A 4.0 kg object hangs on one end and on the other a 12 kg object. Calculate the acceleration and tension of the rope.</string>
+    <string name="pregunta3_examen_newton">An elevator part of the rest and goes up with a constant acceleration. It moves 2.0cm in the first 0.60s. a passenger in the elevator holds a 3 kg package with a rope. What is the tension in the rope during acceleration?</string>
+    <string name="pregunta4_examen_newton">Once lit, a small rocket engine of a spacecraft exerts a constant force of 10 N for 7.80 s. During the time it burns, the rocket makes the 100-kg ship accelerate evenly. Determine that acceleration.</string>
+    <string name="pregunta5_examen_newton">A bullet of 12.0 g is accelerated from rest to a speed of 700m / s when traveling 20.0cm inside the rifle barrel. Assuming that the acceleration is constant, how large should the accelerating force be?</string>
+    <string name="sin_desimal">Enter your answer without decimal points</string>
+    <string name="kilo_new">Enter your answer in kilonewtons</string>
+    <string name="aceleracion">Acceleration</string>
+    <string name="tension">Tension</string>
+    <string name="newtons">Newtons</string>
+    <string name="title_dos_examen_magnitudes">select with which unit of measure these derived quantities are represented:</string>
+    <string name="pregunta1_examen_newton">A 900 kg car travels at 20m/s on a flat road. What is the magnitude of a constant retarding force necessary to stop the car in a distance of 30m? (suggestion: first calculate the deceleration.)</string>
+    <string name="formula1">a = Fr/m</string>
+    <string name="formula2">F= m*a</string>
+    <string name="formula3">m = p/g</string>
+    <string name="formula4">p = m*g</string>
+    <string name="formula5">-T1 + T2 - f = ma</string>
+    <string name="formula6">Fr = F- f</string>
+    <string name="formula7">N = p - senO</string>
 </resources>
