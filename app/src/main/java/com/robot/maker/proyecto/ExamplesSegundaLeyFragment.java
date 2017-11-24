@@ -7,18 +7,17 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebView;
 
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link IncioPrieraLeyFragment.OnFragmentInteractionListener} interface
+ * {@link ExamplesSegundaLeyFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link IncioPrieraLeyFragment#newInstance} factory method to
+ * Use the {@link ExamplesSegundaLeyFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class IncioPrieraLeyFragment extends Fragment {
+public class ExamplesSegundaLeyFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -30,7 +29,7 @@ public class IncioPrieraLeyFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public IncioPrieraLeyFragment() {
+    public ExamplesSegundaLeyFragment() {
         // Required empty public constructor
     }
 
@@ -40,11 +39,11 @@ public class IncioPrieraLeyFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment IncioPrieraLeyFragment.
+     * @return A new instance of fragment ExamplesSegundaLeyFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static IncioPrieraLeyFragment newInstance(String param1, String param2) {
-        IncioPrieraLeyFragment fragment = new IncioPrieraLeyFragment();
+    public static ExamplesSegundaLeyFragment newInstance(String param1, String param2) {
+        ExamplesSegundaLeyFragment fragment = new ExamplesSegundaLeyFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -64,21 +63,8 @@ public class IncioPrieraLeyFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
-        View view = inflater.inflate(R.layout.fragment_incio_priera_ley, container, false);
-
-        //P1
-        WebView webViewParrafo1 = view.findViewById(R.id.texto_home_leyuno_parrafo1);
-        webViewParrafo1.setVerticalScrollBarEnabled(false);
-        webViewParrafo1.loadData(getString(R.string.primera_ley_parrafo1),"text/html; charset=utf-8", "utf-8");
-
-        //P1
-        WebView webViewParrafo2 = view.findViewById(R.id.texto_home_leyuno_parrafo2);
-        webViewParrafo2.setVerticalScrollBarEnabled(false);
-        webViewParrafo2.loadData(getString(R.string.primera_ley_parrafo2),"text/html; charset=utf-8", "utf-8");
-
-
-        return view;
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_examples_segunda_ley, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event

@@ -63,8 +63,8 @@ public class MagnitudesActivity extends AppCompatActivity
             transaction.replace(R.id.contenido_magnitudes, new InicioMagnitudesFragment()).commit();
         } else if (id == R.id.nav_exampes_magnitudes) {
             transaction.replace(R.id.contenido_magnitudes, new ExamplesMagnitudesFragment()).commit();
-        } else if (id == R.id.nav_ejercicios_magnitudes) {
-            transaction.replace(R.id.contenido_magnitudes, new EjerciciosMagnitudesFragment()).commit();
+        /*} else if (id == R.id.nav_ejercicios_magnitudes) {
+            transaction.replace(R.id.contenido_magnitudes, new EjerciciosMagnitudesFragment()).commit();*/
         } else if (id == R.id.nav_feedback_mag) {
 
         }

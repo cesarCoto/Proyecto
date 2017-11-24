@@ -62,8 +62,8 @@ public class VectorActivity extends AppCompatActivity
             transaction.replace(R.id.contenido_vectores, new InicioVectoresFragment()).commit();
         } else if (id == R.id.nav_ejemplos_vectores) {
             transaction.replace(R.id.contenido_vectores, new ExamplesVectoresFragment()).commit();
-        } else if (id == R.id.nav_exercises_vectores) {
-            transaction.replace(R.id.contenido_vectores, new EjerciciosVectoresFragment()).commit();
+        /*} else if (id == R.id.nav_exercises_vectores) {
+            transaction.replace(R.id.contenido_vectores, new EjerciciosVectoresFragment()).commit();*/
         }else if(id==R.id.nav_suma_vectores){
             transaction.replace(R.id.contenido_vectores, new SumaVectoresFragment()).commit();
         }   else if (id == R.id.nav_feedback_vec) {

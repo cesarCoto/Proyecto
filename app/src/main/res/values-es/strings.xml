@@ -27,19 +27,17 @@
     <string name="conversions_title">Conversiones</string>
     <string name="vectors_title">Vectores</string>
     <string name="magnitudes_title">Magnitudes</string>
-    <string name="ley_inercia_title">Law of inertia</string>
-    <string name="segunda_ley_title">Fundamental law of dynamics</string>
-    <string name="tercera_ley_title">Principle of action and reaction</string>
-    <string name="conversion_exam_title">Conversion exam</string>
-    <string name="theoric_exam_title">Theoric exam</string>
-    <string name="practical_test_title">practical test</string>
-    <string name="vector_exam_title">Vector exam</string>
-    <string name="magnitudes_exam_title">Magnitudes exam</string>
-    <string name="newton_s_law_exam_title">Newton\'s Law Exam</string>
+    <string name="ley_inercia_title">Ley de inercia</string>
+    <string name="segunda_ley_title">Ley fundamental de la dinámica</string>
+    <string name="conversion_exam_title">Examen de conversión</string>
+    <string name="theoric_exam_title">Examen teórico</string>
+    <string name="practical_test_title">Examen practico</string>
+    <string name="vector_exam_title">Examen de vectores</string>
+    <string name="magnitudes_exam_title">Examen de magnitudes</string>
     <string name="more_title">Más</string>
     <string name="books_title">Libros</string>
     <string name="tutorials_title">Tutoriales</string>
-    <string name="no_hay_conexcion">There is no internet connection at this time</string>
+    <string name="no_hay_conexcion">No hay conexion a internet en este momento</string>
     <string name="visit_our_blog">Visita nuestro blog</string>
     <string name="feedback_title">Realimentación</string>
     <string name="help_text">¿Ayuda?</string>
@@ -52,221 +50,219 @@
     <string name="exercises_title">Ejercicios</string>
 
     <!--EXAMEN TEORICO NUMERO 1-->
-    <string name="pregunta_uno_vectores_teorico">Is every vector one?</string>
-    <string name="respuesta1_pregunta1_examteorico_vectores">Physical magnitude</string>
-    <string name="respuesta2_pregunta1_examteorico_vectores">Vector magnitude</string>
-    <string name="respuesta3_pregunta1_examteorico_vectores">Scalar magnitude</string>
+    <string name="pregunta_uno_vectores_teorico">¿Todo vector es una?</string>
+    <string name="respuesta1_pregunta1_examteorico_vectores">Magnitud física</string>
+    <string name="respuesta2_pregunta1_examteorico_vectores">"Magnitud vectorial "</string>
+    <string name="respuesta3_pregunta1_examteorico_vectores">"Magnitud escalar "</string>
 
-    <string name="pregunta_dos_vectores_teorico">The measure of the vector, is it called?</string>
-    <string name="respuesta1_pregunta2_examteorico_vectores">Sense</string>
-    <string name="respuesta2_pregunta2_examteorico_vectores">Origin</string>
-    <string name="respuesta3_pregunta2_examteorico_vectores">Magnitude</string>
+    <string name="pregunta_dos_vectores_teorico">¿La medida del vector, se llama?</string>
+    <string name="respuesta1_pregunta2_examteorico_vectores">Sentido</string>
+    <string name="respuesta2_pregunta2_examteorico_vectores">Origen</string>
+    <string name="respuesta3_pregunta2_examteorico_vectores">Magnitud</string>
 
-    <string name="pregunta_tres_vectores_teorico">In vectors, is it called address a?</string>
-    <string name="respuesta1_pregunta3_examteorico_vectores">To the arrow of it</string>
-    <string name="respuesta2_pregunta3_examteorico_vectores">To the inclination of application of the same</string>
-    <string name="respuesta3_pregunta3_examteorico_vectores">To the meaning of it</string>
+    <string name="respuesta1_pregunta3_examteorico_vectores">A la flecha del mismo</string>
+    <string name="respuesta2_pregunta3_examteorico_vectores">" A la inclinación de aplicación del mismo"</string>
+    <string name="respuesta3_pregunta3_examteorico_vectores">" Al sentido del mismo"</string>
 
-    <string name="pregunta_cuatro_vectores_teorico">Is the sense of the vector indicated by?</string>
-    <string name="respuesta1_pregunta4_examteorico_vectores">The sense</string>
-    <string name="respuesta2_pregunta4_examteorico_vectores">The arrow</string>
-    <string name="respuesta3_pregunta4_examteorico_vectores">Its magnitude</string>
+    <string name="pregunta_cuatro_vectores_teorico">¿El sentido del vector está indicado por?</string>
+    <string name="respuesta1_pregunta4_examteorico_vectores">El sentido</string>
+    <string name="respuesta2_pregunta4_examteorico_vectores">La flecha</string>
+    <string name="respuesta3_pregunta4_examteorico_vectores">Su magnitud</string>
 
-    <string name="pregunta_cinco_vectores_teorico">Are the vector magnitudes defined by?</string>
-    <string name="respuesta1_pregunta5_examteorico_vectores">A number and a quantity</string>
-    <string name="respuesta2_pregunta5_examteorico_vectores">A number, a quantity and a sense</string>
-    <string name="respuesta3_pregunta5_examteorico_vectores">A number, a quantity, a sense and an address.</string>
+    <string name="pregunta_cinco_vectores_teorico">¿Las magnitudes vectoriales quedan definidas por?</string>
+    <string name="respuesta1_pregunta5_examteorico_vectores">" Un número y una cantidad"</string>
+    <string name="respuesta2_pregunta5_examteorico_vectores">Un número, una cantidad y un sentido.</string>
+    <string name="respuesta3_pregunta5_examteorico_vectores">Un número, una cantidad, un sentido y una dirección.</string>
 
-    <string name="pregunta_seis_vectores_teorico">Is a vector a physical quantity that it has?</string>
-    <string name="respuesta1_pregunta6_examteorico_vectores">Displacement</string>
-    <string name="respuesta2_pregunta6_examteorico_vectores">Acceleration</string>
+    <string name="pregunta_seis_vectores_teorico">¿Un vector es una cantidad física que tiene?</string>
+    <string name="respuesta1_pregunta6_examteorico_vectores">Desplazamiento</string>
+    <string name="respuesta2_pregunta6_examteorico_vectores">Aceleracion</string>
     <string name="respuesta3_pregunta6_examteorico_vectores">Velocidad</string>
-    <string name="respuesta4_pregunta6_examteorico_vectores">Sense and Magnitude</string>
+    <string name="respuesta4_pregunta6_examteorico_vectores">Sentido y Magnitud</string>
 
-    <string name="pregunta_siete_vectores_teorico">A parallel vector?</string>
-    <string name="respuesta1_pregunta7_examteorico_vectores">It has its parallel lines of action</string>
-    <string name="respuesta2_pregunta7_examteorico_vectores">It has its lines of action in the same sense</string>
-    <string name="respuesta3_pregunta7_examteorico_vectores">It has no lines of action</string>
-    <string name="respuesta4_pregunta7_examteorico_vectores">Its lines of action do not change direction</string>
+    <string name="pregunta_siete_vectores_teorico">¿Un vector paralelo?</string>
+    <string name="respuesta1_pregunta7_examteorico_vectores">Tiene sus líneas de acción paralelas</string>
+    <string name="respuesta2_pregunta7_examteorico_vectores">Tiene sus líneas de acción en el mismo sentido</string>
+    <string name="respuesta3_pregunta7_examteorico_vectores"> No tiene líneas de acción</string>
+    <string name="respuesta4_pregunta7_examteorico_vectores"> Sus líneas de acción no cambian de dirección</string>
 
-    <string name="pregunta_ocho_vectores_teorico">Are the vectors A and B the same?</string>
-    <string name="respuesta1_pregunta8_examteorico_vectores">They have the same address</string>
-    <string name="respuesta2_pregunta8_examteorico_vectores">They have the same origin and same address</string>
-    <string name="respuesta3_pregunta8_examteorico_vectores">They start from the same origin, but change their address</string>
-    <string name="respuesta4_pregunta8_examteorico_vectores">They start from the same origin and have different lengths</string>
+    <string name="pregunta_ocho_vectores_teorico">¿Los vectores A y B son iguales sí?</string>
+    <string name="respuesta1_pregunta8_examteorico_vectores">Tienen la misma dirección</string>
+    <string name="respuesta2_pregunta8_examteorico_vectores">Poseen mismo origen y misma dirección</string>
+    <string name="respuesta3_pregunta8_examteorico_vectores">Parten del mismo origen, pero cambian de dirección</string>
+    <string name="respuesta4_pregunta8_examteorico_vectores">Parten del mismo origen y tienen diferentes longitudes</string>
 
-    <string name="pregunta_nueve_vectores_teorico">Is there a change in magnitude and direction?</string>
-    <string name="respuesta1_pregunta9_examteorico_vectores">Product of two vectors</string>
-    <string name="respuesta2_pregunta9_examteorico_vectores">Product of a vector and a scalar</string>
-    <string name="respuesta3_pregunta9_examteorico_vectores">Product of two scalars</string>
-    <string name="respuesta4_pregunta9_examteorico_vectores">Product of two vectors and a scalar</string>
+    <string name="pregunta_nueve_vectores_teorico">¿Se produce un cambio de magnitud y dirección?</string>
+    <string name="respuesta1_pregunta9_examteorico_vectores">producto de dos vectores</string>
+    <string name="respuesta2_pregunta9_examteorico_vectores">" producto de un vector y un escalar"</string>
+    <string name="respuesta3_pregunta9_examteorico_vectores">producto de dos escalares</string>
+    <string name="respuesta4_pregunta9_examteorico_vectores">" producto de dos vectores y un escalar"</string>
 
-    <string name="pregunta_diez_vectores_teorico">Is the graphic representation of a vector given by?</string>
-    <string name="respuesta1_pregunta10_examteorico_vectores">Line segment that has address.</string>
-    <string name="respuesta2_pregunta10_examteorico_vectores">It is identified with uppercase letters at the ends.</string>
-    <string name="respuesta3_pregunta10_examteorico_vectores">It participates as an axis in a Cartesian plane.</string>
-    <string name="respuesta4_pregunta10_examteorico_vectores">Part of an origin finding an image that unites them.</string>
+    <string name="pregunta_diez_vectores_teorico">¿La representación gráfica de un vector se da por?</string>
+    <string name="respuesta1_pregunta10_examteorico_vectores">Segmento lineo que posee dirección.</string>
+    <string name="respuesta2_pregunta10_examteorico_vectores">Se identifica con letras mayúsculas en los extremos.</string>
+    <string name="respuesta3_pregunta10_examteorico_vectores">Participa como eje en un plano cartesiano.</string>
+    <string name="respuesta4_pregunta10_examteorico_vectores">Parte de un origen hallando una imagen que los une.</string>
 
     <!--EXAMEN TEORICO NUMERO2-->
-    <string name="pregunta_uno_magnitudes_teorico">The unit of mass in the International System is</string>
-    <string name="respuesta1_pregunta1_examteorico_magnitudes">Gram</string>
-    <string name="respuesta2_pregunta1_examteorico_magnitudes">Ton</string>
+    <string name="pregunta_uno_magnitudes_teorico">La unidad de masa en el Sistema Internacional es:</string>
+    <string name="respuesta1_pregunta1_examteorico_magnitudes">Gramo</string>
+    <string name="respuesta2_pregunta1_examteorico_magnitudes">Tonelada</string>
     <string name="respuesta3_pregunta1_examteorico_magnitudes">Kilogramo</string>
 
-    <string name="pregunta_dos_magnitudes_teorico">If we measure the height of a person, the magnitude we are measuring is called length:</string>
+    <string name="pregunta_dos_magnitudes_teorico">" Si medimos la altura de una persona, la magnitud que estamos midiendo se llama longitud:"</string>
 
-    <string name="pregunta_tres_magnitudes_teorico">Indicate which of these belongs to the international system unit:</string>
-    <string name="respuesta1_pregunta3_examteorico_magnitudes">Celsius degrees</string>
+    <string name="pregunta_tres_magnitudes_teorico">Señala cuál de estas pertenece a la unidad de sistema internacional:</string>
+    <string name="respuesta1_pregunta3_examteorico_magnitudes">"Grados Celsius "</string>
     <string name="respuesta2_pregunta3_examteorico_magnitudes">Mol</string>
-    <string name="respuesta3_pregunta3_examteorico_magnitudes">Hour</string>
+    <string name="respuesta3_pregunta3_examteorico_magnitudes">"Hora "</string>
 
-    <string name="pregunta_cuatro_magnitudes_teorico">The surface is a fundamental quantity</string>
+    <string name="pregunta_cuatro_magnitudes_teorico">La superficie es una magnitud fundamental</string>
 
-    <string name="pregunta_cinco_magnitudes_teorico">Magnitude is everything that can be measured:</string>
+    <string name="pregunta_cinco_magnitudes_teorico">Magnitud es todo lo que se puede medir:</string>
 
-    <string name="pregunta_seis_magnitudes_teorico">Select the derived magnitude:</string>
-    <string name="respuesta1_pregunta6_examteorico_magnitudes">Volume</string>
-    <string name="respuesta2_pregunta6_examteorico_magnitudes">Mass</string>
-    <string name="respuesta3_pregunta6_examteorico_magnitudes">Time</string>
-    <string name="respuesta4_pregunta6_examteorico_magnitudes">Length</string>
+    <string name="pregunta_seis_magnitudes_teorico">Selecciona la magnitud derivada:</string>
+    <string name="respuesta1_pregunta6_examteorico_magnitudes">Volumen</string>
+    <string name="respuesta2_pregunta6_examteorico_magnitudes">Masa</string>
+    <string name="respuesta3_pregunta6_examteorico_magnitudes">Tiempo</string>
+    <string name="respuesta4_pregunta6_examteorico_magnitudes">Longitud</string>
 
-    <string name="pregunta_siete_magnitudes_teorico">Which of the following statements is NOT true?</string>
-    <string name="respuesta1_pregunta7_examteorico_magnitudes">Mass and time are fundamental magnitudes.</string>
-    <string name="respuesta2_pregunta7_examteorico_magnitudes">The volume is a fundamental quantity</string>
-    <string name="respuesta3_pregunta7_examteorico_magnitudes">Speed is a derived quantity.</string>
-    <string name="respuesta4_pregunta7_examteorico_magnitudes">The derived quantities are obtained from the fundamental quantities.</string>
+    <string name="pregunta_siete_magnitudes_teorico">¿Cuál de las siguientes afirmaciones NO es verdadera?</string>
+    <string name="respuesta1_pregunta7_examteorico_magnitudes">La masa y el tiempo son magnitudes fundamentales.</string>
+    <string name="respuesta2_pregunta7_examteorico_magnitudes">" El volumen es una magnitud fundamental"</string>
+    <string name="respuesta3_pregunta7_examteorico_magnitudes">La velocidad es una magnitud derivada.</string>
+    <string name="respuesta4_pregunta7_examteorico_magnitudes">Las magnitudes derivadas se obtienen de las magnitudes fundamentales.</string>
 
-    <string name="pregunta_ocho_magnitudes_teorico">The unit of length in the International system is:</string>
-    <string name="respuesta1_pregunta8_examteorico_magnitudes">Meter</string>
-    <string name="respuesta2_pregunta8_examteorico_magnitudes">The kilometer</string>
-    <string name="respuesta3_pregunta8_examteorico_magnitudes">The mile</string>
-    <string name="respuesta4_pregunta8_examteorico_magnitudes">The centimeter</string>
+    <string name="pregunta_ocho_magnitudes_teorico">La unidad de longitud en el sistema Internacional es:</string>
+    <string name="respuesta1_pregunta8_examteorico_magnitudes">El metro</string>
+    <string name="respuesta2_pregunta8_examteorico_magnitudes">El kilometro</string>
+    <string name="respuesta3_pregunta8_examteorico_magnitudes">La milla</string>
+    <string name="respuesta4_pregunta8_examteorico_magnitudes">El centímetro</string>
 
-    <string name="pregunta_nueve_magnitudes_teorico">The units of the International System are:</string>
-    <string name="respuesta1_pregunta9_examteorico_magnitudes">Meter, Kilogram, minute</string>
-    <string name="respuesta2_pregunta9_examteorico_magnitudes">Centimeter, gram, second</string>
-    <string name="respuesta3_pregunta9_examteorico_magnitudes">Meter, gram, second</string>
-    <string name="respuesta4_pregunta9_examteorico_magnitudes">Meter, Kilogram, second</string>
+    <string name="pregunta_nueve_magnitudes_teorico">Las unidades del Sistema Internacional son:</string>
+    <string name="respuesta1_pregunta9_examteorico_magnitudes">Metro, Kilogramo, minuto</string>
+    <string name="respuesta2_pregunta9_examteorico_magnitudes">Centímetro, gramo, segundo</string>
+    <string name="respuesta3_pregunta9_examteorico_magnitudes">Metro, gramo, segundo</string>
+    <string name="respuesta4_pregunta9_examteorico_magnitudes">Metro, Kilogramo, segundo</string>
 
-    <string name="pregunta_diez_magnitudes_teorico">The scalar quantity is:</string>
-    <string name="respuesta1_pregunta10_examteorico_magnitudes">Speed</string>
-    <string name="respuesta2_pregunta10_examteorico_magnitudes">Time</string>
-    <string name="respuesta3_pregunta10_examteorico_magnitudes">The force</string>
-    <string name="respuesta4_pregunta10_examteorico_magnitudes">The weight</string>
+    <string name="pregunta_diez_magnitudes_teorico">" La cantidad escalar es: "</string>
+    <string name="respuesta1_pregunta10_examteorico_magnitudes">La velocidad</string>
+    <string name="respuesta2_pregunta10_examteorico_magnitudes">" El tiempo "</string>
+    <string name="respuesta3_pregunta10_examteorico_magnitudes">"La fuerza "</string>
+    <string name="respuesta4_pregunta10_examteorico_magnitudes">"El peso "</string>
 
     <!--EXAMEN TEORICO NUMERO 3-->
-    <string name="pregunta_uno_conversiones_teorico">Convert 1m to meters</string>
-    <string name="respuesta1_pregunta1_examteorico_conversiones">16 meters</string>
-    <string name="respuesta2_pregunta1_examteorico_conversiones">500 meters</string>
-    <string name="respuesta3_pregunta1_examteorico_conversiones">1609 meters</string>
-    <string name="respuesta4_pregunta1_examteorico_conversiones">1000 meters</string>
+    <string name="pregunta_uno_conversiones_teorico">Convertir 1milla a metros</string>
+    <string name="respuesta1_pregunta1_examteorico_conversiones">16 metros</string>
+    <string name="respuesta2_pregunta1_examteorico_conversiones">500 metros</string>
+    <string name="respuesta3_pregunta1_examteorico_conversiones">1609 metros</string>
+    <string name="respuesta4_pregunta1_examteorico_conversiones">1000 metros</string>
 
-    <string name="pregunta_dos_conversiones_teorico">Convert 12.3 miles to meters</string>
-    <string name="respuesta1_pregunta2_examteorico_conversiones">1609 meters</string>
-    <string name="respuesta2_pregunta2_examteorico_conversiones">19794 meters</string>
-    <string name="respuesta3_pregunta2_examteorico_conversiones">12000 meters</string>
-    <string name="respuesta4_pregunta2_examteorico_conversiones">12500 meters</string>
+    <string name="pregunta_dos_conversiones_teorico">Convertir 12.3 millas a metros</string>
+    <string name="respuesta1_pregunta2_examteorico_conversiones">1609 metros</string>
+    <string name="respuesta2_pregunta2_examteorico_conversiones">19794 metros</string>
+    <string name="respuesta3_pregunta2_examteorico_conversiones">12000 metros</string>
+    <string name="respuesta4_pregunta2_examteorico_conversiones">12500 metros</string>
 
-    <string name="pregunta_tres_conversiones_teorico">Convert 45 miles to kilometers</string>
-    <string name="respuesta1_pregunta3_examteorico_conversiones">75,900 kilometers</string>
-    <string name="respuesta2_pregunta3_examteorico_conversiones">72,420 kilometers</string>
-    <string name="respuesta3_pregunta3_examteorico_conversiones">70,858 kilometers</string>
-    <string name="respuesta4_pregunta3_examteorico_conversiones">78.9 kilometers</string>
+    <string name="pregunta_tres_conversiones_teorico">Convertir 45millas a kilómetros</string>
+    <string name="respuesta1_pregunta3_examteorico_conversiones">75.900 kilómetros</string>
+    <string name="respuesta2_pregunta3_examteorico_conversiones">72.420 kilómetros</string>
+    <string name="respuesta3_pregunta3_examteorico_conversiones">70 .858 kilómetros</string>
+    <string name="respuesta4_pregunta3_examteorico_conversiones">78.9 kilómetros</string>
 
-    <string name="pregunta_cuatro_conversiones_teorico">Convert 1 meter to yards</string>
-    <string name="respuesta1_pregunta4_examteorico_conversiones">.9 yards</string>
-    <string name="respuesta2_pregunta4_examteorico_conversiones">1 Yard</string>
-    <string name="respuesta3_pregunta4_examteorico_conversiones">1,093 yards</string>
-    <string name="respuesta4_pregunta4_examteorico_conversiones">2.54 yards</string>
+    <string name="pregunta_cuatro_conversiones_teorico">Convertir 1metro a yardas</string>
+    <string name="respuesta1_pregunta4_examteorico_conversiones">.9 yardas</string>
+    <string name="respuesta2_pregunta4_examteorico_conversiones">1 Yarda</string>
+    <string name="respuesta3_pregunta4_examteorico_conversiones">1.093 yardas</string>
+    <string name="respuesta4_pregunta4_examteorico_conversiones">2.54 yardas</string>
 
-    <string name="pregunta_cinco_conversiones_teorico">Convert 100 meters to yards</string>
-    <string name="respuesta1_pregunta5_examteorico_conversiones">109.3 yards</string>
-    <string name="respuesta2_pregunta5_examteorico_conversiones">100.3 yards</string>
-    <string name="respuesta3_pregunta5_examteorico_conversiones">1.3 yards</string>
-    <string name="respuesta4_pregunta5_examteorico_conversiones">900.3 yards</string>
+    <string name="pregunta_cinco_conversiones_teorico">Convertir 100 metros a yardas</string>
+    <string name="respuesta1_pregunta5_examteorico_conversiones">" 109.3 yardas"</string>
+    <string name="respuesta2_pregunta5_examteorico_conversiones">100.3 yardas</string>
+    <string name="respuesta3_pregunta5_examteorico_conversiones">1.3 yardas</string>
+    <string name="respuesta4_pregunta5_examteorico_conversiones">900.3 yardas</string>
 
-    <string name="pregunta_seis_conversiones_teorico">Convert 3 meters to feet</string>
-    <string name="respuesta1_pregunta6_examteorico_conversiones">7,598 feet</string>
-    <string name="respuesta2_pregunta6_examteorico_conversiones">9,842 feet</string>
-    <string name="respuesta3_pregunta6_examteorico_conversiones">6,895 feet</string>
-    <string name="respuesta4_pregunta6_examteorico_conversiones">800 feet</string>
+    <string name="pregunta_seis_conversiones_teorico">Convertir 3 metros a pies</string>
+    <string name="respuesta1_pregunta6_examteorico_conversiones">7.598 pies</string>
+    <string name="respuesta2_pregunta6_examteorico_conversiones">" 9.842 pies"</string>
+    <string name="respuesta3_pregunta6_examteorico_conversiones">6.895 pies</string>
+    <string name="respuesta4_pregunta6_examteorico_conversiones">800 pies</string>
 
-    <string name="pregunta_siete_conversiones_teorico">Convert 6 feet to meters</string>
-    <string name="respuesta1_pregunta7_examteorico_conversiones">1,828 meters</string>
-    <string name="respuesta2_pregunta7_examteorico_conversiones">2,567 meters</string>
-    <string name="respuesta3_pregunta7_examteorico_conversiones">2 meters</string>
-    <string name="respuesta4_pregunta7_examteorico_conversiones">1.5 meters</string>
+    <string name="pregunta_siete_conversiones_teorico">Convertir 6 pies a metros</string>
+    <string name="respuesta1_pregunta7_examteorico_conversiones">1.828 metros</string>
+    <string name="respuesta2_pregunta7_examteorico_conversiones">2.567 metros</string>
+    <string name="respuesta3_pregunta7_examteorico_conversiones">2 metros</string>
+    <string name="respuesta4_pregunta7_examteorico_conversiones">1.5 metros</string>
 
-    <string name="pregunta_ocho_conversiones_teorico">Convert 2.5 feet to inches</string>
-    <string name="respuesta1_pregunta8_examteorico_conversiones">30 inches</string>
-    <string name="respuesta2_pregunta8_examteorico_conversiones">28 inches</string>
-    <string name="respuesta3_pregunta8_examteorico_conversiones">25 inches</string>
-    <string name="respuesta4_pregunta8_examteorico_conversiones">27.5 inches</string>
+    <string name="pregunta_ocho_conversiones_teorico">Convertir 2.5 pies a pulgadas</string>
+    <string name="respuesta1_pregunta8_examteorico_conversiones">30 pulgadas</string>
+    <string name="respuesta2_pregunta8_examteorico_conversiones">28 pulgadas</string>
+    <string name="respuesta3_pregunta8_examteorico_conversiones">25 pulgadas</string>
+    <string name="respuesta4_pregunta8_examteorico_conversiones">27.5 pulgadas</string>
 
-    <string name="pregunta_nueve_conversiones_teorico">Convert 1 gallon to liters</string>
-    <string name="respuesta1_pregunta9_examteorico_conversiones">3.5 liters</string>
-    <string name="respuesta2_pregunta9_examteorico_conversiones">4,356 liters</string>
-    <string name="respuesta3_pregunta9_examteorico_conversiones">4 liters</string>
-    <string name="respuesta4_pregunta9_examteorico_conversiones">3.785 liters</string>
+    <string name="pregunta_nueve_conversiones_teorico">Convertir 1 galón a litros</string>
+    <string name="respuesta1_pregunta9_examteorico_conversiones">3.5 litros</string>
+    <string name="respuesta2_pregunta9_examteorico_conversiones">4.356 litros</string>
+    <string name="respuesta3_pregunta9_examteorico_conversiones">4 litros</string>
+    <string name="respuesta4_pregunta9_examteorico_conversiones">3.785 litros</string>
 
-    <string name="pregunta_diez_conversiones_teorico">Convert 4 gallons to liters</string>
-    <string name="respuesta1_pregunta10_examteorico_conversiones">16,956 liters</string>
-    <string name="respuesta2_pregunta10_examteorico_conversiones">14 liters</string>
-    <string name="respuesta3_pregunta10_examteorico_conversiones">15,139 liters</string>
-    <string name="respuesta4_pregunta10_examteorico_conversiones">16 liters</string>
+    <string name="pregunta_diez_conversiones_teorico"> Convertir 4 galones a litros</string>
+    <string name="respuesta1_pregunta10_examteorico_conversiones">16.956 litros</string>
+    <string name="respuesta2_pregunta10_examteorico_conversiones">14 litros</string>
+    <string name="respuesta3_pregunta10_examteorico_conversiones">15.139 litros</string>
+    <string name="respuesta4_pregunta10_examteorico_conversiones">16 litros</string>
 
     <!--EXAMEN TEORICO NUMERO 4-->
-    <string name="pregunta_uno_newton_teorico">What is Newton\'s first law?</string>
-    <string name="respuesta1_pregunta1_examteorico_newton">Every body continues in its state of rest unless a force forces it to change that state.</string>
-    <string name="respuesta2_pregunta1_examteorico_newton">Every body has to maintain at rest so a minina force is applied.</string>
-    <string name="respuesta3_pregunta1_examteorico_newton">The acceleration a body experiences is directly proportional to the force acting on it and inversely proportional to its mass.</string>
-    <string name="respuesta4_pregunta1_examteorico_newton">Depending on if the mass of the body is smaller you will have to go at less speed.</string>
+    <string name="pregunta_uno_newton_teorico">"¿En qué consiste la primera ley de newton? "</string>
+    <string name="respuesta1_pregunta1_examteorico_newton">Todo cuerpo continúa en su estado de reposo a menos que actúe sobre él una fuerza que le obligue a cambiar dicho estado.</string>
+    <string name="respuesta2_pregunta1_examteorico_newton">Todo cuerpo tiene que mantener en reposo así se le aplique una fuerza minina.</string>
+    <string name="respuesta3_pregunta1_examteorico_newton">La aceleración que experimenta un cuerpo es directamente proporcional a la fuerza que actúa sobre el e inversamente proporcional a su masa.</string>
+    <string name="respuesta4_pregunta1_examteorico_newton">Dependiendo si la masa del cuerpo es menor tendrá que ir a menos velocidad.</string>
 
-    <string name="pregunta_dos_newton_teorico">The weight of a body is the force that gravity exerts on said body at an acceleration</string>
+    <string name="pregunta_dos_newton_teorico">Se denomina peso de un cuerpo a la fuerza que ejerce la gravedad sobre dicho cuerpo a una aceleración</string>
 
-    <string name="pregunta_tres_newton_teorico">Inertia is the tendency of bodies to maintain the state of movement or rest in which they find themselves</string>
+    <string name="pregunta_tres_newton_teorico">La inercia es la tendencia de los cuerpos a mantener el estado de movimiento o reposo en el que se encuentran</string>
 
-    <string name="pregunta_cuatro_newton_teorico">What is Newton\'s second law?</string>
-    <string name="respuesta1_pregunta4_examteorico_newton">The acceleration increases when it is submerged in some liquid.</string>
-    <string name="respuesta2_pregunta4_examteorico_newton">It is a force that appears when there are two bodies in contact.</string>
-    <string name="respuesta3_pregunta4_examteorico_newton">As all matter is in motion and movement is absolute.</string>
-    <string name="respuesta4_pregunta4_examteorico_newton">The acceleration that a body experiences is directly proportional to the force acting on it and inversely proportional to its mass</string>
+    <string name="pregunta_cuatro_newton_teorico">"¿En qué consiste la segunda ley de newton? "</string>
+    <string name="respuesta1_pregunta4_examteorico_newton">La aceleración aumenta cuando es sumergido a algún líquido.</string>
+    <string name="respuesta2_pregunta4_examteorico_newton">Es una fuerza que aparece cuando hay dos cuerpos en contacto.</string>
+    <string name="respuesta3_pregunta4_examteorico_newton">Como toda la materia está en movimiento y el movimiento es lo absoluto.</string>
+    <string name="respuesta4_pregunta4_examteorico_newton">La aceleración que experimenta un cuerpo es directamente proporcional a la fuerza que actúa sobre el e inversamente Proporcional a su masa</string>
 
-    <string name="pregunta_cinco_newton_teorico">What is the friction force?</string>
-    <string name="respuesta1_pregunta5_examteorico_newton">It is neutral</string>
-    <string name="respuesta2_pregunta5_examteorico_newton">It is when ropes (tension) are used</string>
-    <string name="respuesta3_pregunta5_examteorico_newton">It is the opposition to the movement of bodies and occurs in all known means.</string>
-    <string name="respuesta4_pregunta5_examteorico_newton">It is a fictitious force that appears when the movement of a body in a rotating reference system is described.</string>
+    <string name="pregunta_cinco_newton_teorico">¿Que es la fuerza de fricción?</string>
+    <string name="respuesta1_pregunta5_examteorico_newton">Es neutra</string>
+    <string name="respuesta3_pregunta5_examteorico_newton">Es la oposición al movimiento de los cuerpos y se da en todos los medios conocidos.</string>
+    <string name="respuesta4_pregunta5_examteorico_newton">Es una fuerza ficticia que aparece cuando se describe el movimiento de un cuerpo en un sistema de referencia en rotación.</string>
 
-    <string name="pregunta_seis_newton_teorico">Is the equality F = M.A the mathematical expression of?</string>
-    <string name="respuesta1_pregunta6_examteorico_newton">Newton\'s second law.</string>
-    <string name="respuesta2_pregunta6_examteorico_newton">Newton\'s first law.</string>
-    <string name="respuesta3_pregunta6_examteorico_newton">Newton\'s third law.</string>
-    <string name="respuesta4_pregunta6_examteorico_newton">Newton\'s fourth law.</string>
+    <string name="pregunta_seis_newton_teorico">¿La igualdad F= M.A es la expresión matemática de?</string>
+    <string name="respuesta1_pregunta6_examteorico_newton">" la segunda ley de Newton."</string>
+    <string name="respuesta2_pregunta6_examteorico_newton">la primera ley de Newton.</string>
+    <string name="respuesta3_pregunta6_examteorico_newton">la tercera ley de Newton.</string>
+    <string name="respuesta4_pregunta6_examteorico_newton">" la cuarta ley de Newton."</string>
 
-    <string name="pregunta_siete_newton_teorico">If a force does not act on a body or the results of the acting forces is zero?</string>
-    <string name="respuesta1_pregunta7_examteorico_newton">The body does not move.</string>
-    <string name="respuesta2_pregunta7_examteorico_newton">The body moves with a uniform rectilinear movement.</string>
-    <string name="respuesta3_pregunta7_examteorico_newton">The body moves with a uniformly accelerated rectilinear movement.</string>
-    <string name="respuesta4_pregunta7_examteorico_newton">The body moves with a rectilinear movement uniformly retarded.</string>
+    <string name="pregunta_siete_newton_teorico">¿Si sobre un cuerpo no actua ninguna fuerza o las resultantes de las fuerzas que actúan es cero?</string>
+    <string name="respuesta1_pregunta7_examteorico_newton">el cuerpo no se mueve, el cuerpo se mueve con un movimiento rectilíneo uniforme.</string>
+    <string name="respuesta2_pregunta7_examteorico_newton">"se movia "</string>
+    <string name="respuesta3_pregunta7_examteorico_newton">El cuerpo se mueve con un movimiento rectilíneo uniformemente acelerado.</string>
+    <string name="respuesta4_pregunta7_examteorico_newton">el cuerpo se mueve con un movimiento rectilíneo uniformemente retardado.</string>
 
-    <string name="pregunta_ocho_newton_teorico">Newton\'s first law is also known as how?</string>
-    <string name="respuesta1_pregunta8_examteorico_newton">Energy principle</string>
-    <string name="respuesta2_pregunta8_examteorico_newton">Universal gravitational principle.</string>
-    <string name="respuesta3_pregunta8_examteorico_newton">Principle of conservation of the mass.</string>
-    <string name="respuesta4_pregunta8_examteorico_newton">Principle of inertia.</string>
+    <string name="pregunta_ocho_newton_teorico">¿La primera ley de Newton se conoce también cómo?</string>
+    <string name="respuesta1_pregunta8_examteorico_newton">principio de energía</string>
+    <string name="respuesta2_pregunta8_examteorico_newton">principio gravitatorio universal.</string>
+    <string name="respuesta3_pregunta8_examteorico_newton">" principio de conservación de la masa."</string>
+    <string name="respuesta4_pregunta8_examteorico_newton">" principio de inercia."</string>
 
-    <string name="pregunta_nueve_newton_teorico">If a body is at rest?</string>
-    <string name="respuesta1_pregunta9_examteorico_newton">No force acts on it.</string>
-    <string name="respuesta2_pregunta9_examteorico_newton">The resultant of the forces acting on him is null.</string>
-    <string name="respuesta3_pregunta9_examteorico_newton">Only one force acts on him.</string>
-    <string name="respuesta4_pregunta9_examteorico_newton">Only two forces act on it that are counteracted.</string>
+    <string name="pregunta_nueve_newton_teorico">¿Si un cuerpo está en reposo?</string>
+    <string name="respuesta1_pregunta9_examteorico_newton">sobre él no actúa ninguna fuerza. la resultante de las fuerzas que actúan sobre él es nula.</string>
+    <string name="respuesta2_pregunta9_examteorico_newton">Todas las fuerzas actuan.</string>
+    <string name="respuesta3_pregunta9_examteorico_newton">" sólo actúa una fuerza sobre él."</string>
+    <string name="respuesta4_pregunta9_examteorico_newton">sólo actúan dos fuerzas sobre él que se contrarrestan.</string>
 
-    <string name="pregunta_diez_newton_teorico">Is a Newton?</string>
-    <string name="respuesta1_pregunta10_examteorico_newton">The force applied to a body of mass 1 g produces an acceleration of 1 m/s<up>2</up></string>
-    <string name="respuesta2_pregunta10_examteorico_newton">The force applied to a body of mass 1 kg produces an acceleration of 1 m/s2</string>
-    <string name="respuesta3_pregunta10_examteorico_newton">The force applied on a body of mass 1 kg produces an acceleration of 1 cm/s2</string>
-    <string name="respuesta4_pregunta10_examteorico_newton">The force applied on a body of mass 1 g produces an acceleration of 1 mm/s2</string>
+    <string name="pregunta_diez_newton_teorico">" ¿Un Newton es?"</string>
+    <string name="respuesta1_pregunta10_examteorico_newton">la fuerza que aplicada sobre un cuerpo de masa 1 g produce una aceleración de 1 m/s²</string>
+    <string name="respuesta2_pregunta10_examteorico_newton">a fuerza que aplicada sobre un cuerpo de masa 1 kg produce una aceleración de 1 m/s²</string>
+    <string name="respuesta3_pregunta10_examteorico_newton">la fuerza que aplicada sobre un cuerpo de masa 1 kg produce una aceleración de 1 cm/s²</string>
+    <string name="respuesta4_pregunta10_examteorico_newton">a fuerza que aplicada sobre un cuerpo de masa 1 g produce una aceleración de 1 mm/s²</string>
 
     <string name="calificar_title">Calificar</string>
     <string name="title_lista_conversiones">Un vídeo tutorial de como hacer conversión de unidades.</string>
@@ -486,4 +482,89 @@
          </body>
           </html> ]]> "
     </string>
+    <string name="primera_ley_parrafo1">
+    " <![CDATA[ <html>
+          <head></head>
+         <body style="text-align:justify;color:#000;background-color:#fff;">
+         “Todo cuerpo libre, sobre el que no actúa ninguna fuerza, mantiene su estado de movimiento, ya sea en reposo, o ya sea en movimiento rectilíneo uniforme.”
+         </body>
+          </html> ]]> "
+    </string>
+    <string name="primera_ley_parrafo2">
+    " <![CDATA[ <html>
+          <head></head>
+         <body style="text-align:justify;color:#000;background-color:#fff;">
+         El principio de inercia se cumple cuando no actúan fuerzas sobre un cuerpo o
+         cuando las fuerzas que actúan se contrarrestan entre sí. De manera concisa, esta ley postula, que un cuerpo no puede cambiar
+         por sí solo su estado inicial, ya sea en reposo o en movimiento rectilíneo uniforme, a menos que se aplique una fuerza o una
+         serie de fuerzas cuyo resultante no sea nulo sobre él.
+           </br></br>
+         En realidad, es imposible encontrar un sistema de referencia inercial, puesto que siempre hay algún tipo de fuerzas
+         actuando sobre los cuerpos, pero siempre es posible encontrar un sistema de referencia en el que el problema que estemos
+         estudiando se pueda tratar como si estuviésemos en un sistema inercial. En muchos casos,
+         suponer a un observador fijo en la Tierra es una buena aproximación de sistema inercial.
+         </body>
+          </html> ]]> "
+    </string>
+
+    <string name="segunda_ley_parrafo1">
+    " <![CDATA[ <html>
+          <head></head>
+         <body style="text-align:justify;color:#000;background-color:#fff;">
+         “Todo cuerpo sobre el que actúa una fuerza se mueve de tal manera que la variación de su
+         cantidad de movimiento respecto al tiempo es igual a la fuerza que produce el movimiento.”
+         Se expresa con la siguiente fórmula:</br></br>
+         <b>F=a*m</b>
+         </body>
+          </html> ]]> "
+    </string>
+    <string name="segunda_ley_parrafo2">
+    " <![CDATA[ <html>
+          <head></head>
+         <body style="text-align:justify;color:#000;background-color:#fff;">
+        En el que m es la masa, la fuerza y la aceleración. Las dos últimas son
+        magnitudes vectoriales.
+        </br></br>
+        Si varias fuerzas actúan simultáneamente sobre un cuerpo, también podremos
+        aplicar la fórmula fundamental de la dinámica. En este caso, la fuerza que aparece
+        en el primer miembro será resultante de todas las fuerzas a las que el cuerpo está
+        sometido.
+        </br></br>
+        La Segunda ley de Newton se encarga de cuantificar el concepto de fuerza. Nos
+        dice que la fuerza neta aplicada sobre un cuerpo es proporcional a la aceleración
+        que adquiere dicho cuerpo.
+        </br></br>
+        La expresión de la Segunda ley de Newton que hemos dado es válida para
+        cuerpos cuya masa sea constante. Si la masa varia, como por ejemplo un cohete
+        que va quemando combustible, no es válida la relación F = m ·a.
+         </body>
+          </html> ]]> "
+    </string>
+    <string name="tercera_ley_parrafo1">
+    " <![CDATA[ <html>
+          <head></head>
+         <body style="text-align:justify;color:#000;background-color:#fff;">
+        Con toda acción ocurre siempre una reacción igual y contraria: o sea, las acciones
+        mutuas de dos cuerpos siempre son iguales y dirigidas en sentido opuesto.
+        </br></br>
+        también conocida como Principio de acción y reacción nos dice
+        esencialmente que si un cuerpo A ejerce una acción sobre otro cuerpo B, éste
+        realiza sobre A otra acción igual y de sentido contrario.
+        </br></br>
+        Expone que por cada fuerza que actúa sobre un cuerpo, este realiza una fuerza de igual intensidad y
+        dirección, pero de sentido contrario sobre el cuerpo que la produjo. Dicho de otra
+        forma, las fuerzas, situadas sobre la misma recta, siempre se presentan en pares
+        de igual magnitud y opuestas en sentido.
+        </br></br>
+        Esta ley es algo que podemos comprobar a diario en numerosas ocasiones. Por
+        ejemplo, cuando queremos dar un salto hacia arriba, empujamos el suelo para
+        impulsarnos. La reacción del suelo es la que nos hace saltar hacia arriba.
+        </br></br>
+         </body>
+          </html> ]]> "
+    </string>
+    <string name="tercera_ley_title">Principio de acción y reacción</string>
+    <string name="newton_s_law_exam_title">Examen de leyes de Newton</string>
+    <string name="pregunta_tres_vectores_teorico">¿En los vectores, se llama dirección a?</string>
+    <string name="respuesta2_pregunta5_examteorico_newton">Es cuando se utilizan cuerdas(Tensión)</string>
 </resources>

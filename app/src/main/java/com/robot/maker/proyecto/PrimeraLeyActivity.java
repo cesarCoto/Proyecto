@@ -64,8 +64,8 @@ public class PrimeraLeyActivity extends AppCompatActivity
         } else if (id == R.id.nav_examples_PL) {
             transaction.replace(R.id.contenido_primera_ley, new ExamplesPrimeraLeyFragment()).commit();
 
-        } else if (id == R.id.nav_ejercicios_PL) {
-            transaction.replace(R.id.contenido_primera_ley, new EjerciciosDePrimeaLeyFragment()).commit();
+        /*} else if (id == R.id.nav_ejercicios_PL) {
+            transaction.replace(R.id.contenido_primera_ley, new EjerciciosDePrimeaLeyFragment()).commit();*/
         }  else if (id == R.id.nav_feedback_PL) {
 
         }

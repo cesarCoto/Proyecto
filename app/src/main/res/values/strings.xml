@@ -32,7 +32,7 @@
     <string name="tercera_ley_title">Principle of action and reaction</string>
     <string name="conversion_exam_title">Conversion exam</string>
     <string name="theoric_exam_title">Theoric exam</string>
-    <string name="practical_test_title">practical test</string>
+    <string name="practical_test_title">Practical test</string>
     <string name="vector_exam_title">Vector exam</string>
     <string name="magnitudes_exam_title">Magnitudes exam</string>
     <string name="newton_s_law_exam_title">Newton\'s Law Exam</string>
@@ -245,8 +245,7 @@
     <string name="respuesta4_pregunta6_examteorico_newton">Newton\'s fourth law.</string>
 
     <string name="pregunta_siete_newton_teorico">If a force does not act on a body or the results of the acting forces is zero?</string>
-    <string name="respuesta1_pregunta7_examteorico_newton">The body does not move.</string>
-    <string name="respuesta2_pregunta7_examteorico_newton">The body moves with a uniform rectilinear movement.</string>
+    <string name="respuesta1_pregunta7_examteorico_newton">The body does not move, the body moves with a uniform rectilinear movement.</string>
     <string name="respuesta3_pregunta7_examteorico_newton">The body moves with a uniformly accelerated rectilinear movement.</string>
     <string name="respuesta4_pregunta7_examteorico_newton">The body moves with a rectilinear movement uniformly retarded.</string>
 
@@ -257,16 +256,16 @@
     <string name="respuesta4_pregunta8_examteorico_newton">Principle of inertia.</string>
 
     <string name="pregunta_nueve_newton_teorico">If a body is at rest?</string>
-    <string name="respuesta1_pregunta9_examteorico_newton">No force acts on it.</string>
-    <string name="respuesta2_pregunta9_examteorico_newton">The resultant of the forces acting on him is null.</string>
+    <string name="respuesta1_pregunta9_examteorico_newton">No force acts on it. The resultant of the forces acting on him is null.</string>
+    <string name="respuesta2_pregunta9_examteorico_newton">All the forcers acts.</string>
     <string name="respuesta3_pregunta9_examteorico_newton">Only one force acts on him.</string>
     <string name="respuesta4_pregunta9_examteorico_newton">Only two forces act on it that are counteracted.</string>
 
     <string name="pregunta_diez_newton_teorico">Is a Newton?</string>
-    <string name="respuesta1_pregunta10_examteorico_newton">The force applied to a body of mass 1 g produces an acceleration of 1 m/s<up>2</up></string>
-    <string name="respuesta2_pregunta10_examteorico_newton">The force applied to a body of mass 1 kg produces an acceleration of 1 m/s2</string>
-    <string name="respuesta3_pregunta10_examteorico_newton">The force applied on a body of mass 1 kg produces an acceleration of 1 cm/s2</string>
-    <string name="respuesta4_pregunta10_examteorico_newton">The force applied on a body of mass 1 g produces an acceleration of 1 mm/s2</string>
+    <string name="respuesta1_pregunta10_examteorico_newton">The force applied to a body of mass 1 g produces an acceleration of 1 m/s²</string>
+    <string name="respuesta2_pregunta10_examteorico_newton">The force applied to a body of mass 1 kg produces an acceleration of 1 m/s²</string>
+    <string name="respuesta3_pregunta10_examteorico_newton">The force applied on a body of mass 1 kg produces an acceleration of 1 cm/s²</string>
+    <string name="respuesta4_pregunta10_examteorico_newton">The force applied on a body of mass 1 g produces an acceleration of 1 mm/s²</string>
 
     <string name="calificar_title">Qualify</string>
     <string name="title_lista_conversiones">A video tutorial on how to convert units.</string>
@@ -460,5 +459,84 @@
          </body>
           </html> ]]> "
     </string>
-    <string name="title_activity_primera_ley">PrimeraLeyActivity</string>
+    <string name="primera_ley_parrafo1">
+    " <![CDATA[ <html>
+          <head></head>
+         <body style="text-align:justify;color:#000;background-color:#fff;">
+         “Every free body, over which no force acts, maintains its state of movement, either at rest, or in a uniform rectilinear motion.”
+         </body>
+          </html> ]]> "
+    </string>
+    <string name="primera_ley_parrafo2">
+    " <![CDATA[ <html>
+          <head></head>
+         <body style="text-align:justify;color:#000;background-color:#fff;">
+        The principle of inertia is fulfilled when no forces act on a body or
+        when the acting forces counteract each other. Concisely, this law postulates that a body can not change its
+        initial state by itself, either in rest or in uniform
+        rectilinear motion, unless a force or a series of forces is applied resulting is not null about it.
+         </br></br>
+        In reality, it is impossible to find an inertial reference system, since there is always some kind of
+        forces acting on the bodies, but it is always possible to find a reference system in which the
+        problem that we are studying can be treated as if we were in an inertial system. In many
+        In some cases, supposing a fixed observer on Earth is a good approximation of the inertial system.
+        </body>
+          </html> ]]> "
+    </string>
+    <string name="segunda_ley_parrafo1">
+    " <![CDATA[ <html>
+          <head></head>
+         <body style="text-align:justify;color:#000;background-color:#fff;">
+        “Every body on which a force acts moves in such a way that the variation of its
+        The amount of movement with respect to time is equal to the force produced by the movement.”
+        He express with the following formula:</br></br>
+        <b>F=a*m</b>
+         </body>
+          </html> ]]> "
+    </string><string name="segunda_ley_parrafo2">
+    " <![CDATA[ <html>
+          <head></head>
+         <body style="text-align:justify;color:#000;background-color:#fff;">
+        In which m is mass, force and acceleration. The last two are
+        Vector magnitudes.
+        </br></br>
+        If several forces act simultaneously on a body, we can also
+        apply the fundamental formula of the dynamics. In this case, the force that appears
+        in the first member will result from all the forces to which the body is
+        submitted.
+        </br></br>
+        Newton's Second Law is responsible for quantifying the concept of force. Us
+        says that the net force applied to a body is proportional to the acceleration
+        that acquires said body.
+        </br></br>
+        The expression of Newton's Second Law that we have given is valid for
+        bodies whose mass is constant. If the mass varies, such as a rocket
+        that is burning fuel, the relation F = m · a is not valid.
+         </body>
+          </html> ]]> "
+    </string>
+    <string name="tercera_ley_parrafo1">
+    " <![CDATA[ <html>
+          <head></head>
+         <body style="text-align:justify;color:#000;background-color:#fff;">
+           Law of action and reaction
+            With every action there is always an equal and opposite reaction: that is, actions
+            Mutuals of two bodies are always the same and directed in the opposite direction.
+            </br></br>
+            Also known as Principle of action and reaction tells us
+            essentially that if a body A exerts an action on another body B, this one
+            performs on A another equal and opposite action.
+            </br></br>
+            It states that for each force acting on a body, it performs a force of equal intensity and
+            direction, but in the opposite direction on the body that produced it. Said another
+            form, the forces, located on the same line, are always presented in pairs
+            of equal magnitude and opposite in sense.
+            </br></br>
+            This law is something that we can check daily on numerous occasions. By
+            example, when we want to jump up, we push the ground to
+            boost us The reaction of the soil is what makes us jump up.
+         </body>
+          </html> ]]> "
+    </string>
+    <string name="respuesta2_pregunta7_examteorico_newton">Was moving</string>
 </resources>

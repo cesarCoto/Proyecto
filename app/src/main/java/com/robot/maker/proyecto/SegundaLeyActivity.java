@@ -1,33 +1,34 @@
 package com.robot.maker.proyecto;
 
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.MenuItem;
 
-public class ConversionsActivity extends AppCompatActivity
+public class SegundaLeyActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_conversions);
+        setContentView(R.layout.activity_segunda_ley);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        //se crea la clase fragmentManager para poder desplegar las pantallas en cada menu
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.replace(R.id.contenido_segunda_ley, new SegundaLeyFragment()).commit();
 
-        transaction.replace(R.id.contenido_conversiones,new InicioConversionesFragment()).commit();
-
-        //se referencia el menu de hamburgesa
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -47,21 +48,20 @@ public class ConversionsActivity extends AppCompatActivity
             super.onBackPressed();
         }
     }
+
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Aqui se cambia la posision del activities y se manda que fragment ocupara el espacio estalbecido como contenido conversiones
+        // Handle navigation view item clicks here.
         int id = item.getItemId();
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction transaction = fragmentManager.beginTransaction();
-        if (id == R.id.nav_inicio_conversiones) {
-            transaction.replace(R.id.contenido_conversiones,new InicioConversionesFragment()).commit();
-        } else if (id == R.id.nav_ejemplos_conversiones) {
-            transaction.replace(R.id.contenido_conversiones, new ExamplesConversioesFragment()).commit();
-        /*} else if (id == R.id.nav_exercises_conversiones) {
-            transaction.replace(R.id.contenido_conversiones, new EjerciciosConversionesFragment()).commit();*/
-        } else if (id == R.id.nav_feedback){
-            
+        if (id == R.id.nav_inicio_SL) {
+            transaction.replace(R.id.contenido_segunda_ley, new SegundaLeyFragment()).commit();
+        } else if (id == R.id.nav_examples_SL) {
+            transaction.replace(R.id.contenido_segunda_ley, new ExamplesSegundaLeyFragment()).commit();
+        } else if (id == R.id.nav_feedback_SL) {
+
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

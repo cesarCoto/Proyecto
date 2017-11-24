@@ -87,18 +87,18 @@ public class VideosFragment extends Fragment  {
        //se crean los titulos de cadad elemento en la lista
         String [] titulos = {getString(R.string.conversions_title),getString(R.string.vectors_title),
                 getString(R.string.magnitudes_title),getString(R.string.ley_inercia_title),getString(R.string.segunda_ley_title),
-                getString(R.string.tercera_ley_title),getString(R.string.books_title)};
+                getString(R.string.tercera_ley_title) /*,getString(R.string.books_title)*/};
         //despricciones
         String [] descripciones = {getString(R.string.title_lista_conversiones),
                 getString(R.string.title_lista_vectores),
                 getString(R.string.title_lista_magnitudes),
                 getString(R.string.title_lista_primera_ley),
                 getString(R.string.title_lista_segunda_ley),
-                getString(R.string.title_lista_tercera_ley),
-                getString(R.string.title_lista_books)};
+                getString(R.string.title_lista_tercera_ley)
+                /*getString(R.string.title_lista_books)*/};
         //imagenes
         int [] imagenes = {R.drawable.conversiones_img, R.drawable.vectores_img,R.drawable.magnitudes_img,
-                R.drawable.primera_ley_new_img,R.drawable.segunda_ley_new_img,R.drawable.tercera_lew_new_img,R.drawable.mal};
+                R.drawable.primera_ley_new_img,R.drawable.segunda_ley_new_img,R.drawable.tercera_lew_new_img/*,R.drawable.mal*/};
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_videos, container, false);
         ListView listView = view.findViewById(R.id.lista_videos);

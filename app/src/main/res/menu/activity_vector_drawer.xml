@@ -16,10 +16,10 @@
             android:id="@+id/nav_ejemplos_vectores"
             android:icon="@drawable/ic_examples_black_24dp"
             android:title="@string/examples_title" />
-        <item
+       <!-- <item
             android:id="@+id/nav_exercises_vectores"
             android:icon="@drawable/ic_exercises_black_24dp"
-            android:title="@string/exercises_title" />
+            android:title="@string/exercises_title" />-->
 
     </group>
 
