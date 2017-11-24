@@ -586,4 +586,16 @@
     <string name="formula5">-T1 + T2 - f = ma</string>
     <string name="formula6">Fr = F- f</string>
     <string name="formula7">N = p - senO</string>
+    <string name="pregunta1_exam_vec">Two forces act on a point object in the following way: 100N at 170 degrees and 100N at 50 degrees. Do you calculate your result?</string>
+    <string name="grad">Degrees</string>
+    <string name="problema2_exam_vec">Algebraically calculate the resultant of the following coplanar displacements: 20m at 30 degrees, 40m at 120 degrees, 25m at 180 degrees, 42m at 270 degrees and 12m at 315 degrees.</string>
+    <string name="metros">Meters</string>
+    <string name="problema3_exam_vec">What displacement must be added to another 50 cm in the + x direction so that the resulting displacement is 85 cm at 28 degrees?</string>
+    <string name="centimetros">Centimeters</string>
+    <string name="problema4_exam_vec">The x component of a displacement is 450m. Calculate the resulting displacement from 85cm to 25 degrees?</string>
+    <string name="formula1_vec">C² = a² + b² - 2ab* cos0</string>
+    <string name="formula2_vec">A/senα = B/senβ = C/senC</string>
+    <string name="formula3_vec">C² = √ a² + b²</string>
+    <string name="formula4_vec">Cx = Vcosθ</string>
+    <string name="formula5_vec">Cy = Vsenθ</string>
 </resources>

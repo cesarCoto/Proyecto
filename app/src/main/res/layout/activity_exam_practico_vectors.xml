@@ -13,13 +13,121 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <Button
-                android:id="@+id/mostrar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:text="Show"/>
+            android:layout_height="match_parent"
+            android:padding="@dimen/dimen_padding_16dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="UselessParent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cont_vec"
+                    android:layout_marginBottom="@dimen/margin_button_exam">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pregunta1_exam_vec"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/respuesta1_1_examen_vec"
+                    android:hint="@string/newtons"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/respuesta1_2_examen_vec"
+                    android:hint="@string/grad"
+                    android:inputType="number"/>
+
+
+                <TextView
+                    android:layout_marginTop="@dimen/dimen_padding_16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/problema2_exam_vec"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/respuesta2_1_examen_vec"
+                    android:hint="@string/metros"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/respuesta2_2_examen_vec"
+                    android:hint="@string/grad"
+                    android:inputType="number"/>
+
+
+                <TextView
+                    android:layout_marginTop="@dimen/dimen_padding_16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/problema3_exam_vec"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/respuesta3_1_examen_vec"
+                    android:hint="@string/centimetros"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/respuesta3_2_examen_vec"
+                    android:hint="@string/grad"
+                    android:inputType="number"/>
+
+
+                <TextView
+                    android:layout_marginTop="@dimen/dimen_padding_16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/problema4_exam_vec"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/respuesta4_1_examen_vec"
+                    android:hint="@string/centimetros"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/respuesta4_2_examen_vec"
+                    android:hint="@string/grad"
+                    android:inputType="number"/>
+
+
+                <Button
+                    android:id="@+id/button_calificar_examen_vectores"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/calificar_title"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:textColor="@color/text_color"
+                    tools:targetApi="lollipop" />
+
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
         </RelativeLayout>
     </android.support.v4.widget.NestedScrollView>
 
@@ -40,6 +148,57 @@
             android:layout_height="@dimen/dimen_peekheight_50dp"
             android:paddingTop="@dimen/dimen_8dp"
             android:text="@string/help_text"
+            android:textAlignment="center"
+            android:textSize="@dimen/dimen_text_help" />
+
+
+        <TextView
+            android:id="@+id/formula1_vec"
+            android:layout_below="@id/textView_help_exam_vectores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:text="@string/formula1_vec"
+            android:textAlignment="center"
+            android:textSize="@dimen/dimen_text_help" />
+
+        <TextView
+            android:id="@+id/formula2_vec"
+            android:layout_below="@id/formula1_vec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:text="@string/formula2_vec"
+            android:textAlignment="center"
+            android:textSize="@dimen/dimen_text_help" />
+
+        <TextView
+            android:id="@+id/formula3_vec"
+            android:layout_below="@id/formula2_vec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:text="@string/formula3_vec"
+            android:textAlignment="center"
+            android:textSize="@dimen/dimen_text_help" />
+
+        <TextView
+            android:id="@+id/formula4_vec"
+            android:layout_below="@id/formula3_vec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:text="@string/formula4_vec"
+            android:textAlignment="center"
+            android:textSize="@dimen/dimen_text_help" />
+
+        <TextView
+            android:id="@+id/formula5_vec"
+            android:layout_below="@id/formula4_vec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:text="@string/formula5_vec"
             android:textAlignment="center"
             android:textSize="@dimen/dimen_text_help" />
     </RelativeLayout>
