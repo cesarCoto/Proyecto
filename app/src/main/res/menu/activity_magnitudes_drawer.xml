@@ -8,14 +8,14 @@
             android:id="@+id/nav_home_magnitudes"
             android:icon="@drawable/ic_home_black_24dp"
             android:title="@string/title_home" />
-        <item
-            android:id="@+id/nav_exampes_magnitudes"
-            android:icon="@drawable/ic_examples_black_24dp"
-            android:title="@string/examples_title" />
-       <!-- <item
-            android:id="@+id/nav_ejercicios_magnitudes"
-            android:icon="@drawable/ic_exercises_black_24dp"
-            android:title="@string/exercises_title" />-->
+        <!-- <item
+             android:id="@+id/nav_exampes_magnitudes"
+             android:icon="@drawable/ic_examples_black_24dp"
+             android:title="@string/examples_title" />
+         <item
+             android:id="@+id/nav_ejercicios_magnitudes"
+             android:icon="@drawable/ic_exercises_black_24dp"
+             android:title="@string/exercises_title" />-->
     </group>
 
     <item android:title="@string/more_title">

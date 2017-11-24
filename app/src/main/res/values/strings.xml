@@ -598,4 +598,22 @@
     <string name="formula3_vec">C² = √ a² + b²</string>
     <string name="formula4_vec">Cx = Vcosθ</string>
     <string name="formula5_vec">Cy = Vsenθ</string>
+    <string name="datos">Data</string>
+    <string name="p_10n">P = 10N</string>
+    <string name="f_12n">f = 12N</string>
+    <string name="a">a = ?</string>
+    <string name="formulas">Formulas</string>
+    <string name="procedimiento">Process</string>
+    <string name="convertir_peso_a_masa">Convert weight to mass</string>
+    <string name="prosedimiento_new">m = p/g = 10N/9.8 = 1.02kg</string>
+    <string name="con_la_formula_optenida_new">With the obtained mass the values are changed in the formula a = fr / m</string>
+    <string name="respuesta_ejemplo_new">a = fr/m = 12/1.02 = 11.76m/s²</string>
+    <string name="instruccion_ejemplo_conversiones">4m³ to cm³</string>
+    <string name="instruccion_ejemplo2_conversiones">5m/s to km/h</string>
+    <string name="respuesta_conversino1">4m³ X 1000000/1m³ = 400000 cm³</string>
+    <string name="respuesta_conversion2">5m/s x 1km/1000m x 3600s/1h = 1800km/1000h</string>
+    <string name="respuesta_co_conversiones2">18000km/1000h = 18k/h</string>
+    <string name="instruccion_tres_conversiones">50l/s to m³/h</string>
+    <string name="respuesta_conversiones3">50 l/s = 1m³/1000l X 3600s/1h = 180000m³/1000h</string>
+    <string name="respuesta_co_conversiones3">180000m³/1000h = 180m³/h</string>
 </resources>
