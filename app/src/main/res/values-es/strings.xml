@@ -1,6 +1,6 @@
 <resources>
     <!--Titulos-->
-    <string name="app_name">Proyecto</string>
+    <string name="app_name">FisiApp</string>
     <string name="title_home">Inicio</string>
     <string name="title_exam">Examenes</string>
 

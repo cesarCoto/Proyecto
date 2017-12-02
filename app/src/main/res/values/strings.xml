@@ -1,6 +1,6 @@
 <resources>
     <!--Titulos-->
-    <string name="app_name">Proyecto</string>
+    <string name="app_name">FisiApp</string>
     <string name="title_home">Home</string>
     <string name="title_exam">Exams</string>
 
@@ -616,4 +616,25 @@
     <string name="instruccion_tres_conversiones">50l/s to m³/h</string>
     <string name="respuesta_conversiones3">50 l/s = 1m³/1000l X 3600s/1h = 180000m³/1000h</string>
     <string name="respuesta_co_conversiones3">180000m³/1000h = 180m³/h</string>
+    <string name="a_0_5m_s">a = 0.5m/s²</string>
+    <string name="p_50n">p = 50N</string>
+    <string name="t_no">T = ?</string>
+    <string name="formula_8_segundaley">T = p-ma</string>
+    <string name="respuesta_segunda_ley">T = 50N-(5.1kg)(0.5m/s²)</string>
+    <string name="rescpuesta_corec_segunda_ley">T = 50N-2.55 = 47.45N</string>
+    <string name="texto_tercera_ley">Dos cajas de 20 y 30 kg de masas respectivamente, se encuentran apoyadas sobre una superficie horizontal sin rozamiento, una apoyada sobre la otra. Si empujamos el conjunto con una fuerza de 100N. ¿Cual es la aceleracion de cada mas?, ¿Que fuerza ejercera cada caja sobre la otra?</string>
+    <string name="formula2_tercera_ley">F = (m1 + m2) * a</string>
+    <string name="texto_conclucion_tercera_ley">Sobre la caja 1 actuan las fuerzas F y F21 en la direccion horizontal y sobre la caja 2, la F12 en la misma direccion. En modulo F21=F12.</string>
+    <string name="texto_conclucion2_tercera_ley">Aplicando la 2a ley de Newton F=m*a; a cada caja:</string>
+    <string name="titulo_conclucion_tercera_ley">caja1 : F-F21 = m1*a \ncaja2 : F12 = m2*a   \nSumando:\n  F = (m1 + m2) * a; 100 = (20 + 30)*a; a = 2m/s²</string>
+    <string name="titulo_conclucion3_tercera_ley">Y sustituyendo en f12 = m2*a = 20*2 = 40N, fuerza que ejerce la caja 1 sobre la 2.   La fuerza que ejerce la caja 2 sobre la 1 es igual en modulo, direccion y sentido contrario</string>
+    <string name="a_5km_120">A 5km 120°</string>
+    <string name="b_7km_43">B 7km 43°</string>
+    <string name="c_8km_150">C 8km 150°</string>
+    <string name="r_43_13">R = √(-43)² + (13)²</string>
+    <string name="r_18_49_169">R=√18.49 + 169</string>
+    <string name="r_187_49">R = √187.49</string>
+    <string name="r_13_69">R = 13.69</string>
+    <string name="procedimiento_1vec">Cx = 5kmcos120° = 2.5km \nCx 7kmCos43° = 5.1km  \nCx = 8kmCos150° = -6.9km</string>
+    <string name="text_largo_vectores_formula_4">Cy = 5kmsen120° = 4.3km \n Cy = 7kmSen43° = 4.7km  \n Cy = 8kmSen150° = 4km</string>
 </resources>

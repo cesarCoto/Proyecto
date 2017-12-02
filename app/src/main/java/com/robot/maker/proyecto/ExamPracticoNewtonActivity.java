@@ -35,48 +35,53 @@ public class ExamPracticoNewtonActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int calificarcion = 0;
-                //res1
-                int res1 = 6000;
+                //extracccion
                 String a = uno.getText().toString();
-                int a_a = Integer.parseInt(a);
-                //res2
                 String b = dos.getText().toString();
                 String b2 = dos_dos.getText().toString();
-                float b_b = Float.parseFloat(b);
-                int b2_b2 = Integer.parseInt(b2);
-                float resb1 = (float) 4.9;
-                int resb2 = 59;
-                //res3
                 String c = tres.getText().toString();
-                int c_c = Integer.parseInt(c);
-                int res3 = 63;
-                //res4
                 String d = cuatro.getText().toString();
-                float d_d = Float.parseFloat(d);
-                float res4 = (float) 0.10;
-                //res5
                 String e = cinco.getText().toString();
-                float e_e = Float.parseFloat(e);
-                float res5 = (float)14.7;
-                if (a_a == res1){
-                    calificarcion = calificarcion +1;
-                }
-                if (b_b == resb1 && b2_b2 == resb2){
-                    calificarcion = calificarcion +1;
-                }
-                if (c_c == res3){
-                    calificarcion = calificarcion +1;
-                }
-                if(d_d == res4){
-                    calificarcion = calificarcion +1;
-                }
-                if(e_e == res5){
-                    calificarcion = calificarcion +1;
-                }
-                if(calificarcion == 5  || calificarcion>2){
-                    Toast.makeText(ExamPracticoNewtonActivity.this, getString(R.string.calificacion_text) + " "+ String.valueOf(calificarcion) + "/5", Toast.LENGTH_SHORT).show();
-                }else if(calificarcion ==2 || calificarcion<2){
-                    Toast.makeText(ExamPracticoNewtonActivity.this, getString(R.string.mala_suerte), Toast.LENGTH_SHORT).show();
+                if(uno.length()!=0 &&dos.length()!=0 && dos_dos.length()!=0 && tres.length()!=0 && cuatro.length()!=0 && cinco.length()!=0) {
+                    //res1
+                    int res1 = 6000;
+                    int a_a = Integer.parseInt(a);
+                    //res2
+                    float b_b = Float.parseFloat(b);
+                    int b2_b2 = Integer.parseInt(b2);
+                    float resb1 = (float) 4.9;
+                    int resb2 = 59;
+                    //res3
+                    int c_c = Integer.parseInt(c);
+                    int res3 = 63;
+                    //res4
+                    float d_d = Float.parseFloat(d);
+                    float res4 = (float) 0.10;
+                    //res5
+                    float e_e = Float.parseFloat(e);
+                    float res5 = (float) 14.7;
+                    if (a_a == res1) {
+                        calificarcion = calificarcion + 1;
+                    }
+                    if (b_b == resb1 && b2_b2 == resb2) {
+                        calificarcion = calificarcion + 1;
+                    }
+                    if (c_c == res3) {
+                        calificarcion = calificarcion + 1;
+                    }
+                    if (d_d == res4) {
+                        calificarcion = calificarcion + 1;
+                    }
+                    if (e_e == res5) {
+                        calificarcion = calificarcion + 1;
+                    }
+                    if (calificarcion == 5 || calificarcion > 2) {
+                        Toast.makeText(ExamPracticoNewtonActivity.this, getString(R.string.calificacion_text) + " " + String.valueOf(calificarcion) + "/5", Toast.LENGTH_SHORT).show();
+                    } else if (calificarcion == 2 || calificarcion < 2) {
+                        Toast.makeText(ExamPracticoNewtonActivity.this, getString(R.string.mala_suerte), Toast.LENGTH_SHORT).show();
+                    }
+                }else {
+                    Toast.makeText(ExamPracticoNewtonActivity.this, "Escribe algo por favor", Toast.LENGTH_SHORT).show();
                 }
             }
         });
