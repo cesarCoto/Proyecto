@@ -24,6 +24,7 @@ import android.widget.Toast;
 
 import static android.content.Context.WIFI_SERVICE;
 
+// This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques
 
 /**
  * A simple {@link Fragment} subclass.

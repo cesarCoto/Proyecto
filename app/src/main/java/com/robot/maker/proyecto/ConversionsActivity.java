@@ -14,6 +14,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+// This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques
+
 public class ConversionsActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 

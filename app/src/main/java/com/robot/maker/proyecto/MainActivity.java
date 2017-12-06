@@ -15,6 +15,8 @@ import android.support.v4.app.FragmentTransaction;
 
 public class MainActivity extends AppCompatActivity {
 
+    // This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques
+
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {

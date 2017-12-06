@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+// This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques
 
 /**
  * A simple {@link Fragment} subclass.

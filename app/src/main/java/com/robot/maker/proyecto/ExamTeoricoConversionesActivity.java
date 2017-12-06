@@ -8,6 +8,9 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+// This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques
+
+
 public class ExamTeoricoConversionesActivity extends AppCompatActivity {
 
     RadioButton uno,dos,tres,cuatro,cinco,seis,siete,ocho,nueve,diez;

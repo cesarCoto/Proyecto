@@ -12,7 +12,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageView;
 import android.widget.Toast;
-/*CREADO POR CESAR COTO, JOSE COUTIÑO*/
+// This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques
 public class VideosContainerActivity extends AppCompatActivity {
 
     WebView webViewVideos;

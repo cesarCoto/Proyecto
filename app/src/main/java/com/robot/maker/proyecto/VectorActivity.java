@@ -18,6 +18,8 @@ import android.support.v4.app.FragmentTransaction;
 public class VectorActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    // This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
