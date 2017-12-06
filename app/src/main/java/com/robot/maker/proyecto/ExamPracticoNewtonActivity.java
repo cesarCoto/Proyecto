@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 public class ExamPracticoNewtonActivity extends AppCompatActivity {
 
+    //se crea una variable para cada Vista
     TextView textViewHelpNewton;
     EditText uno,dos,dos_dos,tres,cuatro,cinco;
 
@@ -25,7 +26,7 @@ public class ExamPracticoNewtonActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam_practico_newton);
 
-
+        //se enlazan las vista a la calse Java
         uno = findViewById(R.id.respuesta1_examen_newton);
         dos = findViewById(R.id.respuesta2_1_examen_newton);
         dos_dos = findViewById(R.id.respuesta2_2_examen_newton);
@@ -33,6 +34,7 @@ public class ExamPracticoNewtonActivity extends AppCompatActivity {
         cuatro = findViewById(R.id.respuesta4_examen_newton);
         cinco = findViewById(R.id.respuesta5_examen_newton);
 
+        //Se enlza el Button y se asigna el Onclick para que funcione
         buttonCalificar = findViewById(R.id.button_calificar_newton);
         buttonCalificar.setOnClickListener(new View.OnClickListener() {
             @Override

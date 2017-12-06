@@ -60,11 +60,11 @@ public class ExamplesConversioesFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-
+    //se crea metodo para mostrar el Fragmente
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        // se infla el layout
         return inflater.inflate(R.layout.fragment_examples_conversioes, container, false);
     }
 

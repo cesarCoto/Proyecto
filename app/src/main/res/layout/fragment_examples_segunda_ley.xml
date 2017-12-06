@@ -6,6 +6,7 @@
     android:background="@color/bagcolor"
     tools:context="com.robot.maker.proyecto.ExamplesSegundaLeyFragment">
 
+    <!-- This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques -->
 
     <LinearLayout
         android:layout_width="match_parent"

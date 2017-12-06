@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     tools:context="com.robot.maker.proyecto.ExamTeoricVectorsActivity">
 
+    <!-- This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques -->
 
     <LinearLayout
         android:layout_width="match_parent"

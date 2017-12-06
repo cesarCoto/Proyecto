@@ -8,6 +8,7 @@
     tools:context="com.robot.maker.proyecto.PrimeraLeyActivity"
     tools:showIn="@layout/app_bar_primera_ley">
 
+    <!-- This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques -->
 
     <FrameLayout
         android:id="@+id/contenido_primera_ley"

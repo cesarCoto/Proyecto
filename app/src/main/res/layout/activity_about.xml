@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:context="com.robot.maker.proyecto.AboutActivity">
 
+        <!-- This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques -->
 
         <LinearLayout
             android:padding="@dimen/dimen_padding_16dp"

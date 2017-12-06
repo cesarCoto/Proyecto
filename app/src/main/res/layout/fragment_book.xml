@@ -6,6 +6,8 @@
     android:orientation="vertical"
     tools:context="com.robot.maker.proyecto.BookFragment">
 
+    <!-- This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques -->
+
 
     <Spinner
         android:id="@+id/spinner_books"

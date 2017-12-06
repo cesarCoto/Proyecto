@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     tools:context="com.robot.maker.proyecto.EjerciciosMagnitudesFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <!-- This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques -->
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

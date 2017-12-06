@@ -60,10 +60,11 @@ public class EjerciciosDePrimeaLeyFragment extends Fragment {
         }
     }
 
+    // se crea metodo para mostrar el Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        //se infla el layout
         return inflater.inflate(R.layout.fragment_ejemplos_primea_ley, container, false);
     }
 

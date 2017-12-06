@@ -1,6 +1,5 @@
 package com.robot.maker.proyecto;
 
-import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -62,10 +61,11 @@ public class EjerciciosConversionesFragment extends Fragment {
         }
     }
 
+    //Se crea el metodo de onCreate para mostrar el Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        //se infla el layout
         return inflater.inflate(R.layout.fragment_ejercicios_conversiones, container, false);
     }
 

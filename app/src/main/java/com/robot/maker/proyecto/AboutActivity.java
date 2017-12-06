@@ -11,12 +11,15 @@ import android.widget.TextView;
 public class AboutActivity extends AppCompatActivity {
 
     //This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques
+
+    //se crea una variable para la vista tipo TextView
     TextView textView_ourBlog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
 
+        //Se enlazan las vistas con la clase Java
         textView_ourBlog = findViewById(R.id.textView_blog);
         textView_ourBlog.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,7 +32,7 @@ public class AboutActivity extends AppCompatActivity {
             }
         });
 
-        //buton ir atras
+        //se activa el button ir atras para poder visualizarlo.
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
     }

@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 public class ExamTeoricoConversionesActivity extends AppCompatActivity {
 
+    // se crea una variable para cada Vista
     RadioButton uno,dos,tres,cuatro,cinco,seis,siete,ocho,nueve,diez;
     Button buttonCalificar;
     @Override
@@ -20,6 +21,7 @@ public class ExamTeoricoConversionesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam_teorico_conversiones);
 
+        //se enlazan las vista a la calse Java
         uno = findViewById(R.id.radioButton_respuesta3_pregunta1_exam_teorico_conversiones);
         dos = findViewById(R.id.radioButton_respuesta2_pregunta2_exam_teorico_conversiones);
         tres = findViewById(R.id.radioButton_respuesta2_pregunta3_exam_teorico_conversiones);
@@ -31,6 +33,7 @@ public class ExamTeoricoConversionesActivity extends AppCompatActivity {
         nueve = findViewById(R.id.radioButton_respuesta4_pregunta9_exam_teorico_conversiones);
         diez = findViewById(R.id.radioButton_respuesta3_pregunta10_exam_teorico_conversiones);
 
+        // se enlaza el button y se le asigna el onClick para que funcione
         buttonCalificar = findViewById(R.id.button_calificar_examen_teorico_conversiones);
         buttonCalificar.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -7,6 +7,8 @@
     android:layout_height="match_parent"
     tools:context="com.robot.maker.proyecto.MainActivity">
 
+    <!-- This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques -->
+
    <FrameLayout
        android:id="@+id/contenido"
        android:layout_width="match_parent"

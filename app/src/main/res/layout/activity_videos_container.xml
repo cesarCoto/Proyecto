@@ -7,6 +7,7 @@
     android:orientation="vertical"
     tools:context="com.robot.maker.proyecto.VideosContainerActivity">
 
+    <!-- This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques -->
 
     <ImageView
         android:id="@+id/imageView_videos_no_conexion"

@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 public class ExamPracticoMagnitudesActivity extends AppCompatActivity {
 
+    //se crea un avarible para cada Vista
     RadioButton uno,dos,tres,cuatro,cinco,seis,siete,ocho,nueve,diez;
     Button buttonCalificar;
 
@@ -20,6 +21,7 @@ public class ExamPracticoMagnitudesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam_practico_magnitudes);
 
+        //se enlaza cada vista a la clase Java
         uno = findViewById(R.id.radioButton_respuesta1_pregunta1_exam_magnitudes);
         dos = findViewById(R.id.radioButton_respuesta1_pregunta2_exam_magnitudes);
         tres = findViewById(R.id.radioButton_respuesta2_pregunta3_exam_magnitudes);
@@ -31,6 +33,7 @@ public class ExamPracticoMagnitudesActivity extends AppCompatActivity {
         nueve = findViewById(R.id.radioButton_respuesta1_pregunta9_exam_magnitudes);
         diez = findViewById(R.id.radioButton_respuesta1_pregunta10_exam_magnitudes);
 
+        //Se enlza el Button y se asigna el Onclick para que funcione
         buttonCalificar = findViewById(R.id.button_calificar_examen_magnitudes);
         buttonCalificar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,7 +69,6 @@ public class ExamPracticoMagnitudesActivity extends AppCompatActivity {
                 if (diez.isChecked()) {
                     calificacion = calificacion + 1;
                 }
-
                 int a = calificacion;
                 if (calificacion ==10 || calificacion>5){
                     Toast.makeText(ExamPracticoMagnitudesActivity.this, getString(R.string.calificacion_text)+" "+String.valueOf(a), Toast.LENGTH_SHORT).show();

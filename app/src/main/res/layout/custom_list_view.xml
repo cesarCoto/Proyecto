@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
+    <!-- This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques -->
 
     <ImageView
         android:layout_gravity="center"

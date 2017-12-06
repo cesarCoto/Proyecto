@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.robot.maker.proyecto.VideosFragment">
-
+  <!-- This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques -->
   <ListView
         android:id="@+id/lista_videos"
         android:layout_width="match_parent"

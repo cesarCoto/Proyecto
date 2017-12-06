@@ -16,7 +16,7 @@ import android.widget.Toast;
 
 public class ExamPracticoVectorsActivity extends AppCompatActivity {
 
-
+    //se crea una variable para cada Vista
     TextView textViewHelpVector;
 
     EditText uno,uno_dos,
@@ -30,6 +30,8 @@ public class ExamPracticoVectorsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam_practico_vectors);
 
+
+        //se enlazan las vista a la calse Java
         uno = findViewById(R.id.respuesta1_1_examen_vec);
         uno_dos = findViewById(R.id.respuesta1_2_examen_vec);
 
@@ -42,8 +44,8 @@ public class ExamPracticoVectorsActivity extends AppCompatActivity {
         cuatro = findViewById(R.id.respuesta4_1_examen_vec);
         cuatro_dos = findViewById(R.id.respuesta4_2_examen_vec);
 
+        //Se enlza el Button y se asigna el Onclick para que funcione
         buttonCalificar = findViewById(R.id.button_calificar_examen_vectores);
-
         buttonCalificar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

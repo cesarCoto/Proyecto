@@ -8,6 +8,7 @@
     tools:context="com.robot.maker.proyecto.SegundaLeyActivity"
     tools:showIn="@layout/app_bar_segunda_ley">
 
+    <!-- This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques -->
 
     <FrameLayout
         android:layout_width="match_parent"

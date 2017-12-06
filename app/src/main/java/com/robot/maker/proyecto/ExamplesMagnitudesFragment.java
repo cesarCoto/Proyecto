@@ -60,11 +60,11 @@ public class ExamplesMagnitudesFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-
+    //metodo para mostrar el Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        // se infla el layout
         return inflater.inflate(R.layout.fragment_examples_magnitudes, container, false);
     }
 

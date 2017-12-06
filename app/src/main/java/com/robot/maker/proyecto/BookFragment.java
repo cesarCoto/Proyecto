@@ -68,23 +68,28 @@ public class BookFragment extends Fragment {
         }
     }
 
+    //metodo onCreate para visualizar el Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        // se infla el Layout
         View view =  inflater.inflate(R.layout.fragment_book, container, false);
 
+        //se crea un espinner y se enlaza con su adaptador para mostrar los textos
         Spinner spinner_selecc_book = view.findViewById(R.id.spinner_books);
         String libros [] = {"Libro 1", "Libro2","Libro3 ","libro3"};
         ArrayAdapter<String> arrayAdapter =  new ArrayAdapter<String>(getActivity(), android.R.layout.simple_spinner_item,libros);
         spinner_selecc_book.setAdapter(arrayAdapter);
 
+        //se crea un webView para visualizar el contenido Web
         WebView webView_books = view.findViewById(R.id.webview_books);
         ImageView imageView_no_internet = view.findViewById(R.id.imageView_books);
 
-        // verificar si ha conecction
+        // se pide permiso de conectividad
         ConnectivityManager connectivityManager = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
+        //se verifica el estado de la conexionn
         NetworkInfo networkInfo = connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+
         if(networkInfo.isConnected()) {
             webView_books.loadUrl("https://es.educaplay.com");
         }else {
