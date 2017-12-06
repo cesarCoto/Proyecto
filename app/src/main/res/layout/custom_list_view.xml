@@ -25,11 +25,11 @@
             android:id="@+id/texttitle"
             android:text="title"
             android:textSize="20sp"/>
-        <TextView
+       <!-- <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textdescripcion"
             android:text="textdescription"
-            android:gravity="left"/>
+            android:gravity="left"/>-->
     </LinearLayout>
 </LinearLayout>

@@ -637,4 +637,6 @@
     <string name="r_13_69">R = 13.69</string>
     <string name="procedimiento_1vec">Cx = 5kmcos120° = 2.5km \nCx 7kmCos43° = 5.1km  \nCx = 8kmCos150° = -6.9km</string>
     <string name="text_largo_vectores_formula_4">Cy = 5kmsen120° = 4.3km \n Cy = 7kmSen43° = 4.7km  \n Cy = 8kmSen150° = 4km</string>
+    <string name="escribe_esto">Hi write your opinion here</string>
+    <string name="email_chooser">Launch Email</string>
 </resources>

@@ -88,14 +88,14 @@ public class VideosFragment extends Fragment  {
         String [] titulos = {getString(R.string.conversions_title),getString(R.string.vectors_title),
                 getString(R.string.magnitudes_title),getString(R.string.ley_inercia_title),getString(R.string.segunda_ley_title),
                 getString(R.string.tercera_ley_title) /*,getString(R.string.books_title)*/};
-        //despricciones
+        /*despricciones
         String [] descripciones = {getString(R.string.title_lista_conversiones),
                 getString(R.string.title_lista_vectores),
                 getString(R.string.title_lista_magnitudes),
                 getString(R.string.title_lista_primera_ley),
                 getString(R.string.title_lista_segunda_ley),
                 getString(R.string.title_lista_tercera_ley)
-                /*getString(R.string.title_lista_books)*/};
+                /*getString(R.string.title_lista_books)};*/
         //imagenes
         int [] imagenes = {R.drawable.conversiones_img, R.drawable.vectores_img,R.drawable.magnitudes_img,
                 R.drawable.primera_ley_new_img,R.drawable.segunda_ley_new_img,R.drawable.tercera_lew_new_img/*,R.drawable.mal*/};
@@ -104,7 +104,7 @@ public class VideosFragment extends Fragment  {
         ListView listView = view.findViewById(R.id.lista_videos);
 
 
-        MyAdapter adapter = new MyAdapter(getActivity(),titulos,descripciones,imagenes);
+        MyAdapter adapter = new MyAdapter(getActivity(),titulos,imagenes);
 
         listView.setAdapter(adapter);
 
@@ -155,13 +155,13 @@ public class VideosFragment extends Fragment  {
     class MyAdapter extends ArrayAdapter {
         int[] imagenArray;
         String[] titleArray;
-        String[] descipccionArray;
+     //   String[] descipccionArray;
 
-        public MyAdapter(Context context, String[] title1, String[]description1, int[]imagenes){
+        public MyAdapter(Context context, String[] title1, /*String[]description1*/ int[]imagenes){
             super(context, R.layout.custom_list_view,R.id.texttitle,title1);
             this.imagenArray=imagenes;
             this.titleArray = title1;
-            this.descipccionArray=description1;
+          //  this.descipccionArray=description1;
         }
 
         @NonNull
@@ -173,13 +173,13 @@ public class VideosFragment extends Fragment  {
             //referencicamos
             ImageView myImage = (ImageView) row.findViewById(R.id.imagend);
             TextView myTitle = (TextView) row.findViewById(R.id.texttitle);
-            TextView myDescription = (TextView) row.findViewById(R.id.textdescripcion);
+           // TextView myDescription = (TextView) row.findViewById(R.id.textdescripcion);
 
             //se seleccionan las posisiones y el contenido que tendra
 
             myImage.setImageResource(imagenArray[position]);
             myTitle.setText(titleArray[position]);
-            myDescription.setText(descipccionArray[position]);
+         //   myDescription.setText(descipccionArray[position]);
             return row;
         }
     }

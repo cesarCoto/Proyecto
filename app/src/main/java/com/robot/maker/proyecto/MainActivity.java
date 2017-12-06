@@ -2,6 +2,7 @@ package com.robot.maker.proyecto;
 
 
 import android.content.Intent;
+import android.net.Uri;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -71,6 +72,16 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_feedback) {
+            //Se crea un intent explicito con el mandar un mail al desarrollador
+            Intent intentMensaje = new Intent(Intent.ACTION_SEND);
+            intentMensaje.setData(Uri.parse("email"));
+            String [] correo = {"developfisiapp@gmail.com"};
+            intentMensaje.putExtra(Intent.EXTRA_EMAIL,correo);
+            intentMensaje.putExtra(Intent.EXTRA_SUBJECT,getString(R.string.app_name));
+            intentMensaje.putExtra(Intent.EXTRA_TEXT,getString(R.string.escribe_esto));
+            intentMensaje.setType("menssage/rfc822");
+            Intent chooser = Intent.createChooser(intentMensaje,getString(R.string.email_chooser));
+            startActivity(chooser);
             return true;
         }else if (id == R.id.action_about) {
             Intent intentAboutActivity = new Intent(this,AboutActivity.class);

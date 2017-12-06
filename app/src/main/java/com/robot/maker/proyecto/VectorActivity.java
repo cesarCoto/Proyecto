@@ -2,6 +2,7 @@ package com.robot.maker.proyecto;
 
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -67,6 +68,16 @@ public class VectorActivity extends AppCompatActivity
         }else if(id==R.id.nav_suma_vectores){
             transaction.replace(R.id.contenido_vectores, new SumaVectoresFragment()).commit();
         }   else if (id == R.id.nav_feedback_vec) {
+            //Se crea un intent explicito con el mandar un mail al desarrollador
+            Intent intentMensaje = new Intent(Intent.ACTION_SEND);
+            intentMensaje.setData(Uri.parse("email"));
+            String [] correo = {"developfisiapp@gmail.com"};
+            intentMensaje.putExtra(Intent.EXTRA_EMAIL,correo);
+            intentMensaje.putExtra(Intent.EXTRA_SUBJECT,getString(R.string.vectors_title));
+            intentMensaje.putExtra(Intent.EXTRA_TEXT,getString(R.string.escribe_esto));
+            intentMensaje.setType("menssage/rfc822");
+            Intent chooser = Intent.createChooser(intentMensaje,getString(R.string.email_chooser));
+            startActivity(chooser);
 
         }
 

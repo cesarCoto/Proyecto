@@ -1,5 +1,7 @@
 package com.robot.maker.proyecto;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -10,6 +12,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class ConversionsActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -61,7 +64,16 @@ public class ConversionsActivity extends AppCompatActivity
         /*} else if (id == R.id.nav_exercises_conversiones) {
             transaction.replace(R.id.contenido_conversiones, new EjerciciosConversionesFragment()).commit();*/
         } else if (id == R.id.nav_feedback){
-            
+            //Se crea un intent explicito con el mandar un mail al desarrollador
+            Intent intentMensaje = new Intent(Intent.ACTION_SEND);
+            intentMensaje.setData(Uri.parse("email"));
+            String [] correo = {"developfisiapp@gmail.com"};
+            intentMensaje.putExtra(Intent.EXTRA_EMAIL,correo);
+            intentMensaje.putExtra(Intent.EXTRA_SUBJECT,getString(R.string.conversions_title));
+            intentMensaje.putExtra(Intent.EXTRA_TEXT,getString(R.string.escribe_esto));
+            intentMensaje.setType("menssage/rfc822");
+            Intent chooser = Intent.createChooser(intentMensaje,getString(R.string.email_chooser));
+            startActivity(chooser);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -1,5 +1,7 @@
 package com.robot.maker.proyecto;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -67,7 +69,16 @@ public class PrimeraLeyActivity extends AppCompatActivity
         /*} else if (id == R.id.nav_ejercicios_PL) {
             transaction.replace(R.id.contenido_primera_ley, new EjerciciosDePrimeaLeyFragment()).commit();*/
         }  else if (id == R.id.nav_feedback_PL) {
-
+            //Se crea un intent explicito con el mandar un mail al desarrollador
+            Intent intentMensaje = new Intent(Intent.ACTION_SEND);
+            intentMensaje.setData(Uri.parse("email"));
+            String [] correo = {"developfisiapp@gmail.com"};
+            intentMensaje.putExtra(Intent.EXTRA_EMAIL,correo);
+            intentMensaje.putExtra(Intent.EXTRA_SUBJECT,getString(R.string.ley_inercia_title));
+            intentMensaje.putExtra(Intent.EXTRA_TEXT,getString(R.string.escribe_esto));
+            intentMensaje.setType("menssage/rfc822");
+            Intent chooser = Intent.createChooser(intentMensaje,getString(R.string.email_chooser));
+            startActivity(chooser);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
