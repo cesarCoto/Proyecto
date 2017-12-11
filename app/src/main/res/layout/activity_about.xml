@@ -23,12 +23,12 @@
                     android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
                 <ImageView
-                    android:layout_marginTop="@dimen/dimen_4dp"
                     android:id="@+id/imageView2"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/physics"
-                    android:contentDescription="@string/app_name" />
+                    android:layout_height="100dp"
+                    android:layout_marginTop="@dimen/dimen_4dp"
+                    android:contentDescription="@string/app_name"
+                    app:srcCompat="@drawable/fisi" />
 
                 <TextView
                     android:id="@+id/textView_AbAc_VersionApp"
@@ -40,6 +40,23 @@
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
                 <TextView
+                    android:id="@+id/equipo_dev"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_padding_16dp"
+                    android:text="@string/makerobot"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+                <ImageView
+                    android:id="@+id/iconmr"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="@dimen/dimen_4dp"
+                    android:contentDescription="@string/app_name"
+                    app:srcCompat="@drawable/mrlogo" />
+
+                <TextView
                     android:id="@+id/textView_AbAc_Icons_and_Images"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -48,8 +65,16 @@
                     android:textAlignment="center"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
-
         <TextView
+            android:id="@+id/textView_pixabay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_padding_16dp"
+            android:text="@string/texto_pixabay"
+            android:textAlignment="center" />
+
+
+                <TextView
             android:id="@+id/textView_Vector_Marker"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -121,24 +146,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/manuel_de_jesus_couti_o_vazques"
-            android:textAlignment="center" />
-
-
-        <TextView
-            android:id="@+id/textView_acesor_about"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dimen_padding_16dp"
-            android:text="@string/acessor_title"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-
-        <TextView
-            android:id="@+id/textView_Maestro"
-            android:layout_marginTop="@dimen/dimen_padding_16dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/acesor_name"
             android:textAlignment="center" />
 
         <TextView

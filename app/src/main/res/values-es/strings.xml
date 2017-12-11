@@ -4,7 +4,6 @@
     <string name="title_home">Inicio</string>
     <string name="title_exam">Examenes</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_conversions">ConversionsActivity</string>
 
     <string name="navigation_drawer_open">Abrir el cajón de navegación</string>
@@ -13,6 +12,7 @@
     <string name="action_settings">Configuraciones</string>
     <string name="action_about">Acerca de</string>
     <string name="version_app">Versión 1.0</string>
+    <string name="texto_pixabay">PixaBay</string>
     <string name="creditos_img_and_icons">Iconos e imagenes</string>
     <string name="vector_maker">Vector Maker</string>
     <string name="smashicons">Smashicons</string>
@@ -568,7 +568,7 @@
     <string name="pregunta_tres_vectores_teorico">¿En los vectores, se llama dirección a?</string>
     <string name="respuesta2_pregunta5_examteorico_newton">Es cuando se utilizan cuerdas(Tensión)</string>
     <string name="calificacion_text">Felicitaciones tu calificación:</string>
-    <string name="mala_suerte">Sigue intentando.</string>
+    <string name="mala_suerte">Sigue intentando</string>
     <string name="title_magnitudes_instruccion">seleccione con qué unidad de medida se representan estas cantidades fundamentales:</string>
     <string name="mass">Masa</string>
     <string name="kilogram">Kilogramo</string>
@@ -612,4 +612,62 @@
     <string name="formula4">p = m*g</string>
     <string name="formula6">Fr = F- f</string>
     <string name="formula7">N = p - senO</string>
+    <string name="email_chooser">lanzar correo electrónico</string>
+    <string name="escribe_esto">Hola, escribe tu opinión aquí</string>
+    <string name="text_largo_vectores_formula_4">Cy = 5kmsen120° = 4.3km   Cy = 7kmSen43° = 4.7km   Cy = 8kmSen150° = 4km</string>
+    <string name="procedimiento_1vec">Cx = 5kmcos120° = 2.5km  Cx 7kmCos43° = 5.1km  Cx = 8kmCos150° = -6.9km</string>
+    <string name="r_13_69">R = 13.69</string>
+    <string name="r_187_49">R = √187.49</string>
+    <string name="r_18_49_169">R=√18.49 + 169</string>
+    <string name="r_43_13">R = √(-43)² + (13)²</string>
+    <string name="c_8km_150">C 8km 150°</string>
+    <string name="b_7km_43">B 7km 43°</string>
+    <string name="titulo_conclucion3_tercera_ley">Y sustituyendo en f12 = m2*a = 20*2 = 40N, fuerza que ejerce la caja 1 sobre la 2. La fuerza que ejerce la caja 2 sobre la 1 es igual en modulo, direccion y sentido contrario</string>
+    <string name="a_5km_120">A 5km 120°</string>
+    <string name="titulo_conclucion_tercera_ley">caja1 : F-F21 = m1*a  caja2 : F12 = m2*a  Sumando:  F = (m1 + m2) * a; 100 = (20 + 30)*a; a = 2m/s²</string>
+    <string name="texto_conclucion2_tercera_ley">Aplicando la 2a ley de Newton F=m*a; a cada caja:</string>
+    <string name="texto_conclucion_tercera_ley">Sobre la caja 1 actuan las fuerzas F y F21 en la direccion horizontal y sobre la caja 2, la F12 en la misma direccion. En modulo F21=F12.</string>
+    <string name="formula2_tercera_ley">F = (m1 + m2) * a</string>
+    <string name="texto_tercera_ley">Dos cajas de 20 y 30 kg de masas respectivamente, se encuentran apoyadas sobre una superficie horizontal sin rozamiento, una apoyada sobre la otra. Si empujamos el conjunto con una fuerza de 100N. ¿Cual es la aceleracion de cada mas?, ¿Que fuerza ejercera cada caja sobre la otra?</string>
+    <string name="rescpuesta_corec_segunda_ley">T = 50N-2.55 = 47.45N</string>
+    <string name="respuesta_segunda_ley">T = 50N-(5.1kg)(0.5m/s²)</string>
+    <string name="formula_8_segundaley">T = p-ma</string>
+    <string name="t_no">T = ?</string>
+    <string name="p_50n">p = 50N</string>
+    <string name="a_0_5m_s">a = 0.5m/s²</string>
+    <string name="respuesta_co_conversiones3">180000m³/1000h = 180m³/h</string>
+    <string name="respuesta_conversiones3">50 l/s = 1m³/1000l X 3600s/1h = 180000m³/1000h</string>
+    <string name="instruccion_tres_conversiones">50l/s to m³/h</string>
+    <string name="respuesta_co_conversiones2">18000km/1000h = 18k/h</string>
+    <string name="respuesta_conversion2">5m/s x 1km/1000m x 3600s/1h = 1800km/1000h</string>
+    <string name="respuesta_conversino1">4m³ X 1000000/1m³ = 400000 cm³</string>
+    <string name="instruccion_ejemplo2_conversiones">5m/s a km/h</string>
+    <string name="instruccion_ejemplo_conversiones">4m³ a cm³</string>
+    <string name="respuesta_ejemplo_new">a = fr/m = 12/1.02 = 11.76m/s²</string>
+    <string name="con_la_formula_optenida_new">Con la masa obtenida, los valores se cambian en la fórmula a = fr / m</string>
+    <string name="prosedimiento_new">m = p / g = 10 N / 9.8 = 1.02kg</string>
+    <string name="convertir_peso_a_masa">Convertir peso en masa</string>
+    <string name="procedimiento">Proceso</string>
+    <string name="formulas">Formúlas</string>
+    <string name="a">a = ?</string>
+    <string name="f_12n">f = 12N</string>
+    <string name="formula3">m = p/g</string>
+    <string name="formula5">-T1 + T2 - f = ma</string>
+    <string name="pregunta1_exam_vec">Dos fuerzas actúan sobre un objeto puntual de la siguiente manera: 100N a 170 grados y 100N a 50 grados. ¿Calcula su resultado?</string>
+    <string name="grad">Grados</string>
+    <string name="problema2_exam_vec">Calcular algebraicamente la resultante de los siguientes desplazamientos coplanares: 20 m a 30 grados, 40 m a 120 grados, 25 m a 180 grados, 42 m a 270 grados y 12 m a 315 grados.</string>
+    <string name="metros">Metros</string>
+    <string name="problema3_exam_vec">¿Qué desplazamiento debe agregarse a otros 50 cm en la dirección + x para que el desplazamiento resultante sea de 85 cm a 28 grados?</string>
+    <string name="centimetros">Centímetros</string>
+    <string name="problema4_exam_vec">El componente x de un desplazamiento es 450 m. Calcule el desplazamiento resultante de 85 cm a 25 grados?</string>
+    <string name="formula1_vec">C² = a² + b² - 2ab* cos0</string>
+    <string name="formula2_vec">A/senα = B/senβ = C/senC</string>
+    <string name="formula3_vec">C² = √ a² + b²</string>
+    <string name="formula4_vec">Cx = Vcosθ</string>
+    <string name="formula5_vec">Cy = Vsenθ</string>
+    <string name="datos">Datos</string>
+    <string name="p_10n">P = 10N</string>
+    <string name="makerobot">MakeRobot</string>
+    <string name="dediez">/10</string>
+    <string name="textofelicitaciones">Felicitaciones:</string>
 </resources>

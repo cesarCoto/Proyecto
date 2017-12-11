@@ -2,9 +2,14 @@ package com.robot.maker.proyecto;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RadioButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -17,10 +22,19 @@ public class ExamTeoricoNewtonActivity extends AppCompatActivity {
     RadioButton uno,dos,tres,cuatro,cinco,seis,siete,ocho,nueve,diez;
     Button buttonCalificar;
 
+    View viewToastada;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam_teorico_newton);
+
+        //se crea la instancia para la tostada custom
+        LayoutInflater inflater = getLayoutInflater();
+        viewToastada = inflater.inflate(R.layout.tostada,(ViewGroup) findViewById(R.id.custom_layout));
+        //se optiene el TextView para mandar el dato si se paso el examen o no
+        final TextView textViewcalificacion = (TextView) viewToastada.findViewById(R.id.calificaiontexto);
+        final ImageView imageViewtoasCalificacion = (ImageView) viewToastada.findViewById(R.id.imagenToas);
 
         //se enlaza las vistas a la clase Java
         uno = findViewById(R.id.radioButton_respuesta1_pregunta1_exam_teorico_newton);
@@ -72,12 +86,26 @@ public class ExamTeoricoNewtonActivity extends AppCompatActivity {
                 }
 
                 int a = calificacion;
+                /*en esta parte se toma el valor de calificacion y si es mayor que 5 se mostrara una custom Toast que dira nuestra calificacion final
+                 en caso contrario mostrara cuales respuestas tenemos bien y un mensaje de sige intentando*/
                 if (calificacion ==10 || calificacion>5){
-                    Toast.makeText(ExamTeoricoNewtonActivity.this, getString(R.string.calificacion_text)+" "+String.valueOf(a), Toast.LENGTH_SHORT).show();
-                }else if(calificacion ==5 || calificacion<5){
-                    Toast.makeText(ExamTeoricoNewtonActivity.this, getString(R.string.mala_suerte), Toast.LENGTH_SHORT).show();
-                }
 
+                    Toast toastcalificacion = Toast.makeText(ExamTeoricoNewtonActivity.this,"Toast:Gravity.TOP",Toast.LENGTH_LONG);
+                    toastcalificacion.setGravity(Gravity.BOTTOM,0,60);
+                    toastcalificacion.setView(viewToastada);
+                    toastcalificacion.show();
+                    textViewcalificacion.setText(getString(R.string.textofelicitaciones) + String.valueOf(calificacion) + getString(R.string.dediez));
+
+                }else if(calificacion ==5 || calificacion<5){
+                    Toast toastcalificacionmal = Toast.makeText(ExamTeoricoNewtonActivity.this,"Toast:Gravity.TOP",Toast.LENGTH_LONG);
+                    toastcalificacionmal.setGravity(Gravity.BOTTOM,0,60);
+                    toastcalificacionmal.setView(viewToastada);
+                    toastcalificacionmal.show();
+                    textViewcalificacion.setText(getString(R.string.mala_suerte) + String.valueOf(calificacion) + getString(R.string.dediez));
+                    imageViewtoasCalificacion.setImageResource(R.drawable.mal);
+
+
+                }
             }
         });
 

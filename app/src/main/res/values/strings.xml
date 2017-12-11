@@ -4,7 +4,6 @@
     <string name="title_home">Home</string>
     <string name="title_exam">Exams</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_conversions">ConversionsActivity</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -12,6 +11,7 @@
 
     <string name="action_settings">Settings</string>
     <string name="action_about">About</string>
+    <string name="texto_pixabay">PixaBay</string>
     <string name="version_app">Version 1.0</string>
     <string name="creditos_img_and_icons">Icons and images:</string>
     <string name="vector_maker" translatable="false">Vector Maker</string>
@@ -540,7 +540,7 @@
     </string>
     <string name="respuesta2_pregunta7_examteorico_newton">Was moving</string>
     <string name="calificacion_text">Congratulations your rating:</string>
-    <string name="mala_suerte">Keep trying.</string>
+    <string name="mala_suerte">Keep trying </string>
     <string name="title_magnitudes_instruccion">select with which unit of measure these fundamental quantities are represented:</string>
     <string name="mass">Mass</string>
     <string name="kilogram">Kilogram</string>
@@ -581,7 +581,6 @@
     <string name="pregunta1_examen_newton">A 900 kg car travels at 20m/s on a flat road. What is the magnitude of a constant retarding force necessary to stop the car in a distance of 30m? (suggestion: first calculate the deceleration.)</string>
     <string name="formula1">a = Fr/m</string>
     <string name="formula2">F= m*a</string>
-    <string name="formula3">m = p/g</string>
     <string name="formula4">p = m*g</string>
     <string name="formula5">-T1 + T2 - f = ma</string>
     <string name="formula6">Fr = F- f</string>
@@ -589,7 +588,6 @@
     <string name="pregunta1_exam_vec">Two forces act on a point object in the following way: 100N at 170 degrees and 100N at 50 degrees. Do you calculate your result?</string>
     <string name="grad">Degrees</string>
     <string name="problema2_exam_vec">Algebraically calculate the resultant of the following coplanar displacements: 20m at 30 degrees, 40m at 120 degrees, 25m at 180 degrees, 42m at 270 degrees and 12m at 315 degrees.</string>
-    <string name="metros">Meters</string>
     <string name="problema3_exam_vec">What displacement must be added to another 50 cm in the + x direction so that the resulting displacement is 85 cm at 28 degrees?</string>
     <string name="centimetros">Centimeters</string>
     <string name="problema4_exam_vec">The x component of a displacement is 450m. Calculate the resulting displacement from 85cm to 25 degrees?</string>
@@ -602,14 +600,12 @@
     <string name="p_10n">P = 10N</string>
     <string name="f_12n">f = 12N</string>
     <string name="a">a = ?</string>
-    <string name="formulas">Formulas</string>
     <string name="procedimiento">Process</string>
     <string name="convertir_peso_a_masa">Convert weight to mass</string>
     <string name="prosedimiento_new">m = p/g = 10N/9.8 = 1.02kg</string>
     <string name="con_la_formula_optenida_new">With the obtained mass the values are changed in the formula a = fr / m</string>
     <string name="respuesta_ejemplo_new">a = fr/m = 12/1.02 = 11.76m/s²</string>
     <string name="instruccion_ejemplo_conversiones">4m³ to cm³</string>
-    <string name="instruccion_ejemplo2_conversiones">5m/s to km/h</string>
     <string name="respuesta_conversino1">4m³ X 1000000/1m³ = 400000 cm³</string>
     <string name="respuesta_conversion2">5m/s x 1km/1000m x 3600s/1h = 1800km/1000h</string>
     <string name="respuesta_co_conversiones2">18000km/1000h = 18k/h</string>
@@ -622,12 +618,12 @@
     <string name="formula_8_segundaley">T = p-ma</string>
     <string name="respuesta_segunda_ley">T = 50N-(5.1kg)(0.5m/s²)</string>
     <string name="rescpuesta_corec_segunda_ley">T = 50N-2.55 = 47.45N</string>
-    <string name="texto_tercera_ley">Dos cajas de 20 y 30 kg de masas respectivamente, se encuentran apoyadas sobre una superficie horizontal sin rozamiento, una apoyada sobre la otra. Si empujamos el conjunto con una fuerza de 100N. ¿Cual es la aceleracion de cada mas?, ¿Que fuerza ejercera cada caja sobre la otra?</string>
+    <string name="texto_tercera_ley">Two boxes of 20 and 30 kg of masses, respectively, are supported on a horizontal surface without friction, one resting on the other. If we push the set with a force of 100N. What is the acceleration of each other? What force will each box exercise over the other?</string>
     <string name="formula2_tercera_ley">F = (m1 + m2) * a</string>
-    <string name="texto_conclucion_tercera_ley">Sobre la caja 1 actuan las fuerzas F y F21 en la direccion horizontal y sobre la caja 2, la F12 en la misma direccion. En modulo F21=F12.</string>
-    <string name="texto_conclucion2_tercera_ley">Aplicando la 2a ley de Newton F=m*a; a cada caja:</string>
-    <string name="titulo_conclucion_tercera_ley">caja1 : F-F21 = m1*a \ncaja2 : F12 = m2*a   \nSumando:\n  F = (m1 + m2) * a; 100 = (20 + 30)*a; a = 2m/s²</string>
-    <string name="titulo_conclucion3_tercera_ley">Y sustituyendo en f12 = m2*a = 20*2 = 40N, fuerza que ejerce la caja 1 sobre la 2.   La fuerza que ejerce la caja 2 sobre la 1 es igual en modulo, direccion y sentido contrario</string>
+    <string name="texto_conclucion_tercera_ley">On the box 1 act the forces F and F21 in the horizontal direction and on the box 2, the F12 in the same direction. In module F21 = F12.</string>
+    <string name="texto_conclucion2_tercera_ley">Applying Newton\'s 2nd law F = m * a; to each box:</string>
+    <string name="titulo_conclucion_tercera_ley">box1: F-F21 = m1 * to box2: F12 = m2 * a Addition: F = (m1 + m2) * a; 100 = (20 + 30) * a; a = 2m / s²</string>
+    <string name="titulo_conclucion3_tercera_ley">And substituting in f12 = m2 * a = 20 * 2 = 40N, force exerted by box 1 over 2. The force exerted by box 2 over 1 is equal in module, direction and opposite direction</string>
     <string name="a_5km_120">A 5km 120°</string>
     <string name="b_7km_43">B 7km 43°</string>
     <string name="c_8km_150">C 8km 150°</string>
@@ -635,8 +631,15 @@
     <string name="r_18_49_169">R=√18.49 + 169</string>
     <string name="r_187_49">R = √187.49</string>
     <string name="r_13_69">R = 13.69</string>
-    <string name="procedimiento_1vec">Cx = 5kmcos120° = 2.5km \nCx 7kmCos43° = 5.1km  \nCx = 8kmCos150° = -6.9km</string>
-    <string name="text_largo_vectores_formula_4">Cy = 5kmsen120° = 4.3km \n Cy = 7kmSen43° = 4.7km  \n Cy = 8kmSen150° = 4km</string>
     <string name="escribe_esto">Hi write your opinion here</string>
     <string name="email_chooser">Launch Email</string>
+    <string name="text_largo_vectores_formula_4">Cy = 5kmsen120° = 4.3km   Cy = 7kmSen43° = 4.7km   Cy = 8kmSen150° = 4km</string>
+    <string name="procedimiento_1vec">Cx = 5kmcos120° = 2.5km  Cx 7kmCos43° = 5.1km  Cx = 8kmCos150° = -6.9km</string>
+    <string name="instruccion_ejemplo2_conversiones">5m/s to km/h</string>
+    <string name="formulas">Formulas</string>
+    <string name="formula3">m = p/g</string>
+    <string name="metros">Meters</string>
+    <string name="makerobot">MakeRobot</string>
+    <string name="dediez">/10</string>
+    <string name="textofelicitaciones">Congratulations:</string>
 </resources>
