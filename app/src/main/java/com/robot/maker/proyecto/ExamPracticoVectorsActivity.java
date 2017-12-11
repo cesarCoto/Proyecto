@@ -5,9 +5,13 @@ import android.support.design.widget.BottomSheetBehavior;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -25,10 +29,19 @@ public class ExamPracticoVectorsActivity extends AppCompatActivity {
             cuatro,cuatro_dos;
 
     Button buttonCalificar;
+
+    View viewToastVector;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam_practico_vectors);
+
+        //se crea la instancia para la tostada custom
+        LayoutInflater inflater = getLayoutInflater();
+        viewToastVector = inflater.inflate(R.layout.tostada,(ViewGroup) findViewById(R.id.custom_layout));
+        //se optiene el TextView para mandar el dato si se paso el examen o no
+        final TextView textViewcalificacion = (TextView) viewToastVector.findViewById(R.id.calificaiontexto);
+        final ImageView imageViewtoasCalificacion = (ImageView) viewToastVector.findViewById(R.id.imagenToas);
 
 
         //se enlazan las vista a la calse Java
@@ -98,9 +111,20 @@ public class ExamPracticoVectorsActivity extends AppCompatActivity {
                         calificacion = calificacion + 1;
                     }
                     if (calificacion == 4 || calificacion > 2) {
-                        Toast.makeText(ExamPracticoVectorsActivity.this, getString(R.string.calificacion_text) + " " + calificacion + "/4", Toast.LENGTH_SHORT).show();
+                        Toast toastcalificacion = Toast.makeText(ExamPracticoVectorsActivity.this,"Toast:Gravity.TOP",Toast.LENGTH_LONG);
+                        toastcalificacion.setGravity(Gravity.BOTTOM,0,60);
+                        toastcalificacion.setView(viewToastVector);
+                        toastcalificacion.show();
+                        textViewcalificacion.setText(getString(R.string.textofelicitaciones) + String.valueOf(calificacion) + getString(R.string.decuatro));
+
+
                     } else if (calificacion == 2 || calificacion < 2) {
-                        Toast.makeText(ExamPracticoVectorsActivity.this, getString(R.string.mala_suerte), Toast.LENGTH_SHORT).show();
+                        Toast toastcalificacionmal = Toast.makeText(ExamPracticoVectorsActivity.this,"Toast:Gravity.TOP",Toast.LENGTH_LONG);
+                        toastcalificacionmal.setGravity(Gravity.BOTTOM,0,60);
+                        toastcalificacionmal.setView(viewToastVector);
+                        toastcalificacionmal.show();
+                        textViewcalificacion.setText(getString(R.string.mala_suerte) + String.valueOf(calificacion) + getString(R.string.decuatro));
+                        imageViewtoasCalificacion.setImageResource(R.drawable.mal);
                     }
                 }else {
                     Toast.makeText(ExamPracticoVectorsActivity.this, "Por favor escribe algo", Toast.LENGTH_SHORT).show();

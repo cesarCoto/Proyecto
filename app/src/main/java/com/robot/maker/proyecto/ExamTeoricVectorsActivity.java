@@ -5,9 +5,14 @@ import android.content.DialogInterface;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RadioButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class ExamTeoricVectorsActivity extends AppCompatActivity {
@@ -16,10 +21,19 @@ public class ExamTeoricVectorsActivity extends AppCompatActivity {
     RadioButton uno,dos,tres,cuatro,cinco,seis,siete,ocho,nueve,diez;
     Button buttoncalificar;
 
+    View viewToastVectores;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam_teoric_vectors);
+
+        //se crea la instancia para la tostada custom
+        LayoutInflater inflater = getLayoutInflater();
+        viewToastVectores = inflater.inflate(R.layout.tostada,(ViewGroup) findViewById(R.id.custom_layout));
+        //se optiene el TextView para mandar el dato si se paso el examen o no
+        final TextView textViewcalificacion = (TextView) viewToastVectores.findViewById(R.id.calificaiontexto);
+        final ImageView imageViewtoasCalificacion = (ImageView) viewToastVectores.findViewById(R.id.imagenToas);
 
 
         uno = findViewById(R.id.radioButton_respuesta2_pregunta1_exam_teorico_vectores);
@@ -71,9 +85,23 @@ public class ExamTeoricVectorsActivity extends AppCompatActivity {
 
                 int a = calificacion;
                 if (calificacion ==10 || calificacion>5){
-                    Toast.makeText(ExamTeoricVectorsActivity.this, getString(R.string.calificacion_text)+" "+String.valueOf(a), Toast.LENGTH_SHORT).show();
+
+                    Toast toastcalificacion = Toast.makeText(ExamTeoricVectorsActivity.this,"Toast:Gravity.TOP",Toast.LENGTH_LONG);
+                    toastcalificacion.setGravity(Gravity.BOTTOM,0,60);
+                    toastcalificacion.setView(viewToastVectores);
+                    toastcalificacion.show();
+                    textViewcalificacion.setText(getString(R.string.textofelicitaciones) + String.valueOf(calificacion) + getString(R.string.dediez));
+
                 }else if(calificacion ==5 || calificacion<5){
-                    Toast.makeText(ExamTeoricVectorsActivity.this, getString(R.string.mala_suerte), Toast.LENGTH_SHORT).show();
+
+                    Toast toastcalificacionmal = Toast.makeText(ExamTeoricVectorsActivity.this,"Toast:Gravity.TOP",Toast.LENGTH_LONG);
+                    toastcalificacionmal.setGravity(Gravity.BOTTOM,0,60);
+                    toastcalificacionmal.setView(viewToastVectores);
+                    toastcalificacionmal.show();
+                    textViewcalificacion.setText(getString(R.string.mala_suerte) + String.valueOf(calificacion) + getString(R.string.dediez));
+                    imageViewtoasCalificacion.setImageResource(R.drawable.mal);
+
+
                 }
 
             }

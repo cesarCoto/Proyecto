@@ -612,7 +612,7 @@
     <string name="formula4">p = m*g</string>
     <string name="formula6">Fr = F- f</string>
     <string name="formula7">N = p - senO</string>
-    <string name="email_chooser">lanzar correo electrónico</string>
+    <string name="email_chooser">Lanzar correo electrónico</string>
     <string name="escribe_esto">Hola, escribe tu opinión aquí</string>
     <string name="text_largo_vectores_formula_4">Cy = 5kmsen120° = 4.3km   Cy = 7kmSen43° = 4.7km   Cy = 8kmSen150° = 4km</string>
     <string name="procedimiento_1vec">Cx = 5kmcos120° = 2.5km  Cx 7kmCos43° = 5.1km  Cx = 8kmCos150° = -6.9km</string>
@@ -669,5 +669,8 @@
     <string name="p_10n">P = 10N</string>
     <string name="makerobot">MakeRobot</string>
     <string name="dediez">/10</string>
+    <string name="escribealgo">Escribe algo,  por favor</string>
     <string name="textofelicitaciones">Felicitaciones:</string>
+    <string name="texto_de5">/5</string>
+    <string name="decuatro">/4</string>
 </resources>

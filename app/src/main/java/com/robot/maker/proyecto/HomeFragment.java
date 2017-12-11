@@ -70,7 +70,8 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragment_home, container, false);
-        //conversiones
+        //Aqui se hace un intent que al hacer click se manda a la actividad seleccionada en cada caso
+        //caso conversiones
         ImageButton imageButtonConversiones = view.findViewById(R.id.imageButton_Conversiones);
         TextView textViewConversiones = view.findViewById(R.id.textView_Conversiones);
         View.OnClickListener onClickListenerConversiones = new View.OnClickListener() {
@@ -82,7 +83,7 @@ public class HomeFragment extends Fragment {
         };
         imageButtonConversiones.setOnClickListener(onClickListenerConversiones);
         textViewConversiones.setOnClickListener(onClickListenerConversiones);
-        //vectors
+        //caso vectors
         ImageButton imageButtonVectores = view.findViewById(R.id.imageButton_Vectores);
         TextView textViewVectores = view.findViewById(R.id.textView_Vectores);
         View.OnClickListener onClickListenerVectores = new View.OnClickListener() {
@@ -94,6 +95,8 @@ public class HomeFragment extends Fragment {
         };
         imageButtonVectores.setOnClickListener(onClickListenerVectores);
         textViewVectores.setOnClickListener(onClickListenerVectores);
+
+        //caso Magnitudes
         ImageButton imageButtonMagnitudes = view.findViewById(R.id.imageButton_Magnitudes);
         TextView textViewMagnitudes = view.findViewById(R.id.textView_Magnitudes);
         View.OnClickListener onClickListenerMagnitudes = new View.OnClickListener() {
@@ -106,6 +109,7 @@ public class HomeFragment extends Fragment {
         imageButtonMagnitudes.setOnClickListener(onClickListenerMagnitudes);
         textViewMagnitudes.setOnClickListener(onClickListenerMagnitudes);
 
+        //caso primera ley de Newton
         ImageButton imageButtonLeyUno = view.findViewById(R.id.imageButton_Primera_Ley_New);
         TextView textViewLeyUno = view.findViewById(R.id.textView_Primera_Ley_New);
         View.OnClickListener onClickListenerLeyUno = new View.OnClickListener() {
@@ -118,6 +122,7 @@ public class HomeFragment extends Fragment {
         imageButtonLeyUno.setOnClickListener(onClickListenerLeyUno);
         textViewLeyUno.setOnClickListener(onClickListenerLeyUno);
 
+        //caso Segunda ley de Newton
         ImageButton imageButtonSL = view.findViewById(R.id.imageButton_Segunda_Ley_New);
         TextView textViewSL = view.findViewById(R.id.textView_Segunda_Ley_New);
         View.OnClickListener onClickListenerSL = new View.OnClickListener() {
@@ -130,6 +135,7 @@ public class HomeFragment extends Fragment {
         imageButtonSL.setOnClickListener(onClickListenerSL);
         textViewSL.setOnClickListener(onClickListenerSL);
 
+        //caso Tercera Ley de Newton
         ImageButton imageButtonTL = view.findViewById(R.id.imageButton_Tercera_Ley_New);
         TextView textViewTL = view.findViewById(R.id.textView_Tercera_Ley_New);
         View.OnClickListener onClickListenerTL = new View.OnClickListener() {
@@ -140,7 +146,7 @@ public class HomeFragment extends Fragment {
             }
         };
         imageButtonTL.setOnClickListener(onClickListenerTL);
-        textViewConversiones.setOnClickListener(onClickListenerTL);
+        textViewTL.setOnClickListener(onClickListenerTL);
         return view;
     }
 

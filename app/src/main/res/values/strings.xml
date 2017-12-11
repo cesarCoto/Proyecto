@@ -642,4 +642,7 @@
     <string name="makerobot">MakeRobot</string>
     <string name="dediez">/10</string>
     <string name="textofelicitaciones">Congratulations:</string>
+    <string name="texto_de5">/5</string>
+    <string name="escribealgo">Write something, please</string>
+    <string name="decuatro">/4</string>
 </resources>
