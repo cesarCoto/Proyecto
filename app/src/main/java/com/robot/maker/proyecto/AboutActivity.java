@@ -13,7 +13,7 @@ public class AboutActivity extends AppCompatActivity {
     //This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques
 
     //se crea una variable para la vista tipo TextView
-    TextView textView_ourBlog;
+    TextView textView_ourBlog, textView_Documentacion;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +29,15 @@ public class AboutActivity extends AppCompatActivity {
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
+            }
+        });
+        textView_Documentacion = findViewById(R.id.textView_documentacion);
+        textView_Documentacion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentDocumentacion = new Intent(AboutActivity.this,VideosContainerActivity.class);
+                intentDocumentacion.putExtra("page","https://drive.google.com/open?id=1C9Ilzkim2hRqWreOKU0ezOKyLswdOypY");
+                startActivity(intentDocumentacion);
             }
         });
 

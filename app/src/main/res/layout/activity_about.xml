@@ -174,5 +174,16 @@
             android:text="@string/miguel_hidalgo_y_costilla"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
+        <TextView
+           android:id="@+id/textView_documentacion"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="@dimen/dimen_padding_16dp"
+           android:layout_marginTop="@dimen/dimen_padding_16dp"
+           android:text="@string/more_title"
+           android:textColor="@color/colorPrimary"
+           android:textAlignment="center" />
+
+
         </LinearLayout>
 </ScrollView>
