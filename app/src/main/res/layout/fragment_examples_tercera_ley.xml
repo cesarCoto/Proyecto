@@ -39,70 +39,46 @@
                         android:src="@drawable/ejemtres" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/datos"
-                    android:layout_marginTop="@dimen/dimen_4dp"
-                    android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                    style="@style/textViewTitleExampleActivities"
+                    android:text="@string/datos" />
 
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/texto_tercera_ley"
-                    android:layout_marginTop="@dimen/dimen_4dp" />
+                    style="@style/textViewContenidoExampleActivities"
+                    android:text="@string/texto_tercera_ley" />
 
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/formulas"
-                    android:layout_marginTop="@dimen/dimen_4dp"
-                    android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                    style="@style/textViewTitleExampleActivities"
+                    android:text="@string/formulas" />
 
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/formula2_tercera_ley"
-                    android:layout_marginTop="@dimen/dimen_4dp" />
+                    style="@style/textViewContenidoExampleActivities"
+                    android:text="@string/formula2_tercera_ley" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/procedimiento"
-                    android:layout_marginTop="@dimen/dimen_4dp"
-                    android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                    style="@style/textViewTitleExampleActivities"
+                    android:text="@string/procedimiento" />
 
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/dimen_4dp"
+                    style="@style/textViewContenidoExampleActivities"
                     android:text="@string/texto_conclucion_tercera_ley"
                     android:textStyle="italic" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/texto_conclucion2_tercera_ley"
-                    android:layout_marginTop="@dimen/dimen_8dp" />
+                    style="@style/textViewContenidoExampleActivities"
+                    android:text="@string/texto_conclucion2_tercera_ley" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/dimen_4dp"
+                    style="@style/textViewContenidoExampleActivities"
                     android:text="@string/titulo_conclucion_tercera_ley"
                     android:textStyle="italic" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/titulo_conclucion3_tercera_ley"
-                    android:layout_marginTop="@dimen/dimen_8dp" />
+                    style="@style/textViewContenidoExampleActivities"
+                    android:text="@string/titulo_conclucion3_tercera_ley" />
 
             </LinearLayout>
 

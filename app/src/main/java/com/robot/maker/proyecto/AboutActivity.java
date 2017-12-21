@@ -36,7 +36,7 @@ public class AboutActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intentDocumentacion = new Intent(AboutActivity.this,VideosContainerActivity.class);
-                intentDocumentacion.putExtra("page","https://drive.google.com/open?id=1C9Ilzkim2hRqWreOKU0ezOKyLswdOypY");
+                intentDocumentacion.putExtra("page","https://drive.google.com/file/d/1yN1Jw-tDODrvimuxW09M5m51Cip11JQW/view?usp=sharing");
                 startActivity(intentDocumentacion);
             }
         });

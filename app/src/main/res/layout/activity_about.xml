@@ -23,6 +23,8 @@
                     android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
                 <ImageView
+                    android:clickable="true"
+                    android:foreground="@drawable/repple"
                     android:id="@+id/imageView2"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
@@ -49,6 +51,8 @@
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
                 <ImageView
+                    android:clickable="true"
+                    android:foreground="@drawable/repple"
                     android:id="@+id/iconmr"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"

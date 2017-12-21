@@ -9,26 +9,15 @@
     <!-- This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques -->
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="@dimen/dimen_8dp"
+        style="@style/linearLayoutActivities"
         android:id="@+id/contenedor_inicio_primera_ley_actividadconversiones">
 
 
         <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:cardBackgroundColor="@color/cardview_light_background"
-            app:cardCornerRadius="@dimen/dimen_radius_cardview"
-            app:cardElevation="2dp"
-            app:contentPadding="@dimen/dimen_4dp">
+            style="@style/cardViewActivities">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:padding="@dimen/dimen_8dp">
+                style="@style/linearLayoutActivities">
 
                 <ImageView
                         android:layout_width="match_parent"
@@ -38,67 +27,43 @@
                         android:src="@drawable/ejem" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/datos"
-                    android:layout_marginTop="@dimen/dimen_4dp"
-                    android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                    style="@style/textViewTitleExampleActivities"
+                    android:text="@string/datos" />
 
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/a_5km_120"
-                    android:layout_marginTop="@dimen/dimen_4dp" />
+                    style="@style/textViewContenidoExampleActivities"
+                    android:text="@string/a_5km_120" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/b_7km_43"
-                    android:layout_marginTop="@dimen/dimen_4dp" />
+                    style="@style/textViewContenidoExampleActivities"
+                    android:text="@string/b_7km_43" />
 
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/c_8km_150"
-                    android:layout_marginTop="@dimen/dimen_4dp" />
+                    style="@style/textViewContenidoExampleActivities"
+                    android:text="@string/c_8km_150" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/formulas"
-                    android:layout_marginTop="@dimen/dimen_4dp"
-                    android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                    style="@style/textViewTitleExampleActivities"
+                    android:text="@string/formulas" />
 
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/formula4_vec"
-                    android:layout_marginTop="@dimen/dimen_4dp" />
+                    style="@style/textViewContenidoExampleActivities"
+                    android:text="@string/formula4_vec" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/formula5_vec"
-                    android:layout_marginTop="@dimen/dimen_4dp" />
+                    style="@style/textViewContenidoExampleActivities"
+                    android:text="@string/formula5_vec" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/formula3_vec"
-                    android:layout_marginTop="@dimen/dimen_4dp" />
+                    style="@style/textViewContenidoExampleActivities"
+                    android:text="@string/formula3_vec" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/procedimiento"
-                    android:layout_marginTop="@dimen/dimen_4dp"
-                    android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                    style="@style/textViewTitleExampleActivities"
+                    android:text="@string/procedimiento" />
 
 
                 <TextView
@@ -108,10 +73,8 @@
                     android:layout_marginTop="@dimen/dimen_4dp" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/procedimiento_1vec"
-                    android:layout_marginTop="@dimen/dimen_4dp" />
+                    style="@style/textViewContenidoExampleActivities"
+                    android:text="@string/procedimiento_1vec" />
 
 
 
@@ -122,24 +85,18 @@
                     android:layout_marginTop="@dimen/dimen_4dp" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/dimen_4dp"
+                    style="@style/textViewContenidoExampleActivities"
                     android:text="@string/r_18_49_169"
                     android:textStyle="italic" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/dimen_4dp"
+                    style="@style/textViewContenidoExampleActivities"
                     android:text="@string/r_187_49"
                     android:textStyle="italic" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/r_13_69"
-                    android:layout_marginTop="@dimen/dimen_4dp" />
+                    style="@style/textViewContenidoExampleActivities"
+                    android:text="@string/r_13_69" />
 
 
 

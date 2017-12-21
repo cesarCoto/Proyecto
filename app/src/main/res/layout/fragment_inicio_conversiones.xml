@@ -1,28 +1,18 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/bagcolor"
+    style="@style/backgroundActivvity"
     tools:context="com.robot.maker.proyecto.InicioConversionesFragment">
 
 
     <!-- This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques -->
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="@dimen/dimen_8dp"
+        style="@style/linearLayoutActivities"
         android:id="@+id/contenedor_inicio_conversiones_actividadconversiones">
 
 
         <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:cardBackgroundColor="@color/cardview_light_background"
-            app:cardCornerRadius="@dimen/dimen_radius_cardview"
-            app:cardElevation="2dp"
-            app:contentPadding="@dimen/dimen_4dp">
+            style="@style/cardViewActivities">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -30,52 +20,36 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:text="@string/title_home_conversiones_que_es"
-                    android:layout_marginTop="@dimen/dimen_4dp"
-                    android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                    style="@style/textViewTitleExampleActivities" />
 
                 <WebView
                     android:id="@+id/texto_home_conversiones_parrafo1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    style="@style/webViewContenido">
 
                 </WebView>
 
 
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="@dimen/dimen_8dp"
+                    style="@style/imageContenido"
                     android:src="@drawable/conversiones_ejemplp" />
 
                 <WebView
                     android:id="@+id/texto_home_conversiones_parrafo2"
-                    android:layout_marginTop="@dimen/dimen_8dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    style="@style/webViewContenido">
                 </WebView>
 
                 <ImageView
-                    android:layout_marginTop="@dimen/dimen_8dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/imageContenido"
                     android:src="@drawable/conversiondoble_ejemplo" />
 
                 <WebView
-                    android:layout_marginTop="@dimen/dimen_8dp"
                     android:id="@+id/texto_home_conversiones_parrafo3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    style="@style/webViewContenido">
 
                 </WebView>
                 <ImageView
-                    android:layout_marginTop="@dimen/dimen_8dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/imageContenido"
                     android:src="@drawable/solucion"/>
             </LinearLayout>
 

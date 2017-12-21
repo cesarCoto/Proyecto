@@ -1,25 +1,15 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/bagcolor"
+    style="@style/backgroundActivvity"
     tools:context="com.robot.maker.proyecto.SumaVectoresFragment">
     <!-- This code was made by Cesar Uriel Coto Coazozon and the help of Jose Manuel Coutiño Vazques -->
    <LinearLayout
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:padding="@dimen/dimen_8dp"
-       android:orientation="vertical"
+       style="@style/linearLayoutActivities"
        android:id="@+id/contenido_suma_vectores">
 
    <android.support.v7.widget.CardView
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       app:cardBackgroundColor="@color/cardview_light_background"
-       app:cardCornerRadius="@dimen/dimen_radius_cardview"
-       app:cardElevation="@dimen/dimen_2dp"
-       app:contentPadding="@dimen/dimen_4dp">
+       style="@style/cardViewActivities">
 
    <LinearLayout
        android:layout_width="match_parent"
@@ -27,96 +17,61 @@
        android:orientation="vertical">
 
        <TextView
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:text="@string/title_home_vectores_titulo3"
-           android:layout_marginTop="@dimen/dimen_8dp"
-           android:textAlignment="center"
-           android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+           style="@style/textViewTitleExampleActivities"
+           android:text="@string/title_home_vectores_titulo3" />
 
        <WebView
-           android:layout_marginTop="@dimen/dimen_8dp"
            android:id="@+id/texto_suma_vectores_parrafo1"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content">
+           style="@style/webViewContenido">
        </WebView>
        <ImageView
-           android:layout_marginTop="@dimen/dimen_8dp"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
+            style="@style/imageContenido"
            android:src="@drawable/suma"/>
        <WebView
-           android:layout_marginTop="@dimen/dimen_8dp"
            android:id="@+id/texto_suma_vectores_parrafo2"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content">
+           style="@style/webViewContenido">
 
        </WebView>
        <ImageView
-           android:layout_marginTop="@dimen/dimen_8dp"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
+           style="@style/imageContenido"
            android:src="@drawable/ejemplo_suma"/>
 
        <TextView
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
            android:text="@string/title_suma_vectores"
-           android:layout_marginTop="@dimen/dimen_8dp"
-           android:textAlignment="center"
-           android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+           style="@style/textViewTitleExampleActivities"/>
        <WebView
-           android:layout_marginTop="@dimen/dimen_8dp"
            android:id="@+id/texto_suma_vectores_parrafo3"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content">
+           style="@style/webViewContenido">
        </WebView>
 
        <ImageView
-           android:layout_marginTop="@dimen/dimen_8dp"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
+           style="@style/imageContenido"
            android:src="@drawable/rec_vec"/>
 
        <WebView
-           android:layout_marginTop="@dimen/dimen_8dp"
            android:id="@+id/texto_suma_vectores_parrafo4"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content">
+           style="@style/webViewContenido">
 
        </WebView>
        <TextView
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
            android:text="@string/title_suma_vecotres_dos"
-           android:layout_marginTop="@dimen/dimen_8dp"
-           android:textAlignment="center"
-           android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+           style="@style/textViewTitleExampleActivities"/>
 
        <ImageView
-           android:layout_marginTop="@dimen/dimen_8dp"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
+           style="@style/imageContenido"
            android:src="@drawable/suma_resta"/>
 
 
        <WebView
-           android:layout_marginTop="@dimen/dimen_8dp"
            android:id="@+id/texto_suma_vectores_parrafo5"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content">
+           style="@style/webViewContenido">
        </WebView>
 
        <WebView
-           android:layout_marginTop="@dimen/dimen_8dp"
            android:id="@+id/texto_suma_vectores_parrafo6"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content">
+           style="@style/webViewContenido">
        </WebView>
    </LinearLayout>
-
-
    </android.support.v7.widget.CardView>
    </LinearLayout>
-
 </ScrollView>

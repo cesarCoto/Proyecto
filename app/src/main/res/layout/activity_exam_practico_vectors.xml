@@ -145,13 +145,9 @@
 
 
         <TextView
+            style="@style/textViewHelpFormulario"
             android:id="@+id/textView_help_exam_vectores"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dimen_peekheight_50dp"
-            android:paddingTop="@dimen/dimen_8dp"
-            android:text="@string/help_text"
-            android:textAlignment="center"
-            android:textSize="@dimen/dimen_text_help" />
+            android:text="@string/help_text" />
 
 
         <TextView
